@@ -21,9 +21,9 @@ library(kableExtra)
 
 <p style="text-align:center;"><span class="btn btn-primary btn-lg"><i class="fas fa-file-pdf"></i> Download PDF</span><br>**Last Updated**: July 25, 2021</p>
 
-> "The curious task of economics is to demonstrate to men how little they really know about what they imagine they can design."^[Hayek, F.A., 1988, *The Fatal Conceit*, p.76] <br> [— F.A. Hayek (1974 Economics Nobel Laureate)]{style="float:right"}
+> "The curious task of economics is to demonstrate to men how little they really know about what they imagine they can design." <br> [— F.A. Hayek (1974 Economics Nobel Laureate)]{style="float:right"}
 
-<span class="newthought">Microeconomic Analysis</span> [^courseinfo] is a collection of analytical tools for modeling and understanding how decisions made by agents (individuals and firms) in a context of market institutions lead to social coordination and the creation of value. This toolkit is the analytical foundation for exploring *all* fields and applications of economics as a social science, has many practical applications in business, finance, politics, and insights into any realm of human endeavors. Economics, after all, is the study of human action. At the intermediate level, these concepts are made more rigorous through the use of mathematical models, but we will first and foremost lay the theoretical foundations with economic intuition. As such, this class assumes you have met the **required prerequisite courses** by taking principles of microeconomics (**ECON 206**).
+<span class="newthought">Microeconomic Analysis</span> is a collection of analytical tools for modeling and understanding how decisions made by agents (individuals and firms) in a context of market institutions lead to social coordination and the creation of value. This toolkit is the analytical foundation for exploring *all* fields and applications of economics as a social science, has many practical applications in business, finance, politics, and insights into any realm of human endeavors. Economics, after all, is the study of human action. At the intermediate level, these concepts are made more rigorous through the use of mathematical models, but we will first and foremost lay the theoretical foundations with economic intuition. As such, this class assumes you have met the **required prerequisite courses** by taking principles of microeconomics (**ECON 206**).
 
 
 # Course Format and Covid
@@ -214,7 +214,7 @@ Hood College has an Academic Honor Code which requires all members of this commu
 
 ## Van Halen and M&Ms {.unlisted}
 
-When you have completed reading the syllabus, email me a picture of the band Van Halen and a picture of a bowl of M&Ms. If you do this *before* the date of the first exam, you will get bonus points on the exam.^[If 75-100% of the class does this, you each get 2 points. If 50-75% of the class does this, you each get 4 points. If 25-50% of the class does this, you each get 6 points. If 0-25% of the class does this, you each get 8 points.] Yes, this is real.
+When you have completed reading the syllabus, email me a picture of the band Van Halen and a picture of a bowl of M&Ms. If you do this *before* the date of the first exam, you will get bonus points on the exam. If 75-100% of the class does this, you each get 2 points. If 50-75% of the class does this, you each get 4 points. If 25-50% of the class does this, you each get 6 points. If 0-25% of the class does this, you each get 8 points. Yes, you read this correctly.
 
 ## Accessibility, Equity, and Accommodations 
 

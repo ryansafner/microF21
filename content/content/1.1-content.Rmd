@@ -1,0 +1,48 @@
+---
+title: "1.1 — The Tools of Microeconomics — Class Content"
+draft: false
+linktitle: "1.1 — The Tools of Microeconomics"
+date: "2020-06-08"
+menu:
+  content:
+    parent: Course content
+    weight: 2
+type: docs
+output:
+  blogdown::html_page:
+    toc: true
+slides: "1.1-slides"
+---
+
+{{% alert note %}}
+*Monday, February 1, 2021*
+{{% /alert %}}
+
+## <i class="fas fa-info-circle fa-lg"></i> Overview
+
+<span class="newthought">Welcome</span> to ECON 306 — Microeconomic Analysis! Today's lesson will be an overview of the content and the assignments of the course. Please read and familiarize yourself with the [syllabus](/syllabus). 
+
+This is not just a “syllabus day,” as we need to hit the ground running, but today will give you a “big picture” look at this semester, and how to use microeconomic analysis, by focusing on the two main tools/models: **optimization** and **equilibrium**. We will dive right into optimization models next class.
+
+## <i class="fas fa-book-reader fa-lg"></i> Readings
+
+Today is introductory, but you may look at Chapter 1 if you wish, to remind you about the use of models in economics. Otherwise, please heed this timeless message:
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A message to students from the Doggfather himself, <a href="https://twitter.com/SnoopDogg?ref_src=twsrc%5Etfw">@SnoopDogg</a> <a href="https://t.co/wsSANYv8u6">pic.twitter.com/wsSANYv8u6</a></p>&mdash; Ryan Briggs (@ryancbriggs) <a href="https://twitter.com/ryancbriggs/status/1293543531496308736?ref_src=twsrc%5Etfw">August 12, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+Please note going forward, the lesson numbers and topics (e.g. 1.1) on this website are *my* design, and will not match up with the textbook!
+
+### Optional/Referenced Readings
+
+- July 2 2003, [<i class="fas fa-external-link-square-alt"></i> “Why Dolphins are Deep Thinkers”](https://www.theguardian.com/science/2003/jul/03/research.science), *The Guardian*
+- January 17, 2021, [<i class="fas fa-external-link-square-alt"></i> These Monkeys Understand Economics and Intentionally Steal High-Ticket Items to Barter for Better Food, Study Finds](https://gizmodo.com/these-monkeys-understand-economics-and-intentionally-st-1846078932?utm_medium=sharefromsite&utm_source=_facebook), *Gizmodo*
+
+## <i class="fas fa-chalkboard-teacher"></i> Slides
+
+`r blogdown::shortcode("slide-links")`
+
+## <i class="fas fa-laptop-code"></i> Assignments
+
+### Preliminary Math Survey Due Sunday Feb 7
+
+Please take the [preliminary math survey](/assignment/00-preliminary-survey) on your math background by 11:59 PM Sunday February 7. This will help us all have a productive course together.
