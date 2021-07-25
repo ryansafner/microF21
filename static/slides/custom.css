@@ -24,6 +24,22 @@ h1, h2, h3 {
 
 /* ----ADDING------------------------------------------------ */
 
+.tri-left {
+  width: 30%;
+  float: left;
+}
+
+.tri-middle {
+  width: 30%;
+  float: left;
+}
+
+.tri-right {
+  width: 30%;
+  float: left;
+}
+
+
 /* 
 Three column layout
 */
@@ -250,7 +266,6 @@ Wider pull left/right
   font-size: 70%;
 }
 
-
 .tiny {
   font-size: 50%;
 }
@@ -338,7 +353,7 @@ a:active {
 .remark-code-line-highlighted { background-color: #ffff88; }
 
 .inverse {
-  background-color: #314f4f; /* 272822 */ 
+  background-color: #23373B; /* 272822 */ 
   color: #d6d6d6;
   text-shadow: 0 0 20px #333;
 }
@@ -391,15 +406,15 @@ blockquote {
 .remark-slide table {
   margin: auto;
   color: #000;
-  background-color: #eee;
+  /* background-color: #eee; */
   border-top: 1px solid #666;
   border-bottom: 1px solid #666;
-  /*font-size: 26px;  removed */
+  font-size: 26px;
 }
 
-.remark-slide table thead th { border-bottom: 2px solid #666; }
+.remark-slide table thead th { border-bottom: 1px solid #ddd; }
 th, td { padding: 5px; }
-.remark-slide thead, .remark-slide tfoot { background: #afafaf } /*  .remark-slide tr:nth-child(even) background: #afafaf */ 
+.remark-slide thead, .remark-slide tfoot, .remark-slide tr:nth-child(even) { background: #eee }
 
 
 /* Class of tables with no stripe - for regression outputs*/
@@ -421,8 +436,8 @@ th, td { padding: 5px; }
 /* Custom things start below */ 
 
 .remark-slide-content {
-  background-color: #ffffff ; /* #23373B; */
-  background-image: url(../img/metrics_hex.png);
+  background-color: #F5F5F5 ; /* #23373B; */
+  background-image: url(../images/micro_hex.png);
   background-position: 99% 1%;
   background-size: 7%;
   color: #000000;
@@ -469,7 +484,7 @@ th, td { padding: 5px; }
 } */
 
 .inverse {
-  background-color: #314f4f; /* #236192; */
+  background-color: #236192; /* #236192; */
   text-shadow: none;
 }
 
@@ -479,7 +494,7 @@ th, td { padding: 5px; }
   font-size: 48px;
   margin-top: 0px;
   margin-left: -00px;
-  color: #314f4f; /* #56B4E9 ; FAFAFA */
+  color: #236192; /* #56B4E9 ; FAFAFA */
 }
 
 .inverse > h1 {
@@ -517,8 +532,8 @@ color: #23373B;
 }
 
 .title-slide {
-  background-color: #314f4f;
-  background-image: url(../img/metrics_hex.png);
+  background-color: #236192;
+  background-image: url(../images/micro_hex.png);
   background-position: 99% 90%;
   background-size: 25%;
 }
