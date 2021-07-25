@@ -14,15 +14,19 @@
   weight = 10
 
 [[main]]
-  name = "Content"
-  url = "/content/"
+  name = "Schedule"
+  url = "/schedule/"
   weight = 20
 
 [[main]]
-  name = "Schedule"
-  url = "/schedule/"
+  name = "Content"
+  url = "/content/"
   weight = 30
 
+[[main]]
+  name = "Assignments"
+  url = "/assignments/"
+  weight = 35
 
 [[main]]
   name = "Resources"
