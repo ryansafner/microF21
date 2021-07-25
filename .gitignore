@@ -12,3 +12,5 @@
 # Node
 node_modules/
 public/
+
+static/slides/make-pdfs.R
