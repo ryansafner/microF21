@@ -19,17 +19,11 @@ library(kableExtra)
 
 `r blogdown::shortcode("courseinfo")`
 
-<p style="text-align:center;"><span class="btn btn-primary btn-lg"><i class="fas fa-file-pdf"></i> Download PDF</span></p>
-
-- **Last Updated**: February 1, 2021
+<p style="text-align:center;"><span class="btn btn-primary btn-lg"><i class="fas fa-file-pdf"></i> Download PDF</span><br>**Last Updated**: July 25, 2021</p>
 
 > "The curious task of economics is to demonstrate to men how little they really know about what they imagine they can design."^[Hayek, F.A., 1988, *The Fatal Conceit*, p.76] <br> [— F.A. Hayek (1974 Economics Nobel Laureate)]{style="float:right"}
 
-<span class="newthought">Game theory</span> is a collection of analytical tools used to rigorously study strategic interactions between rational agents. It is one of the most useful and powerful theoretical innovations in 20^th^ century social science, and has been applied extensively in economics, political science, psychology, sociology, logic, computer science, animal behavior, and evolutionary biology. At least twelve economists have won the Nobel Prize for research directly related to game theory (and arguably more have made tangential contributions). This is an *economics* course, so the majority of our focus and applications will be in economic settings, though we will examine a much wider scope of strategic interactions than the "narrow" economic domain of firms and consumers. 
-
-Please don't get the wrong idea — this course is *not* the theory of "games" in the colloquial sense (e.g. chess, poker, football, *Fortnite*, etc)! This course is *not* designed to make a you a better [insert favorite game] player (but that may be a side effect!). A "game" in social science is defined according to certain technical criteria. Furthermore, formal game theory is *highly abstract and very mathematical*. I will try to balance formal theory with interesting real world applications, sometimes including colloquial "games."
-
-Game theory is a direct extension of basic microeconomics, so this class assumes you have met the **required prerequisite course(s) — ECON 206**. My approach to game theory requires *some* math, but it will not be exclusively about the math.
+<span class="newthought">Microeconomic Analysis</span> [^courseinfo] is a collection of analytical tools for modeling and understanding how decisions made by agents (individuals and firms) in a context of market institutions lead to social coordination and the creation of value. This toolkit is the analytical foundation for exploring *all* fields and applications of economics as a social science, has many practical applications in business, finance, politics, and insights into any realm of human endeavors. Economics, after all, is the study of human action. At the intermediate level, these concepts are made more rigorous through the use of mathematical models, but we will first and foremost lay the theoretical foundations with economic intuition. As such, this class assumes you have met the **required prerequisite courses** by taking principles of microeconomics (**ECON 206**).
 
 
 # Course Format and Covid
@@ -40,11 +34,9 @@ As of Fall 2021, all students are expected to be on campus except those with spe
 
 <span class="newthought">By the end of this course,</span> you will:
 
-- Recognize different types of strategic interactions across different domains of life (e.g. economics, political science, biology, etc.)
-- Recognize common types of games, e.g. prisoners' dilemma, stag hunt, battle of the sexes, chicken, hawk-dove
-- Solve for equilibria of games in normal form, extended form, in pure & mixed strategies, 
-- Understand the role of information, sequencing, credible commitments, repetition, etc.
-- Become familiar with some of the economics (and other) literatures that use game theoretic tools
+1. apply the models of microeconomics (constrained optimization and equilibrium) towards explaining real world behavior of individuals, firms, and governments
+2. explore the effects of economic and political processes on market performance (competition, market prices, profits and losses, property rights, entrepreneurship, market power, market failures, public policy, government failures)
+3. apply the economic way of thinking to real world issues in writing
 
 Given these objectives, this course fulfills all three of the learning outcomes for [the George B. Delaplaine, Jr. School of Business](https://www.hood.edu/academics/departments/george-b-delaplaine-jr-school-business/student-learning-outcomes) Economics B.A. program:
 
@@ -52,45 +44,32 @@ Given these objectives, this course fulfills all three of the learning outcomes 
 - Apply economic reasoning and models to understand and analyze problems of public policy [...]
 - Demonstrate effective oral and written communications skills for personal and professional success[...]
 
-<span class="newthought">Fair warning:</span> **Economics is hard.** *This, in particular, may be of the hardest courses that you will take, primarily due to the mathematical content.* Using the economic way of thinking is a skill, it is literally retraining your brain to interpret and analyze the world in a novel way, and is not something that can be memorized. I will do my best to make this class intuitive and helpful, if not interesting. If at any point you find yourself struggling in this course for any reason, please come see me. Do not suffer in silence! Coming to see me for help does not diminish my view of you, in fact I will hold you in *higher* regard for understanding your own needs and taking charge of your own learning. There are also a some fantastic resources on campus, such as the [Center for Academic Achievement and Retention (CAAR)](http://www.hood.edu/campus-services/academic-services/index.html) and the [Beneficial-Hodson Library](http://www.hood.edu/library/).  
+<span class="newthought">Fair warning:</span> **Economics is hard.** *This, in particular, may be of the hardest courses that you will take, primarily due to the mathematical content.* Using the economic way of thinking is a skill, it is literally retraining your brain to interpret and analyze the world in a novel way, and is not something that can be memorized. I will do my best to make this class intuitive and helpful, if not interesting. If at any point you find yourself struggling in this course for any reason, please come see me. Do not suffer in silence! Coming to see me for help does not diminish my view of you, in fact I will hold you in *higher* regard for understanding your own needs and taking charge of your own learning. There are also a some fantastic resources on campus, such as the [Center for Academic Achievement and Retention (CAAR)](http://www.hood.edu/campus-services/academic-services/index.html) and the [Beneficial-Hodson Library](http://www.hood.edu/library/).
 
-See my [tips for success in this course](/reference#tips). 
+See my [tips for success in this course](/resources). 
 
 # Required Course materials 
 
-You can find all course materials at my **dedicated website** for this course: [gameF21.classes.ryansafner.com](https://gameF21.classes.ryansafner.com). Links to the website are posted on our Blackboard course page. Please familiarize yourself with the website, see that it contains this [syllabus](https://gameF21.classes.ryansafner.com/syllabus/), guides for your [reference](https://gameF21.classes.ryansafner.com/reference/), and our [schedule](https://gameF21.classes.ryansafner.com/schedule/). On the schedule page, you can find each module with its own class page (**start there!**) along with all related readings, lecture slides, practice problems, and assignments.
+You can find all course materials at my **dedicated website** for this course: [microF21.classes.ryansafner.com](https://microF21.classes.ryansafner.com). Links to the website are posted on our Blackboard course page. Please familiarize yourself with the website, see that it contains this [syllabus](syllabus/), [resources](resources/) to help you, and our [schedule](schedule/). On the schedule page, you can find each module with its own class page (**start there!**) along with all related readings, lecture slides, practice problems, and assignments.
 
 My lecture slides will be shared with you, and serve as your primary resource, but our main "textbook" below is **recommended** as the next best resource and will be available from the campus bookstore. I will discuss more about textbooks and materials in the first module.
 
-## Books {.unlisted}
+## Books
 
-My lecture slides (made available to you) are the primary resource for the material and the best guide to prepare for homeworks and exams. There are two books that we will roughly be following in parallel, both available at the bookstore (or you can find them on Amazon, ebay, etc). You may choose to purchase used or old versions, but be aware that content and ordering may slightly vary across versions. 
+1. Goolsbee, Austan, Steven Levitt, and Chad Syverson, 2012, *Microeconomics* 2nd ed, USA: Worth Publishers, ISBN: 978-1464187025
 
-1. Dixit, Avinash K and Barry J Nalebuff, 2008, *The Art of Strategy: A Game Theorist's Guide to Success in Business and Life*, New York: W.W. Norton and Company
-2. Dixit, Avinash K, Susan Skeath, and David H Reily Jr, 2014, *Games of Strategy*, 4^th^ ed, New York: W.W. Norton and Company
-3. Purchase a Moblab account ($10) at [moblab.com](http://moblab.com) 
-
-The first book is a popular, read-on-the-beach style paperback that covers the topics in a readable way. It is listed as **required** in the bookstore, and should be fairly cheap on Amazon. It mirrors the topics in the next book in roughly the same order but certainly at a more general (and less mathematical) manner.
-
-The second book is the more common textbook-style As with any textbook, this will be more expensive but a deeper dive into the material that may help with your understanding. It is listed as **recommended** in the bookstore.
-
-If you purchase the second book, it is superfluous for you to purchase the first book, unless you really would like to!
-
-Finally, purchase an account on [moblab.com](https://moblab.com) so that we can all play games in class together on common software.
-
-I leave it to you to determine your own optimal strategy in purchasing (or not) any textbooks. There is no dominant strategy here.
+You are welcome to purchase the book by other means (e.g. Amazon, half.com, etc). I have no financial stake in requiring you to purchase this book. You are welcome to use previous version of the book, but carefully verify the reading assignments, as the material may be different across versions.
 
 # Assignments and Grades
 
-Your final course grade is the weighted average of the following assignments. You can find general descriptions for all the assignments on the [assignments page](http://gameF21.classes.ryansafner.com/assignments/) and more specific information and examples on each assignment's page on the [schedule page](http://gameF21.classes.ryansafner.com/schedule/). 
+Your final course grade is the weighted average of the following assignments. You can find general descriptions for all the assignments on the [assignments page](assignments/) and more specific information and examples on each assignment's page on the [schedule page](schedule/). 
 
 ```{r assignments-grades, include=FALSE}
 assignments <- tribble(
   ~Frequency,  ~Assignment, ~Weight,
-  "n", "Homeworks", "25% (using average HW grade)",
-  "1", "Paper", "20%",
-  "1", "Midterm Exam", "20%",
-  "3", "Final Exam", "20% (each)"
+  "1"     , "Opinion-Editorial", "20%",
+  "5"  , "Homeworks", "20% (using average HW grade)",
+  "3"      , "Exams", "20% (each)"
 )
 
 grading <- tribble(
@@ -135,7 +114,7 @@ See also my [<i class="fas fa-calculator"></i> `Grade Calculator`](https://ryans
 
 These grades are firm cutoffs, but I do of course round upwards $(\geq$ 0.5) for final grades. A necessary reminder, as an academic, I am not in the business of *giving* out grades, I merely report the grade that you *earn*. I will not alter your grade unless you provide a reasonable argument that I am in error (which does happen from time to time). 
 
-## Homeworks
+<!--## Homeworks
 
 There will be roughly a homework assignment every few lessons. These questions will help check your understanding and mastery of the material, and will be a combination of quantitative, graph, and short answer questions of examples. These will also be good indicators of what to expect on the exams. You may collaborate with other students to work on homeworks (and I encourage that!), but each person must turn in an individual assignment.
 
@@ -155,33 +134,35 @@ Exams will be released **on Blackboard** as a timed assignment. You will have 2 
 
 ## Opinion-Editorial 
 
-Economic fallacies have always been popular, and journalists, politicians, and talking heads consistently engage in faulty economic reasoning in print and on television. Your task, as a student of economics, is to find some issue discussed in the past year, and write a critique of media discussion of that issue. Alternatively, instead of critiquing the reasoning or statements of others, you may write an advocacy piece, where you propose some economic policy and argue to persuade readers to endorse it. You will be graded both on the soundness of your economic reasoning and the quality of your writing. I would be happy to co-author an Op-Ed with anyone who writes an exemplary Op-Ed. Students who successfully publish their work in a media outlet will earn *extra credit* on their Op-Ed grade. I will provide ample resources and examples to help you accomplish this, you can find more on the associated [assignment page](assignment/op-ed).
+Economic fallacies have always been popular, and journalists, politicians, and talking heads consistently engage in faulty economic reasoning in print and on television. Your task, as a student of economics, is to find some issue discussed in the past year, and write a critique of media discussion of that issue. Alternatively, instead of critiquing the reasoning or statements of others, you may write an advocacy piece, where you propose some economic policy and argue to persuade readers to endorse it. You will be graded both on the soundness of your economic reasoning and the quality of your writing. I would be happy to co-author an Op-Ed with anyone who writes an exemplary Op-Ed. Students who successfully publish their work in a media outlet will earn *extra credit* on their Op-Ed grade. I will provide ample resources and examples to help you accomplish this, you can find more on the associated [assignment page](assignment/op-ed).-->
 
-## No extra credit is available 
+**No extra credit is available**
 
 # Policies and Expectations 
 
-This syllabus is a contract between you, the student, and me, your instructor. It has been carefully and deliberately thought out^[A syllabus can and will be used as a legal document for disputes tried at a court of law. Ask me how I know.], and I will uphold my end of the agreement and expect you to uphold yours. 
+This syllabus is a contract between you, the student, and me, your instructor. It has been carefully and deliberately thought out. (A syllabus can and will be used as a legal document for disputes tried at a court of law. Ask me how I know.), and I will uphold my end of the agreement and expect you to uphold yours. 
 
 In the language of game theory, this syllabus is my commitment device. I am a very understanding person, and I know that exceptions to rules often need to be made for students. However, to be *fair* to *all* students the syllabus artificially constrains my ability to make exceptions at a whim for anyone. This prevents clever students from exploiting my congenial personality at everyone else's expense. Please read and familiarize yourself with the course policies and expectations of you. Chances are, if you have a question, it is answered herein.
 
-This is a hybrid course with synchronous (live) and asynchronous (on your own time) parts. 
+<!--This is a hybrid course with synchronous (live) and asynchronous (on your own time) parts. 
 
 You are generally expected to join (online via Zoom) our **synchronous** class sessions unless circumstances prevent you from doing so. Day-to-day attendance is not graded per se, but I strongly recommend you join in all live sessions in which you are able, since we all can provide live feedback and I can answer questions and address concerns as soon as they come up. You will also benefit from a rigid schedule and shared community. 
 
 If you are unable to make a particular class, you generally do not need to let me know. **The videos from all class sessions are posted on Blackboard** so please review videos of classes you were unable to attend live. 
 
-All assignmnents are able to be completed **asynchronously** during the week, and are **generally due by 11:59PM Sunday each week** to allow you flexibility in your hectic schedules.
+All assignmnents are able to be completed **asynchronously** during the week, and are **generally due by 11:59PM Sunday each week** to allow you flexibility in your hectic schedules.-->
 
 ## Late Assignments 
 
 I will accept late assignments, but will subtract a specified amount of points as a penalty. Even if it is the last week of the semester, I encourage you to turn in late work: some points are better than no points!
 
-**Homeworks**: If you turn in a homework after it is due but before it is graded or the answer key posted, I generally will not take off any points. However, **if you turn in a homework _after_ the answer key is posted, I will automatically deduct 20 points (so the maximum grade you can earn on it is an 80).**
+**Homeworks**: If you turn in a homework after it is due but before it is graded or the answer key posted, I generally will not take off any points. However, **if you turn in a homework _after_ the answer key is posted, I will automatically deduct 15 points (so the maximum grade you can earn on it is an 85).**
 
-**Exams**: If you know that you will be unable to complete an *exam* as scheduled for a legitimate reason, please notify me at least *one week* in advance, and we will schedule a make-up exam date. Failure to do so, including desperate attempts to make arrangements only *after* the exam will result in a grade of 0 and little sympathy. I reserve the right to re-weight other assignments for students who I believe are legitimately unable to complete a particular assignment.
+**Exams**: If you know that you will be unable to complete an *exam* as scheduled for a legitimate reason, please notify me at least *one week* in advance, and we will schedule a make-up exam date. Failure to do so, including desperate attempts to make arrangements only *after* the exam will result in a grade of 0 and little sympathy.
 
 **Op-eds**: Starting at the deadline, I will take off 1 point for every hour that your Op-ed is late.
+
+I reserve the right to re-weight assignments for students whom I believe are legitimately unable to complete a particular assignment.
 
 ## Grading 
 
@@ -231,7 +212,7 @@ Students are responsible for verifying their enrollment in this class. The last 
 
 Hood College has an Academic Honor Code which requires all members of this community to maintain the highest standards of academic honesty and integrity. Cheating, plagiarism, lying, and stealing are all prohibited.  All violations of the Honor Code are taken seriously, will be reported to appropriate authority, and may result in severe penalties, including expulsion from the college. See [here](http://hood.smartcatalogiq.com/en/2016-2017/Catalog/The-Spirit-of-Hood/The-Academic-Honor-Code-and-Code-of-Conduct) for more detailed information.
 
-## Van Halen and M&Ms 
+## Van Halen and M&Ms {.unlisted}
 
 When you have completed reading the syllabus, email me a picture of the band Van Halen and a picture of a bowl of M&Ms. If you do this *before* the date of the first exam, you will get bonus points on the exam.^[If 75-100% of the class does this, you each get 2 points. If 50-75% of the class does this, you each get 4 points. If 25-50% of the class does this, you each get 6 points. If 0-25% of the class does this, you each get 8 points.] Yes, this is real.
 
@@ -245,7 +226,7 @@ This course is intended to be accessible for all students, including those with 
 
 ## ACBSP Information 
 
-![](https://gameF21.classes.ryansafner.com/images/acbsp.png)
+![](https://microF21.classes.ryansafner.com/images/acbsp.png)
 
 Hood College is an accredited member of the Accreditation Council for Business Schools and Programs (ACBSP), an organization devoted to enhancing business education. In receiving and maintaining this accreditation, the faculty has made a commitment to the continuous improvement, innovation, and scholarship of the Department of Economics and Management. For you, this means that your educational experience undergoes ongoing validation to ensure it meets the most rigorous international standards of business education. Only a select group of institutions have received this status and it is an attribute of Hood for which you should take great pride. 
 
@@ -253,4 +234,4 @@ Pragmatically, our accreditation means that we will engage in the ongoing use of
 
 # Tentative Schedule 
 
-**You can find a full schedule** with much more details, including the readings, appendices, and other further resources for each class meeting on the [schedule page](http://gameF21.classes.ryansafner.com/schedule/).
+**You can find a full schedule** with much more details, including the readings, appendices, and other further resources for each class meeting on the [schedule page](schedule/).
