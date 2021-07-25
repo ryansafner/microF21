@@ -1,5 +1,5 @@
 lessons:
-  - title: '**I. Rational Choice Theory: Consumers**'
+  - title: '<span class="fake-header-table">I. Rational Choice Theory: Consumers</span>'
     header: True
 
   - title: "Preliminary Survey"
@@ -40,15 +40,13 @@ lessons:
     slides: "1.7-slides"
     practice: "1.7-practice"
     
-    
   - title: '<i class="fas fa-laptop-code"></i> **Problem Set 2** due Sun Feb 28'
     assignment: "02-problem-set"
   
   - title: '<i class="fas fa-star"></i> **Exam 1** week of Mar 1'
     assignment: "01-exam"
-    bottomborder: True
    
-  - title: '<span class="content-title">II. Rational Choice Theory: Producers</span>'
+  - title: '<span class="fake-header-table">II. Rational Choice Theory: Producers</span>'
     header: True
 
   - title: "2.1 Production, Specialization, and Firms"
