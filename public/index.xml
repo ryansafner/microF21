@@ -7,7 +7,7 @@
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>[CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) {year} by Ryan Safner</copyright>
-    <lastBuildDate>Tue, 08 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://microf21.classes.ryansafner.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -641,9 +641,9 @@
 &lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF&lt;/span&gt;&lt;br&gt;&lt;strong&gt;Last Updated&lt;/strong&gt;: July 25, 2021
 &lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;“The curious task of economics is to demonstrate to men how little they really know about what they imagine they can design.”&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; &lt;br&gt; &lt;span style=&#34;float:right&#34;&gt;— F.A. Hayek (1974 Economics Nobel Laureate)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;“The curious task of economics is to demonstrate to men how little they really know about what they imagine they can design.” &lt;br&gt; &lt;span style=&#34;float:right&#34;&gt;— F.A. Hayek (1974 Economics Nobel Laureate)&lt;/span&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;span class=&#34;newthought&#34;&gt;Microeconomic Analysis&lt;/span&gt; [^courseinfo] is a collection of analytical tools for modeling and understanding how decisions made by agents (individuals and firms) in a context of market institutions lead to social coordination and the creation of value. This toolkit is the analytical foundation for exploring &lt;em&gt;all&lt;/em&gt; fields and applications of economics as a social science, has many practical applications in business, finance, politics, and insights into any realm of human endeavors. Economics, after all, is the study of human action. At the intermediate level, these concepts are made more rigorous through the use of mathematical models, but we will first and foremost lay the theoretical foundations with economic intuition. As such, this class assumes you have met the &lt;strong&gt;required prerequisite courses&lt;/strong&gt; by taking principles of microeconomics (&lt;strong&gt;ECON 206&lt;/strong&gt;).&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;newthought&#34;&gt;Microeconomic Analysis&lt;/span&gt; is a collection of analytical tools for modeling and understanding how decisions made by agents (individuals and firms) in a context of market institutions lead to social coordination and the creation of value. This toolkit is the analytical foundation for exploring &lt;em&gt;all&lt;/em&gt; fields and applications of economics as a social science, has many practical applications in business, finance, politics, and insights into any realm of human endeavors. Economics, after all, is the study of human action. At the intermediate level, these concepts are made more rigorous through the use of mathematical models, but we will first and foremost lay the theoretical foundations with economic intuition. As such, this class assumes you have met the &lt;strong&gt;required prerequisite courses&lt;/strong&gt; by taking principles of microeconomics (&lt;strong&gt;ECON 206&lt;/strong&gt;).&lt;/p&gt;
 &lt;div id=&#34;course-format-and-covid&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Course Format and Covid&lt;/h1&gt;
 &lt;p&gt;As of Fall 2021, all students are expected to be on campus except those with special approved exemptions. As such, this course will be taught &lt;strong&gt;in-person&lt;/strong&gt; and &lt;strong&gt;synchronously&lt;/strong&gt; until or unless otherwise announced.&lt;/p&gt;
@@ -918,7 +918,7 @@ All assignmnents are able to be completed **asynchronously** during the week, an
 &lt;/div&gt;
 &lt;div id=&#34;van-halen-and-mms&#34; class=&#34;section level2 unlisted&#34;&gt;
 &lt;h2&gt;Van Halen and M&amp;amp;Ms&lt;/h2&gt;
-&lt;p&gt;When you have completed reading the syllabus, email me a picture of the band Van Halen and a picture of a bowl of M&amp;amp;Ms. If you do this &lt;em&gt;before&lt;/em&gt; the date of the first exam, you will get bonus points on the exam.&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; Yes, this is real.&lt;/p&gt;
+&lt;p&gt;When you have completed reading the syllabus, email me a picture of the band Van Halen and a picture of a bowl of M&amp;amp;Ms. If you do this &lt;em&gt;before&lt;/em&gt; the date of the first exam, you will get bonus points on the exam. If 75-100% of the class does this, you each get 2 points. If 50-75% of the class does this, you each get 4 points. If 25-50% of the class does this, you each get 6 points. If 0-25% of the class does this, you each get 8 points. Yes, you read this correctly.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;accessibility-equity-and-accommodations&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Accessibility, Equity, and Accommodations&lt;/h2&gt;
@@ -936,13 +936,6 @@ All assignmnents are able to be completed **asynchronously** during the week, an
 &lt;div id=&#34;tentative-schedule&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Tentative Schedule&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;You can find a full schedule&lt;/strong&gt; with much more details, including the readings, appendices, and other further resources for each class meeting on the &lt;a href=&#34;schedule/&#34;&gt;schedule page&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;footnotes&#34;&gt;
-&lt;hr /&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Hayek, F.A., 1988, &lt;em&gt;The Fatal Conceit&lt;/em&gt;, p.76&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;If 75-100% of the class does this, you each get 2 points. If 50-75% of the class does this, you each get 4 points. If 25-50% of the class does this, you each get 6 points. If 0-25% of the class does this, you each get 8 points.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
 &lt;/div&gt;
 </description>
     </item>
