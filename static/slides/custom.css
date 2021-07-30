@@ -436,7 +436,7 @@ th, td { padding: 5px; }
 /* Custom things start below */ 
 
 .remark-slide-content {
-  background-color: #F5F5F5 ; /* #23373B; */
+  background-color: #ffffff ; /* #23373B; */
   background-image: url(../images/micro_hex.png);
   background-position: 99% 1%;
   background-size: 7%;
