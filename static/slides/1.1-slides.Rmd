@@ -37,6 +37,7 @@ library("fontawesome")
 xaringanExtra::use_tile_view()
 xaringanExtra::use_tachyons()
 xaringanExtra::use_freezeframe()
+xaringanExtra::use_progress_bar()
 
 update_geom_defaults("label", list(family = "Fira Sans Condensed"))
 update_geom_defaults("text", list(family = "Fira Sans Condensed"))
@@ -81,6 +82,8 @@ Edinburgh, 2019
 
 - B.A. (Economics) — University of Connecticut, 2011
 
+- 6th year teaching at Hood
+
 - Specializations:
   - Law and Economics
   - Austrian Economics
@@ -89,12 +92,31 @@ Edinburgh, 2019
   - modeling innovation & economic growth
   - political economy & economic history of intellectual property
 
-- Expecting a son in March 👶 (expect cameos!)
 ]
 ]
 
 ---
 
+# About Me
+
+.left-column[
+.center[
+![](../images/meinfrontofsmith.jpg)
+
+.smallest[
+Miles
+]
+]
+]
+
+.right-column[
+.smallest[
+
+- The reason why I might be busier than usual this semester
+]
+]
+
+---
 # *Micro*-economics
 
 .center[
@@ -965,46 +987,6 @@ class: inverse, middle, center
 
 ---
 
-# Logistics: Hybrid Course
-
-.smaller[
-- .hi[Hybrid]: more .hi-purple[synchronous] material than .hi-turquoise[asynchronous] material
-
-- I will always be teaching .hi[remotely]
-  - A classroom is available to you
-
-- Office hours: Tu/Th 3:30-5:00 PM on Zoom
-  - `r fa("video", fill ="#5E81AC")` <i class="fas fa-video"></i> Zoom link in Blackboard's `LIVE CLASS SESSIONS` link
-  - `r fa("slack", fill ="#5E81AC")` Slack channels
-
-- Teaching Assistant(s): TBD
-  - grade HWs & hold (likely virtual) office hours
-]
-
----
-
-# Logistics: Hybrid Course
-
-- We will have .hi-purple[synchronous] sessions on **<i class="fas fa-video"></i> Zoom**
-  - Section 1: Mon/Wed 2:00-3:15 PM
-  - Section 2: Tu/Thu 2:00-3:15 PM
-
-- Lecture videos will be posted on **Blackboard** via Panopto for students unable to join synchronously
-  - If you were present, you do not need to watch the video (again)!
-  - You are not *required* to attend synchronously, but it will help you
-
-- All graded assignments are .hi-turquoise[asynchronous]
-  - Submitted on Blackboard by 11:59 PM Sundays
-  - Timed exams on Blackboard
-
----
-
-# Using Zoom (& Slack, etc): A Polite Request
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">My professor teaching to class on zoom: <br><br>🧑🏻‍🏫<br><br>Me, trying to prevent my professor from teaching into the void: <br><br>◼️◼️◼️🙂◼️◼️◼️◼️◼️◼️◼️◼️<br>◼️◼️◼️◼️◼️◼️◼️◼️◼️◼️◼️◼️◼️◼️◼️◼️◼️◼️◼️◼️◼️◼️◼️◼️</p>&mdash; Adrianna (@adri_holmes00) <a href="https://twitter.com/adri_holmes00/status/1314253784638513155?ref_src=twsrc%5Etfw">October 8, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-
----
-
 # Learning Goals
 
 By the end of this course, you will: 
@@ -1016,7 +998,6 @@ By the end of this course, you will:
 3. apply the economic way of thinking to real world issues in writing
 
 ---
-
 
 # Assignments
 
@@ -1058,6 +1039,20 @@ knitr::kable(assignments, "html")
 
 .center[
 [microS21.classes.ryansafner.com](https://microS21.classes.ryansafner.com)
+]
+
+---
+
+# Logistics
+
+.smaller[
+
+- Office hours: Tu/Th 3:30-5:00 PM on Zoom
+  - `r fa("video", fill ="#5E81AC")` <i class="fas fa-video"></i> Zoom link in Blackboard's `LIVE CLASS SESSIONS` link
+  - `r fa("slack", fill ="#5E81AC")` Slack channels
+
+- Teaching Assistant(s): TBD
+  - grade HWs & hold (likely virtual) office hours
 ]
 
 ---

@@ -1,29 +1,50 @@
 ---
-title: Syllabus
-slug: syllabus
-citeproc: true
-bibliography: ../../static/bib/references.bib
-csl: ../../static/bib/chicago-syllabus-no-bib.csl
-output:
-  blogdown::html_page:
-    toc: true
-    fig_caption: false
+output: 
+  pdf_document:
+    number_sections: false
+    keep_tex: true
+    fig_caption: yes
+    df_print: kable
+    latex_engine: xelatex
+    template: template-syllabus.tex
+    includes:
+      in_header: 
+geometry: margin=1in
+course: "Microeconomic Analysis"
+coursecode: "ECON 306 Fall 2021"
+section: ""
+author: Dr. Ryan Safner
+semester: "[microF21.classes.ryansafner.com](http://microF21.classes.ryansafner.com)"
+
+email: "safner@hood.edu"
+web: "ryansafner.com"
+officehours: "<i class='fas fa-video'></i> MW 10:00—11 AM & by appt"
+office: "Rosenstock 110"
+classroom: "Rosenstock 212"
+classhours: "MW 2:40—4:05 PM"
+
+fontfamily: Fira Sans
+mainfont: Fira Sans
+fontsize: 12pt
+sansfont: "Yanone Kaffeesatz"
+monofont: "Fira Code"
+mathfont: "Fira Sans"
+
+#bibliography: 306syllabus.bib
 ---
 
 ```{r load-libraries, message=FALSE, warning=FALSE, include=FALSE}
 library(dplyr)
 library(tibble)
 library(pander)
+library(knitr)
 library(kableExtra)
+library(fontawesome)
 ```
-
-`r blogdown::shortcode("courseinfo")`
-
-<p style="text-align:center"><a target="_blank" href="/syllabus/syllabus-pdf.pdf"><span class="btn btn-primary btn-lg"><i class="fas fa-file-pdf"></i> Download PDF</a></span></br>**Last Updated**: August 20, 2021</p>
 
 > "The curious task of economics is to demonstrate to men how little they really know about what they imagine they can design." <br> [— F.A. Hayek (1974 Economics Nobel Laureate)]{style="float:right"}
 
-<span class="newthought">Microeconomic Analysis</span> is a collection of analytical tools for modeling and understanding how decisions made by agents (individuals and firms) in a context of market institutions lead to social coordination and the creation of value. This toolkit is the analytical foundation for exploring *all* fields and applications of economics as a social science, has many practical applications in business, finance, politics, and insights into any realm of human endeavors. Economics, after all, is the study of human action. At the intermediate level, these concepts are made more rigorous through the use of mathematical models, but we will first and foremost lay the theoretical foundations with economic intuition. As such, this class assumes you have met the **required prerequisite courses** by taking principles of microeconomics (**ECON 206**).
+**Microeconomic Analysis** is a collection of analytical tools for modeling and understanding how decisions made by agents (individuals and firms) in a context of market institutions lead to social coordination and the creation of value. This toolkit is the analytical foundation for exploring *all* fields and applications of economics as a social science, has many practical applications in business, finance, politics, and insights into any realm of human endeavors. Economics, after all, is the study of human action. At the intermediate level, these concepts are made more rigorous through the use of mathematical models, but we will first and foremost lay the theoretical foundations with economic intuition. As such, this class assumes you have met the **required prerequisite courses** by taking principles of microeconomics (**ECON 206**).
 
 I reserve the right to change any part of this syllabus and course, at my discretion, with proper advance warning.
 
@@ -205,9 +226,7 @@ Our [slack channel](https://hoodcollegeeconomics.slack.com) is available to all 
 
 In addition to in-person office hours, you can also make an appointment for **“office hours”** on Zoom. You can join in with video, audio, and/or chat, whichever you feel comfortable with. Of course, if you are not available during those times, we can schedule our own time if you prefer this method over email or Slack. If you want to go over material from class, please have *specific* questions you want help with. I am not in the business of giving private lectures (particularly if you missed class without a valid excuse).
 
-Watch this excellent and accurate video explaining office hours:
-
-<iframe src="https://player.vimeo.com/video/270014784" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+Watch the excellent and accurate video explaining office hours [on the website](https://gamef21.classes.ryansafner.com/syllabus/#communication-email-slack-and-virtual-office-hours).
 
 ## Netiquette 
 
@@ -255,7 +274,10 @@ This course is intended to be accessible for all students, including those with 
 
 ## ACBSP Information 
 
-![](https://microF21.classes.ryansafner.com/images/acbsp.png)
+\begin{figure}[h!]
+\centering
+\includegraphics[]{../images/acbsp.png}
+\end{figure}
 
 Hood College is an accredited member of the Accreditation Council for Business Schools and Programs (ACBSP), an organization devoted to enhancing business education. In receiving and maintaining this accreditation, the faculty has made a commitment to the continuous improvement, innovation, and scholarship of the Department of Economics and Management. For you, this means that your educational experience undergoes ongoing validation to ensure it meets the most rigorous international standards of business education. Only a select group of institutions have received this status and it is an attribute of Hood for which you should take great pride. 
 
