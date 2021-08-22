@@ -10,14 +10,14 @@ This page contains all of the following resources for each class meeting:
 
 <ul class="icon-list">
  <li><i class="fas fa-info-circle"></i> **Content** materials contains suggested readings, more details about assignments, math appendices, and other helpful resources. I suggest you view these **before** each class.
-  <li><i class="fas fa-chalkboard-teacher"></i> **Slides** are "[Xaringan](https://github.com/yihui/xaringan)" presentations in html that can be opened in any browser (You can find a downloadable <i class="fas fa-file-pdf"></i> `PDF` in each respective <i class="fas fa-info-circle"></i> **content** page)
+  <li><i class="fas fa-chalkboard-teacher"></i> **Slides** are "[Xaringan](https://github.com/yihui/xaringan)" presentations in html that can be opened in any browser (You can find a downloadable PDF in each respective **content** page)
   <li><i class="fas fa-dumbbell"></i> **Practice** problems we work on together in class to prepare for homeworks and exams
-  <li><i class="fas fa-laptop-code"></i> **Assignments** are generally 11:59 PM Sundays on Blackboard
+  <li><i class="fas fa-laptop-code"></i> **Assignments** are listed with due dates
 </ul>
 
-Please note, the lesson numbers and topics (e.g. 1.1) are *my* design, and do not match up with the textbook!
+Please note that the lesson numbers, topics, and titles (e.g. 1.1) are *my* design, and do not match up with the textbook!
 
-Relevant materials (if applicable, icons will become links) will be posted before class meets.
+Relevant materials, if applicable will be posted before class meets and become colored links.
 
 ---
 

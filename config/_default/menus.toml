@@ -32,6 +32,12 @@
   name = "Resources"
   url = "resources/"
   weight = 40
+  
+[[main]]
+  name = '<i class="fab fa-slack"></i>'
+  url = "https://hoodcollegeeconomics.slack.com"
+  weight = 55
+
 
 #[[main]]
 #  name = "Contact"

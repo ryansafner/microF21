@@ -104,7 +104,7 @@ Edinburgh, 2019
 ![](../images/meinfrontofsmith.jpg)
 
 .smallest[
-Miles
+My face (without a mask), 2021
 ]
 ]
 ]
@@ -112,10 +112,38 @@ Miles
 .right-column[
 .smallest[
 
-- The reason why I might be busier than usual this semester
+- Ph.D (Economics) — George Mason University, 2015
+
+- B.A. (Economics) — University of Connecticut, 2011
+
+- 6th year teaching at Hood
+
+- Specializations:
+  - Law and Economics
+  - Austrian Economics
+
+- Research interests
+  - modeling innovation & economic growth
+  - political economy & economic history of intellectual property
+
 ]
 ]
 
+---
+
+# The Reason I'm Busier Than Usual
+
+.pull-left[
+.center[
+![](../images/)
+]
+]
+
+.pull-right[
+.center[
+![](../images/)
+]
+]
 ---
 # *Micro*-economics
 
@@ -152,9 +180,9 @@ Miles
     - ECON 205: Principles of Macroeconomics
     - ECON 206: Principles of Microeconomics
 
-- .hi-purple[Modelling] markets, individuals (consumers & firms), economies
+- .hi-purple[Modeling] markets, individuals (consumers & firms), economies
     - ECON 306: Microeconomic Analysis
-    - ECON 305: Macroeconomic Analysis<sup>.magenta[†]</sup>
+    - ECON 305: Macroeconomic Analysis<sup>.magenta<sup>[†]</sup>
 ]
 
 .pull-right[
@@ -291,7 +319,7 @@ Miles
 
 .pull-left[
 
-- Not trying to scare you! (I'd rather say this now than after Exam 1.)
+- Not trying to scare you! (I'd rather say this now than after the Exam)
   - .hi-purple[Grades don't reflect your worth as a person!]
 
 - .hi[Comparative advantage]: nobody can be good at everything!
@@ -476,6 +504,24 @@ Some governments pay bounties to reduce pest populations such as rats.
 ]
 
 .source[January 17, 2021, [These Monkeys Understand Economics and Intentionally Steal High-Ticket Items to Barter for Better Food, Study Finds](https://gizmodo.com/these-monkeys-understand-economics-and-intentionally-st-1846078932?utm_medium=sharefromsite&utm_source=_facebook), *Gizmodo*]
+
+---
+
+# In Fact a Lot of the Natural World Behaves Economically
+
+.pull-left[
+.center[
+![:scale 75%](../images/walrasianequilibriumnature.png)
+]
+.source[Loch-Temzelides, Ted, 2021, [“Walrasian equilibrium behavior in nature”](https://www.pnas.org/content/118/27/e2020961118), *PNAS* 118(27)]
+]
+
+.pull-right[
+.center[
+![:scale 65%](../images/nematodesutilitymax.png)
+]
+.source[Katzen et al., 2021, [“The nematode worm *C. elegans* chooses between bacterial foods exactly as if maximizing economic utility”](https://www.biorxiv.org/content/10.1101/2021.04.25.441352v2) *bioRxiv*]
+]
 
 ---
 
@@ -1017,28 +1063,19 @@ knitr::kable(assignments, "html")
 # Your “Textbook”
 
 .center[
-![:scale 40%](../images/microtextbook.jpg)
+![:scale 70%](../images/microtextbook.jpg)
 ]
 
 ---
 
 # Course Website
 
-.pull-left[
-.center[
-![:scale 60%](https://microF20.classes.ryansafner.com/images/micro_hex.png)
-
-]
-]
-
-.pull-right[
-.center[
-![](../images/micro_website_s21.png)
-]
-]
 
 .center[
-[microS21.classes.ryansafner.com](https://microS21.classes.ryansafner.com)
+![:scale 75%](../images/micro_website_f21.png)
+
+
+[microF21.classes.ryansafner.com](https://microF21.classes.ryansafner.com)
 ]
 
 ---
@@ -1047,12 +1084,12 @@ knitr::kable(assignments, "html")
 
 .smaller[
 
-- Office hours: Tu/Th 3:30-5:00 PM on Zoom
-  - `r fa("video", fill ="#5E81AC")` <i class="fas fa-video"></i> Zoom link in Blackboard's `LIVE CLASS SESSIONS` link
-  - `r fa("slack", fill ="#5E81AC")` Slack channels
+- Office hours: M/W 10:00-11:00 AM & by appt
+
+- `r fa("slack", fill ="#5E81AC")` Slack channel
 
 - Teaching Assistant(s): TBD
-  - grade HWs & hold (likely virtual) office hours
+  - grade HWs & hold office hours
 ]
 
 ---
@@ -1068,7 +1105,7 @@ knitr::kable(assignments, "html")
 
 - You are learning how to learn
 
-- See the [resources page](http://microS21.classes.ryansafner.com/resources) for more
+- See the [resources page](http://microF21.classes.ryansafner.com/resources) for more
 ]
 
 .pull-right[
