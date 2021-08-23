@@ -1082,30 +1082,21 @@ knitr::kable(assignments, "html")
 
 # Logistics
 
-.smaller[
+.pull-left[
+.smallest[
 
 - Office hours: M/W 10:00-11:00 AM & by appt
+  - Office: 110 Rosenstock
 
 - `r fa("slack", fill ="#5E81AC")` Slack channel
 
+- Recorded videos in Blackboard Panopto
+
 - Teaching Assistant(s): TBD
   - grade HWs & hold office hours
+
+- See the [resources page](http://gameF21.classes.ryansafner.com/resources) for tips for success and more helpful resources
 ]
-
----
-
-# Tips for Success, Or: How to College
-
-.pull-left[
-- Take notes. On paper. Really.
-
-- Read the readings.
-
-- Ask questions, come to office hours. Don’t struggle in silence, you are not alone!
-
-- You are learning how to learn
-
-- See the [resources page](http://microF21.classes.ryansafner.com/resources) for more
 ]
 
 .pull-right[
@@ -1113,6 +1104,12 @@ knitr::kable(assignments, "html")
 ![](../images/learning.png)
 ]
 ]
+
+---
+
+class: inverse
+
+# You Can Do This
 
 ---
 
