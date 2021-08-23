@@ -177,7 +177,7 @@ And why I wear a mask.
 
 - .hi-purple[Modeling] markets, individuals (consumers & firms), economies
     - ECON 306: Microeconomic Analysis
-    - ECON 305: Macroeconomic Analysis<sup>.magenta[†]</sup>
+    - ECON 305: Macroeconomic Analysis<sup>†</sup>
 ]
 
 .pull-right[
@@ -1066,7 +1066,7 @@ knitr::kable(assignments, "html")
 # Course Website
 
 .center[
-![:scale 70%](../images/micro_website_f21.png)
+![:scale 65%](../images/micro_website_f21.png)
 
 [microF21.classes.ryansafner.com](https://microF21.classes.ryansafner.com)
 ]
