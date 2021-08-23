@@ -67,10 +67,10 @@ class: inverse
 
 .left-column[
 .center[
-![](../images/myface2021.png)
+![](../images/meinfrontofsmith.jpg)
 
 .smallest[
-My face without a mask, 2021
+Edinburgh, 2019
 ]
 ]
 ]
@@ -101,7 +101,7 @@ My face without a mask, 2021
 
 .left-column[
 .center[
-![](../images/meinfrontofsmith.jpg)
+![](../images/myface2021.png)
 
 .smallest[
 My face (without a mask), 2021
@@ -177,7 +177,7 @@ And why I wear a mask.
 
 - .hi-purple[Modeling] markets, individuals (consumers & firms), economies
     - ECON 306: Microeconomic Analysis
-    - ECON 305: Macroeconomic Analysis<sup>.magenta<sup>[†]</sup>
+    - ECON 305: Macroeconomic Analysis<sup>.magenta[†]</sup>
 ]
 
 .pull-right[
@@ -458,7 +458,7 @@ Pictures [Source](https://www.rover.com/blog/nyc-subway-dogs-fs/)
 
 # Incentives Example: Rat Bounty
 
-.content-box-green[
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
 Some governments pay bounties to reduce pest populations such as rats.
 
 .green[**Example**]: Suppose the government were to pay $250 for every rat tail turned in. 
@@ -1058,17 +1058,15 @@ knitr::kable(assignments, "html")
 # Your “Textbook”
 
 .center[
-![:scale 70%](../images/microtextbook.jpg)
+![:scale 40%](../images/microtextbook.jpg)
 ]
 
 ---
 
 # Course Website
 
-
 .center[
-![:scale 75%](../images/micro_website_f21.png)
-
+![:scale 70%](../images/micro_website_f21.png)
 
 [microF21.classes.ryansafner.com](https://microF21.classes.ryansafner.com)
 ]
@@ -1083,7 +1081,7 @@ knitr::kable(assignments, "html")
 - Office hours: M/W 10:00-11:00 AM & by appt
   - Office: 110 Rosenstock
 
-- `r fa("slack", fill ="#5E81AC")` Slack channel
+- `r fa("slack", fill ="#5E81AC")` Slack channel `#c-306-micro`
 
 - Recorded videos in Blackboard Panopto
 
@@ -1111,5 +1109,5 @@ class: inverse, center, middle
 # Roadmap for the Semester
 
 .center[
-![:scale 75%](../images/micro_flowchart_blankbg.png)
+![:scale 100%](../images/micro_flowchart_blankbg.png)
 ]
