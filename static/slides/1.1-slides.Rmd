@@ -55,11 +55,11 @@ class: inverse
 
 # Outline
 
-### [The Tools of Microeconomics](#)
-### [Incentives](#)
-### [Equilibrium](#)
-### [Real Talk: The Math](#)
-### [About This Course](#)
+### [The Tools of Microeconomics](#19)
+### [Incentives](#23)
+### [Equilibrium](#34)
+### [Real Talk: The Math](#47)
+### [About This Course](#59)
 
 ---
 
@@ -67,10 +67,10 @@ class: inverse
 
 .left-column[
 .center[
-![](../images/meinfrontofsmith.jpg)
+![](../images/myface2021.png)
 
 .smallest[
-Edinburgh, 2019
+My face without a mask, 2021
 ]
 ]
 ]
@@ -131,19 +131,14 @@ My face (without a mask), 2021
 
 ---
 
-# The Reason I'm Busier Than Usual
+# The Reason I am Busy AF Behind the Scenes
 
-.pull-left[
 .center[
-![](../images/)
-]
+![:scale 100%](../images/milescollage.png)
 ]
 
-.pull-right[
-.center[
-![](../images/)
-]
-]
+And why I wear a mask.
+
 ---
 # *Micro*-economics
 
@@ -1107,7 +1102,7 @@ knitr::kable(assignments, "html")
 
 ---
 
-class: inverse
+class: inverse, center, middle
 
 # You Can Do This
 
