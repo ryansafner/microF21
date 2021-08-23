@@ -1085,6 +1085,8 @@ knitr::kable(assignments, "html")
 
 - Recorded videos in Blackboard Panopto
 
+- Attendance
+
 - Teaching Assistant(s): TBD
   - grade HWs & hold office hours
 
