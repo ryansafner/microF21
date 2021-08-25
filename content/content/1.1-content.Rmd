@@ -15,7 +15,7 @@ slides: "1.1-slides"
 ---
 
 {{% alert note %}}
-*Monday, February 1, 2021*
+*Monday, August 23, 2021*
 {{% /alert %}}
 
 {{% alert warning %}}

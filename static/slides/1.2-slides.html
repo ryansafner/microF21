@@ -1,0 +1,1084 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>1.2 — Budget Constraint</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Ryan Safner  Assistant Professor of Economics   safner@hood.edu   ryansafner/microF21   microF21.classes.ryansafner.com " />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/remark-css/hygge.css" rel="stylesheet" />
+    <link href="libs/tile-view/tile-view.css" rel="stylesheet" />
+    <script src="libs/tile-view/tile-view.js"></script>
+    <link href="libs/tachyons/tachyons.min.css" rel="stylesheet" />
+    <script src="libs/freezeframe/freezeframe.min.js"></script>
+    <script src="libs/xaringanExtra-freezeframe/freezeframe-init.js"></script>
+    <script id="xaringanExtra-freezeframe-options" type="application/json">{"selector":"img[src$=\"gif\"]","trigger":"click","overlay":false,"responsive":true,"warnings":true}</script>
+    <script src="libs/xaringanExtra-progressBar/progress-bar.js"></script>
+    <script src="https://use.fontawesome.com/5235085b15.js"></script>
+    <link rel="stylesheet" href="custom.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# 1.2 — Budget Constraint
+## ECON 306 • Microeconomic Analysis • Fall 2021
+### Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/microF21"><i class="fa fa-github fa-fw"></i>ryansafner/microF21</a><br> <a href="https://microF21.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>microF21.classes.ryansafner.com</a><br>
+
+---
+
+
+
+
+class: inverse
+
+# Outline
+
+### [Rational Choice Theory](#4)
+### [The Budget Constraint](#17)
+### [Opportunity Cost](#31)
+### [Changes in Market Conditions](#39)
+
+---
+
+# The Two Major Models of Economics as a "Science"
+
+.pull-left[
+
+## Optimization
+
+- Agents have .hi[objectives] they value
+
+- Agents face .hi[constraints]
+
+- Make .hi[tradeoffs] to maximize objectives within constraints
+
+.center[
+![](../images/optimize.jpeg)
+]
+]
+
+.pull-right[
+
+## Equilibrium
+
+- Agents .hi[compete] with others over **scarce** resources
+
+- Agents .hi[adjust] behaviors based on prices
+
+- .hi[Stable outcomes] when adjustments stop
+
+.center[
+![](../images/equilibriumbalance.png)
+]
+]
+
+---
+
+class: inverse, center, middle
+
+# Rational Choice Theory
+
+---
+
+# The Logic of Choice: Ends and Means
+
+.pull-left[
+- Each of us acts .hi-purple[purposefully]
+
+- We have .hi[ends], goals, desires, objectives, etc
+
+- We use .hi[means] in the world that we believe will achieve our ends
+
+]
+
+.pull-right[
+
+![](../images/goal.png)
+]
+
+---
+
+# The Logic of Choice: Purpose
+
+.pull-left[
+
+- Acting with .hi-purple[purpose] distinguishes humans from everything else in the universe
+
+- Artificial intelligence researchers face .hi-turquoise["the frame problem"]
+    - We thought: computation is hard, perception is easy
+    - We've found: computation is easy, perception is hard!
+
+]
+
+.pull-right[
+
+.center[
+![](../images/ai.png)
+]
+]
+
+---
+
+# Causal Inference I
+
+.pull-left[
+- Machine learning and artificial intelligence are "dumb"
+
+- With the right models and research designs, we *can* say "X causes Y" and quantify it!
+
+- Economists are in a unique position to make *causal* claims that mere statistics cannot
+]
+
+.pull-right[
+![](../images/coding.jpeg)
+]
+
+.source[For more, see [my blog post](https://ryansafner.com/post/econometrics-data-science-and-causal-inference/), and Pearl &amp; MacKenzie (2018), *The Book of Why*]
+---
+
+# Causal Inference II
+
+.pull-left[
+.center[
+![](../images/econtechcompanies.png)
+[Harvard Business Review](https://hbr.org/2019/02/why-tech-companies-hire-so-many-economists)
+]
+]
+.pull-right[
+
+.smallest[
+"First, the field of economics has spent decades developing a toolkit aimed at investigating empirical relationships, focusing on techniques to help understand which correlations speak to a causal relationship and which do not. This comes up all the time — does Uber Express Pool grow the full Uber user base, or simply draw in users from other Uber products? Should eBay advertise on Google, or does this simply syphon off people who would have come through organic search anyway? Are African-American Airbnb users rejected on the basis of their race? These are just a few of the countless questions that tech companies are grappling with, investing heavily in understanding the extent of a causal relationship."
+]
+]
+
+---
+
+# Goods and Services
+
+.pull-left[
+
+- Actions that satisfy human desires provide a .hi[service]
+
+- An object that can provide services is called an .hi[economic good] or a .hi[resource]
+
+]
+
+.pull-right[
+.center[
+![:scale 50%](../images/veggies.png)
+
+![](../images/service.png)
+]
+
+]
+
+---
+
+# Consumption
+
+.pull-left[
+
+- Goods and services provide ".hi[utility]" (satisfaction of a desire) when we .hi[consume] them 
+
+]
+
+.pull-right[
+.center[
+![](../images/happiness.png)
+]
+]
+
+---
+
+# Bads
+
+.pull-left[
+
+- An .hi[economic bad] is something that hinders our ability to satisfy our desires
+
+]
+
+.pull-right[
+.center[
+
+![](../images/pollution.png)
+
+]
+]
+
+---
+
+# The Law of Demand
+
+.pull-left[
+- Perhaps the most fundamental economic “law” is the .hi[law of demand]: 
+  - **inverse relationship between price and quantity consumed**
+  - i.e. demand curves slope downwards
+
+- We investigate its source, and derive more useful properties
+
+- First, we will need to develop a more rigorous framework
+
+]
+
+.pull-right[
+.center[
+![](../images/pricetag.jpg)
+]
+]
+
+---
+# Rational Choice Theory
+
+.pull-left[
+
+- How do people decide:
+  - which products to buy
+  - which activities to dedicate their time to
+  - how to save or invest/plan for the future
+
+- .hi[Rational choice theory]: assume that they .hi[optimize] within constraints
+
+- A model of behavior we can extend to most scenarios
+]
+
+.pull-right[
+
+.center[
+![:scale 100%](../images/groceryaisle.jpg)
+]
+]
+
+---
+
+# Rational Choice Theory: Beyond Consumers
+
+.pull-left[
+
+- Often called .hi[“Consumer Theory”] in textbooks, but realize:
+
+- .hi-turquoise[*Everyone* is “a consumer”]
+  - "Goods and services" aren't just food, clothing, etc, but *anything* that you value! (free time, friendship, reputation, etc.)
+  - Producers demand productive inputs
+
+- We are really modeling how **individuals** make choices in almost *any* context!
+]
+
+.pull-right[
+
+.center[
+![:scale 100%](../images/groceryaisle.jpg)
+]
+]
+
+---
+
+# Consumption Bundles
+
+.pull-left[
+
+- Imagine a (very strange) supermarket sells xylophones `\((x)\)` and yams `\((y)\)`
+
+- Your choices: amounts of `\(\{x, y\}\)` to consume as a .hi-purple[bundle]
+
+]
+
+.pull-right[
+.center[
+![:scale 100%](../images/groceryaisle.jpg)
+]
+]
+
+---
+
+# Consumption Bundles: Graphically
+
+.pull-left[
+
+- We can represent bundles graphically
+
+- We'll stick with 2 goods `\((x, y)\)` in 2-dimensions&lt;sup&gt;.magenta[†]&lt;/sup&gt;
+
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+.hi-green[Example]:
+- `\(x\)`: 2 units
+- `\(y\)`: 3 units
+]
+]
+
+.pull-right[
+&lt;img src="1.2-slides_files/figure-html/unnamed-chunk-1-1.png" width="504" style="display: block; margin: auto;" /&gt;
+]
+
+.footnote[&lt;sup&gt;.magenta[†]&lt;/sup&gt; See [appendix](content/1.2-content/#math-appendix) in today's class page to extend to *n* goods!]
+
+---
+
+class: inverse, center, middle
+# The Budget Constraint
+
+---
+
+# Affordability
+
+.pull-left[
+
+- If you had $100 to spend, what bundles of goods `\(\{x, y\}\)` would you buy?
+
+- Only those bundles that are .hi-purple[affordable]
+
+- Denote prices of each good as `\(\{\color{#e64173}{p_x}, \color{#e64173}{p_y}\}\)`
+
+- Let `\(\color{#e64173}{m}\)` be the amount of income a person has
+
+]
+
+.pull-right[
+.center[
+![:scale 100%](https://www.dropbox.com/s/dv8ce57s6azr8e8/groceryaisle.jpg?raw=1)
+]
+]
+
+---
+
+# Affordability
+
+.pull-left[
+
+- If you had $100 to spend, what bundles of goods `\(\{x, y\}\)` would you buy?
+
+- Only those bundles that are .hi-purple[affordable]
+
+- Denote prices of each good as `\(\{\color{#e64173}{p_x}, \color{#e64173}{p_y}\}\)`
+
+- Let `\(\color{#e64173}{m}\)` be the amount of income a person has
+
+- A bundle `\(\{x, y\}\)` is .hi-purple[affordable] at given prices `\(\{p_x,p_y\}\)` when:
+
+`$$p_x x+p_y y \leq m$$`
+]
+
+.pull-right[
+.center[
+![:scale 100%](../images/groceryaisle.jpg)
+]
+]
+
+---
+
+# The Budget Set
+
+.pull-left[
+
+- The set of *all* affordable bundles that a consumer can choose is called the .hi[budget set] or .hi[choice set]
+
+`$$p_x x+p_y y \leq m$$`
+
+]
+
+.pull-right[
+.center[
+![:scale 100%](../images/groceryaisle.jpg)
+]
+]
+
+---
+
+# The Budget Set &amp; the Budget Constraint
+
+.pull-left[
+
+- The set of *all* affordable bundles that a consumer can choose is called the .hi[budget set] or .hi[choice set]
+
+`$$p_x x+p_y y \leq m$$`
+
+- The .hi[budget *constraint*] is the set of all bundles that spend *all income* `\(m\)`:&lt;sup&gt;.hi[†]&lt;/sup&gt;
+
+`$$p_x x+p_y y = m$$`
+
+]
+
+.pull-right[
+.center[
+![:scale 100%](../images/groceryaisle.jpg)
+]
+]
+
+.footnote[&lt;sup&gt;.hi[†]&lt;/sup&gt; Note the difference (the in/equality): budget *constraint* is the **subset** of the *budget set* that *spends all income*.]
+
+---
+
+# The Budget Constraint, Graphically
+
+.pull-left[
+
+- For 2 goods, `\((x, y)\)`
+
+`$$p_xx+p_yy=m$$`
+
+]
+
+---
+
+# The Budget Constraint, Graphically
+
+.pull-left[
+
+- For 2 goods, `\((x, y)\)`
+
+`$$p_xx+p_yy=m$$`
+
+- Solve for `\(y\)` to graph
+
+`$$y=\frac{m}{p_y}-\frac{p_x}{p_y}x$$`
+
+]
+
+.pull-right[
+
+
+&lt;img src="1.2-slides_files/figure-html/BC-plot0-1.png" width="432" style="display: block; margin: auto;" /&gt;
+]
+
+---
+
+# The Budget Constraint, Graphically
+
+.pull-left[
+- For 2 goods, `\((x, y)\)`
+
+`$$p_xx+p_yy=m$$`
+
+- Solve for `\(y\)` to graph
+
+`$$y=\frac{m}{p_y}-\frac{p_x}{p_y}x$$`
+
+- `\(y\)`-intercept: `\(\frac{m}{p_y}\)`
+- `\(x\)`-intercept: `\(\frac{m}{p_x}\)`
+]
+
+.pull-right[
+
+&lt;img src="1.2-slides_files/figure-html/BC-plot1-1.png" width="432" style="display: block; margin: auto;" /&gt;
+]
+
+---
+
+# The Budget Constraint, Graphically
+
+.pull-left[
+
+- For 2 goods, `\((x, y)\)`
+
+`$$p_xx+p_yy=m$$`
+
+- Solve for `\(y\)` to graph
+
+`$$y=\frac{m}{p_y}-\frac{p_x}{p_y}x$$`
+
+- `\(y\)`-intercept: `\(\frac{m}{p_y}\)`
+- `\(x\)`-intercept: `\(\frac{m}{p_x}\)`
+- slope: `\(-\frac{p_x}{p_y}\)`
+
+]
+
+.pull-right[
+&lt;img src="1.2-slides_files/figure-html/BC-plot2-1.png" width="432" style="display: block; margin: auto;" /&gt;
+]
+
+---
+
+# The Budget Constraint, Graphically
+
+.pull-left[
+
+- For 2 goods, `\((x, y)\)`
+
+`$$p_xx+p_yy=m$$`
+
+- Solve for `\(y\)` to graph
+
+`$$y=\frac{m}{p_y}-\frac{p_x}{p_y}x$$`
+
+- `\(y\)`-intercept: `\(\frac{m}{p_y}\)`
+- `\(x\)`-intercept: `\(\frac{m}{p_x}\)`
+- slope: `\(-\frac{p_x}{p_y}\)`
+
+]
+
+.pull-right[
+&lt;img src="1.2-slides_files/figure-html/BC-plot3-1.png" width="432" style="display: block; margin: auto;" /&gt;
+]
+
+---
+
+# The Budget Constraint: Example
+
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+.hi-green[**Example**]: Suppose you have an income of $50 to spend on lattes `\((l)\)` and burritos `\((b)\)`. The price of lattes is $5 and the price of burritos is $10. 
+
+Let `\(l\)` be on the horizontal axis and `\(b\)` be on the vertical axis.
+
+1. Write an equation for the budget constraint (in graphable form).
+
+2. Graph the budget constraint.
+]
+
+---
+
+# Interpreting the Budget Constraint
+
+.pull-left[
+
+- Points .hi-blue[on the line] spend all income
+  - A: \\($5(0x)+$10(5y) = $50\\) 
+  - B: \\($5(10x)+$10(0y) = $50\\)
+  - C: \\($5(2x)+$10(4y) = $50\\) 
+  - D: \\($5(6x)+$10(2y) = $50\\)
+
+
+]
+
+.pull-right[
+
+
+
+&lt;img src="1.2-slides_files/figure-html/BC2-plot1-1.png" width="432" style="display: block; margin: auto;" /&gt;
+]
+
+---
+
+# Interpreting the Budget Constraint
+
+.pull-left[
+
+- Points .hi-blue[on the line] spend all income
+  - A: \\($5(0x)+$10(5y) = $50\\) 
+  - B: \\($5(10x)+$10(0y) = $50\\)
+  - C: \\($5(2x)+$10(4y) = $50\\) 
+  - D: \\($5(6x)+$10(2y) = $50\\)
+
+- Points .hi-green[beneath] the line are .hi-green[affordable] but don't use all income
+  - E: \\($5(3x)+$10(2y) = $35\\) 
+
+
+]
+
+.pull-right[
+
+&lt;img src="1.2-slides_files/figure-html/BC2-plot2-1.png" width="432" style="display: block; margin: auto;" /&gt;
+]
+
+---
+
+# Interpreting the Budget Constraint
+
+.pull-left[
+
+- Points .hi-blue[on the line] spend all income
+  - A: \\($5(0x)+$10(5y) = $50\\) 
+  - B: \\($5(10x)+$10(0y) = $50\\)
+  - C: \\($5(2x)+$10(4y) = $50\\) 
+  - D: \\($5(6x)+$10(2y) = $50\\)
+
+- Points .hi-green[beneath] the line are .hi-green[affordable] but don't use all income
+  - E: \\($5(3x)+$10(2y) = $35\\) 
+
+- Points .hi-red[above] the line are .hi-red[unaffordable] (at current income and prices)
+  - F: \\($5(6x)+$10(4y) = $70\\) 
+
+]
+
+.pull-right[
+
+&lt;img src="1.2-slides_files/figure-html/BC2-plot3-1.png" width="432" style="display: block; margin: auto;" /&gt;
+]
+
+---
+
+class: inverse, center, middle
+# Opportunity Cost
+
+---
+
+# Interpretting the Slope
+
+.pull-left[
+
+- **Slope**: .hi-purple[tradeoff] between `\(x\)` and `\(y\)` at market prices
+  - Market .hi-purple[“exchange rate”] between `\(x\)` and `\(y\)`
+
+- .hi-purple[*Relative* price] of `\(x\)`, or the .hi-purple[opportunity cost] of `\(x\)`:
+
+&gt; Consuming 1 more unit of `\(x\)` requires giving up `\(\left(\frac{p_x}{p_y}\right)\)` units of `\(y\)`
+
+]
+
+.pull-right[
+&lt;img src="1.2-slides_files/figure-html/BC-slope-plot-1.png" width="432" style="display: block; margin: auto;" /&gt;
+]
+
+---
+
+# Opportunity Cost
+
+.pull-left[
+
+- .hi[Opportunity cost]: value of next best foregone opportunity
+
+- Even though we have prices denoted in dollars, when you consume x, you're really giving up .hi-turquoise[the opportunity to consume y]!
+  - (in fact, we can do this without money, and it would be the same)
+
+]
+
+.pull-right[
+&lt;img src="1.2-slides_files/figure-html/unnamed-chunk-2-1.png" width="432" style="display: block; margin: auto;" /&gt;
+]
+
+---
+
+# The Parable of the Broken Window
+
+.left-column[
+.center[
+![:scale 85%](../images/bastiat.png)
+
+Frederic Bastiat
+
+1801-1850
+]
+]
+
+.right-column[
+
+- *That Which is Seen and That Which is Not Seen*
+
+]
+
+---
+
+# The Parable of the Broken Window
+
+.left-column[
+.center[
+![:scale 85%](../images/bastiat.png)
+
+Frederic Bastiat
+
+1801-1850
+]
+]
+
+.right-column[
+
+- *That Which is Seen and That Which is Not Seen*
+
+- "That which is seen"
+    - The broken window
+    - Resources diverted into glassmaking
+]
+
+---
+
+# The Parable of the Broken Window
+
+.left-column[
+.center[
+![:scale 85%](../images/bastiat.png)
+
+Frederic Bastiat
+
+1801-1850
+]
+]
+
+.right-column[
+
+- *That Which is Seen and That Which is Not Seen*
+
+- "That which is seen"
+    - The broken window
+    - Resources diverted into glassmaking
+
+- "That which is not seen"
+    - Opportunity cost of fixing the window
+    - Resources diverted *away* from other opportunities
+]
+
+---
+
+# Applying the Parable of the Broken Window
+
+.pull-left[
+
+- What does it mean to say that **"spending money 'stimulates' the economy"?**
+
+]
+
+.pull-right[
+
+.center[
+![:scale 100%](../images/disappear.jpg)
+]
+]
+
+---
+
+# Applying the Parable of the Broken Window
+
+.pull-left[
+
+- What does it mean to say that **"spending money 'stimulates' the economy"?** 
+
+- Scarce resources used in one industry can **not** be used in other industries
+
+- .hi-purple[Every (visible) decision to spend on X yields more X, and destroys an (invisible) opportunity to spend on Y]
+
+]
+
+.pull-right[
+
+.center[
+![:scale 100%](../images/disappear.jpg)
+]
+]
+
+---
+
+class: inverse, center, middle
+# Changes in Market Conditions
+
+---
+
+# Changes in Market Conditions
+
+.pull-left[
+
+`$$\begin{aligned}
+\color{#e64173}{m} &amp;= \color{#e64173}{p_x} x + \color{#e64173}{p_y} y\\
+y &amp;= \frac{\color{#e64173}{m}}{\color{#e64173}{p_y}}-\frac{\color{#e64173}{p_x}}{\color{#e64173}{p_y}}x\\
+\end{aligned}$$`
+
+- Budget constraint is a function of specific .hi-purple[parameters]
+  - `\(\color{#e64173}{m}\)`: income
+  - `\(\color{#e64173}{p_x}, \color{#e64173}{p_y}\)`: market prices
+
+- Economic analysis: .hi-turquoise[how changes in constraints affect people's choices]
+  - “incentives”
+
+]
+
+.pull-right[
+
+.center[
+![](../images/choices.jpg)
+]
+]
+
+---
+
+# Changes in Income, `\(m\)`
+
+.pull-left[
+
+- Changes in .hi-purple[income] `\(\implies\)` a *parallel* shift
+
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+.hi-green[**Example**]: Income increases `\(m_1 \rightarrow m_2\)`
+
+- Slope unchanged (no change in prices!)
+
+- .hi-green[Gain of affordable bundles]
+
+]
+
+- Exact opposite shift for a .hi-red[decrease in income]
+
+]
+
+.pull-right[
+
+
+&lt;img src="1.2-slides_files/figure-html/BC-m-change-plot-1.png" width="432" style="display: block; margin: auto;" /&gt;
+]
+
+---
+
+# Changes in Income, `\(m\)`: Example
+
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+.hi-green[Example]: Continuing the lattes and burritos example, (income is $50, lattes are $5, burritos are $10), suppose your income doubles to $100.
+
+1. Find the equation of the new budget constraint (in graphable form).
+
+2. Graph the new budget constraint.
+]
+
+---
+
+# Changes in Relative Prices, `\(p_x\)` or `\(p_y\)`
+
+.pull-left[
+
+- Change in .hi-purple[relative prices]: *rotate* the budget constraint
+
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+.hi-green[**Example**]: An **increase** in the price of `\(x\)`
+
+- Slope steepens: `\(-\frac{p_x'}{p_y}\)`
+
+- .hi-red[Loss of affordable bundles]
+]
+]
+
+.pull-right[
+
+
+&lt;img src="1.2-slides_files/figure-html/BC-x-change-plot-1.png" width="432" style="display: block; margin: auto;" /&gt;
+]
+
+---
+
+# Changes in Relative Prices, `\(p_x\)` or `\(p_y\)`
+
+.pull-left[
+
+- Changes in .hi-purple[relative prices]: *rotate* the budget constraint
+
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+.hi-green[**Example**]: A decrease in the price of `\(y\)`
+
+- Slope steepens: `\(-\frac{p_x}{p_y'}\)`
+
+- .hi-green[Gain of affordable bundles]
+]
+]
+
+.pull-right[
+
+
+&lt;img src="1.2-slides_files/figure-html/BC-y-change-plot-1.png" width="432" style="display: block; margin: auto;" /&gt;
+]
+
+---
+
+# Economics is About (Changes in) *Relative* Prices
+
+.pull-left[
+
+- .hi-purple[Economic analysis is about (changes in) *relative* prices]
+
+- Budget constraint slope (opportunity cost of x) is `\(-\left(\frac{p_x}{p_y}\right)\)`
+
+- Only .hi-turquoise["real"] changes in *relative* prices (from changes in market conditions) change consumer constraints (and alter behavior)
+
+- i.e. not “the price of `\(x\)`,” its about “the price of x *relative to the price of y*”!
+
+]
+
+.pull-right[
+
+.center[
+![:scale 80%](../images/scale.png)
+]
+]
+
+---
+
+# Economics is About (Changes in) *Relative* Prices
+
+.pull-left[
+
+- .hi-turquoise[“Nominal”] prices are often meaningless!
+  - Need to make *comparisons* between prices of different goods
+
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+.hi-green[Example]: Imagine yourself in a strange country. All you know is that the price of bread, in local currency, is “6”...
+]
+]
+.pull-right[
+
+.center[
+![:scale 80%](../images/scale.png)
+]
+]
+
+---
+
+# Changes in Relative Prices: Example
+
+.bg-washed-green.b--dark-green.ba.bw2.br3.shadow-5.ph4.mt5[
+**Example**: Continuing the lattes and burritos example (income is $50, lattes are $5, burritos are $10).
+
+1. Suppose the price of lattes doubles from $5 to $10. Find the equation of the new budget constraint and graph it.
+
+2. Return to the original price of lattes ($5) and suppose the price of burritos falls from $10 to $5. Find the equation of the new budget constraint and graph it.
+]
+
+---
+
+# Budget Constraint and the Law of Demand
+
+.pull-left[
+
+- Recall the .hi[law of demand]
+
+- We can derive it right off the budget constraint!
+  - As `\(\uparrow p_x\)`, person can consume less `\(x\)`
+  - As `\(\downarrow p_x\)`, person can consume more `\(x\)`
+
+- Notice I have made **no assumptions** about rationality, preferences, utility, etc to get this!
+
+]
+
+.pull-right[
+&lt;img src="1.2-slides_files/figure-html/unnamed-chunk-3-1.png" width="504" style="display: block; margin: auto;" /&gt;
+
+]
+
+---
+
+# Markets Do Not Require Individual Rationality
+
+.pull-left[
+- A lot of griping about "rationality" and whether people are truly "rational"
+  - [Behavioral economics](https://en.wikipedia.org/wiki/Behavioral_economics), for example
+
+- The law of demand does not require rational people! (utility-maximizers, etc)
+  - or markets, for that matter, it's the direct result of .hi[scarcity]
+
+- This is important: .hi-turquoise[markets don't *require* rational people, they *make* people rational!]
+]
+
+.pull-right[
+.center[
+![](../images/mind.png)
+]
+]
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="macros.js"></script>
+<script src="https://platform.twitter.com/widgets.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "ocean",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9",
+"slideNumberFormat": "<div class=\"progress-bar-container\">\n  <div class=\"progress-bar\" style=\"width: calc(%current% / %total% * 100%);\">\n  </div>\n</div>\n"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

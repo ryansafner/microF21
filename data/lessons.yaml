@@ -10,7 +10,10 @@ lessons:
     slides: "1.1-slides"
 
   - title: "1.2 — Budget Constraint"
-
+    content: "1.2-content"
+    slides: "1.2-slides"
+    practice: "1.2-practice"
+    
   - title: "1.3 — Preferences"
 
   - title: "1.4 —Utility Maximization"

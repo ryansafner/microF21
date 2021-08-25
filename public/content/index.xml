@@ -37,7 +37,7 @@
 
 &lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
-    &lt;em&gt;Monday, February 1, 2021&lt;/em&gt;
+    &lt;em&gt;Monday, August 23, 2021&lt;/em&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
@@ -86,6 +86,133 @@ A message to students from the Doggfather himself, &lt;a href=&#34;https://twitt
 &lt;h3&gt;Preliminary Math Survey Due Sunday August 23&lt;/h3&gt;
 &lt;p&gt;Please take the &lt;a href=&#34;https://microf21.classes.ryansafner.com/assignments/00-preliminary-survey&#34;&gt;preliminary math survey&lt;/a&gt; on your math background by 11:59 PM Sunday August 23. This will help us all have a productive course together.&lt;/p&gt;
 &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>1.2 — Budget Constraint — Class Content</title>
+      <link>https://microf21.classes.ryansafner.com/content/1.2-content/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://microf21.classes.ryansafner.com/content/1.2-content/</guid>
+      <description>
+&lt;script src=&#34;https://microf21.classes.ryansafner.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#overview&#34;&gt;&lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt; Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#readings&#34;&gt;&lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt; Readings&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#optionalreferenced-readings&#34;&gt;Optional/Referenced Readings&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#slides&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Slides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#practice&#34;&gt;&lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt; Practice&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#optionalreferenced-readings-1&#34;&gt;Optional/Referenced Readings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#slides-1&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Slides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#assignments&#34;&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; Assignments&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#preliminary-math-survey-due-sunday-august-23&#34;&gt;Preliminary Math Survey Due Sunday August 23&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#math-appendix&#34;&gt;&lt;i class=&#34;fas fa-sigma&#34;&gt;&lt;/i&gt; Math Appendix&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#budget-constraint-for-n-goods&#34;&gt;Budget Constraint for &lt;span class=&#34;math inline&#34;&gt;\(n\)&lt;/span&gt; Goods&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;em&gt;Wednesday, August 25, 2021&lt;/em&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    Please complete the &lt;a href=&#34;https://microf21.classes.ryansafner.com/assignment/00-preliminary-survey&#34;&gt;preliminary survey&lt;/a&gt; by Sunday August 29.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;div id=&#34;overview&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt; Overview&lt;/h1&gt;
+&lt;p&gt;We are diving right into what is commonly called &lt;a href=&#34;https://en.wikipedia.org/wiki/Consumer_choice&#34;&gt;“Consumer Theory”&lt;/a&gt; in textbooks. While our paradigmatic example will indeed be a consumer deciding what goods and services to purchase, please recognize that this model can be applied to just about &lt;em&gt;any&lt;/em&gt; decision made by an individual. We should more appropriately describe it as &lt;a href=&#34;https://en.wikipedia.org/wiki/Rational_choice_theory&#34;&gt;“Rational Choice Theory”&lt;/a&gt;. This will take several classes to fully unpack as our formal model of &lt;strong&gt;constrained optimization&lt;/strong&gt;, so today we are only focusing on the &lt;em&gt;constraints&lt;/em&gt; using the tool known as the “budget constraint.”&lt;/p&gt;
+&lt;p&gt;While budget constraints are fairly straightforward, consumer theory often the most “alien” material to students of economics: preferences, indifference curves, and utility functions derived from behavioral axioms. The model we put together—constrained optimization—is borrowed from calculus and engineering. In my opinion, a good chunk of consumer theory, particularly about preferences (next class), is a waste of your time and will give you unnecessary anxiety. It’s perhaps neat for you to see how economists ground all of their models in utility-maximization, but our time is better spent on more productive things. If, however, you plan on going to graduate school for economics or social science, &lt;strong&gt;read this chapter, and my online appendices, in great detail.&lt;/strong&gt;&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;As it is still only the first week of class: if you have not done so, please watch my welcome video, read the announcements in Blackboard, take my survey, and join our class slack channel.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;readings&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt; Readings&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-book&#34;&gt;&lt;/i&gt; Ch. 4.3 in Goolsbee, Levitt, and Syverson, 2019&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-external-link-square-alt&#34;&gt;&lt;/i&gt; Bastiat, 1848 &lt;a href=&#34;https://www.econlib.org/library/Bastiat/basEss.html?chapter_num=4#book-reader&#34;&gt;“What is Seen and Not Seen”&lt;/a&gt;, (Section 1)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://microf21.classes.ryansafner.com/files/math_review_guide.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Math Review Guide&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Now that we are picking up the intensity and working with some models (many will be new to you at first), I recommend looking at the textbook readings &lt;em&gt;before&lt;/em&gt; each class.&lt;/p&gt;
+&lt;p&gt;If you are following the textbook, we are going a bit out of order in two ways. It ggoes straight into (a review of principles, really) supply &amp;amp; demand in Chapters 1-3. We will ultimately get to supply and demand, but if you trust me, by the time we do later this semester, you will have a &lt;em&gt;much&lt;/em&gt; richer understanding and appreciation for them, having understood &lt;strong&gt;how they represent the decisions by optimizing individuals as buyers and sellers.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;It begins “Consumer Theory” as chapter 4. It also stars with the “newer” and “weirder” stuff first — indifference curves and utility functions, and then teaches budget constraints second. I will go in the &lt;em&gt;opposite&lt;/em&gt; order to slowly acclimate you from familiar territory (linear equations) into newer tools and concepts (nonlinear functions, multivariate functions, optimization, etc). This is also a good time to review my &lt;a href=&#34;https://microf21.classes.ryansafner.com/files/math_review_guide.pdf&#34;&gt;Math Review Guide&lt;/a&gt; for next week.&lt;/p&gt;
+&lt;p&gt;The Bastiat reading is perhaps one of the greatest economic parables ever written, and demonstrates the importance of opportunity cost in clear thinking (especially about policy).&lt;/p&gt;
+&lt;div id=&#34;optionalreferenced-readings&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Optional/Referenced Readings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ryansafner.com/post/econometrics-data-science-and-causal-inference/&#34;&gt;&lt;i class=&#34;fas fa-external-link-square-alt&#34;&gt;&lt;/i&gt; Safner, 2019, “Econometrics, Data Science, and Causal Inference” (blog post)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Slides&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://microf21.classes.ryansafner.com/slides/1.2-slides.html&#34;&gt;&lt;img src=&#34;https://microf21.classes.ryansafner.com/slides/1.2-slides.png&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://microf21.classes.ryansafner.com/slides/1.2-slides.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download as PDF&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;practice&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt; Practice&lt;/h1&gt;
+&lt;p&gt;Today we will be working on &lt;a href=&#34;https://microf21.classes.ryansafner.com/practice/1.2-practice&#34;&gt;practice problems&lt;/a&gt;. Answers will be posted later on that page.&lt;/p&gt;
+&lt;div id=&#34;optionalreferenced-readings-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Optional/Referenced Readings&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;July 2 2003, &lt;a href=&#34;https://www.theguardian.com/science/2003/jul/03/research.science&#34;&gt;&lt;i class=&#34;fas fa-external-link-square-alt&#34;&gt;&lt;/i&gt; “Why Dolphins are Deep Thinkers”&lt;/a&gt;, &lt;em&gt;The Guardian&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;January 17, 2021, &lt;a href=&#34;https://gizmodo.com/these-monkeys-understand-economics-and-intentionally-st-1846078932?utm_medium=sharefromsite&amp;amp;utm_source=_facebook&#34;&gt;&lt;i class=&#34;fas fa-external-link-square-alt&#34;&gt;&lt;/i&gt; These Monkeys Understand Economics and Intentionally Steal High-Ticket Items to Barter for Better Food, Study Finds&lt;/a&gt;, &lt;em&gt;Gizmodo&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Slides&lt;/h2&gt;
+&lt;p&gt;Below, you can find the slides in two formats. Clicking the image will bring you to the html version of the slides in a new tab. Note while in going through the slides, you can type &lt;kbd&gt;h&lt;/kbd&gt; to see a special list of viewing options, and type &lt;kbd&gt;o&lt;/kbd&gt; for an outline view of all the slides.&lt;/p&gt;
+&lt;p&gt;The lower button will allow you to download a PDF version of the slides. I suggest printing the slides beforehand and using them to take additional notes in class (&lt;em&gt;not everything&lt;/em&gt; is in the slides)!&lt;/p&gt;
+&lt;p&gt;
+&lt;p style=&#34;text-align:center;&#34;&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://microf21.classes.ryansafner.com/slides/1.2-slides.html&#34;&gt;&lt;img src =&#34;/slides/1.2-slides.png&#34; alt = &#34;1.2-slides&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&#34;text-align:center;&#34;&gt;&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://microf21.classes.ryansafner.com/slides/1.2-slides.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download as PDF&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;assignments&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; Assignments&lt;/h2&gt;
+&lt;div id=&#34;preliminary-math-survey-due-sunday-august-23&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Preliminary Math Survey Due Sunday August 23&lt;/h3&gt;
+&lt;p&gt;Please take the &lt;a href=&#34;https://microf21.classes.ryansafner.com/assignments/00-preliminary-survey&#34;&gt;preliminary math survey&lt;/a&gt; on your math background by 11:59 PM Sunday August 23. This will help us all have a productive course together.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;math-appendix&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;i class=&#34;fas fa-sigma&#34;&gt;&lt;/i&gt; Math Appendix&lt;/h1&gt;
+&lt;div id=&#34;budget-constraint-for-n-goods&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Budget Constraint for &lt;span class=&#34;math inline&#34;&gt;\(n\)&lt;/span&gt; Goods&lt;/h2&gt;
+&lt;p&gt;While we can derive a lot of useful propositions and testable claims using a simple model with just 2 goods, obviously there are many orders of magnitude more goods in an economy. Economics at the graduate and professional level begins with abstract models of &lt;span class=&#34;math inline&#34;&gt;\(n\)&lt;/span&gt; number of goods in an economy. Naturally, we cannot graph this, so we must deal in abstract equations and set theory:&lt;/p&gt;
+&lt;p&gt;Let &lt;span class=&#34;math inline&#34;&gt;\(\{x_1, x_2, \cdots, x_n\}\)&lt;/span&gt; denote the set of &lt;span class=&#34;math inline&#34;&gt;\(n\)&lt;/span&gt; goods in an economy. Let &lt;span class=&#34;math inline&#34;&gt;\(\{p_1,p_2, \cdots, p_n\}\)&lt;/span&gt; denote the set of market prices affiliated with each good. Let &lt;span class=&#34;math inline&#34;&gt;\(m\)&lt;/span&gt; again denote an individual’s income.&lt;/p&gt;
+&lt;p&gt;For &lt;span class=&#34;math inline&#34;&gt;\(n\)&lt;/span&gt; goods, the budget set is defined as:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[p_1x_1 + p_2x_2 + \cdots + p_n x_n \leq m\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Which we can simplify, using &lt;a href=&#34;https://metricsf20.classes.ryansafner.com/class/2.1-class/#the-summation-operator&#34;&gt;summation notation&lt;/a&gt;, as:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\sum^{n}_{i=1}p_ix_i \leq m\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;To get the limit of this set, the budget constraint, make it an equality:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\sum^{n}_{i=1}p_ix_i = m\]&lt;/span&gt;
+As usual, this simply says that one’s total expenditures (on all goods) on the left-hand side, must be equal to one’s income on the right-hand side.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;And see &lt;a href=&#34;https://twitter.com/graykimbrough/status/1291017699481575424&#34;&gt;this tweet&lt;/a&gt; for an 100% accurate example of what you can expect in a common Ph.D textbook discussing preferences.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
 </description>
     </item>
