@@ -34,7 +34,6 @@ As it is still only the first week of class: if you have not done so, please wat
 
 - <i class="fas fa-book"></i> Ch. 4.3 in Goolsbee, Levitt, and Syverson, 2019
 - <i class="fas fa-external-link-square-alt"></i> Bastiat, 1848 [“What is Seen and Not Seen”](https://www.econlib.org/library/Bastiat/basEss.html?chapter_num=4#book-reader), (Section 1)
-- [<i class="fas fa-file-pdf"></i> Math Review Guide](/files/math_review_guide.pdf) 
 
 Now that we are picking up the intensity and working with some models (many will be new to you at first), I recommend looking at the textbook readings *before* each class.
 
