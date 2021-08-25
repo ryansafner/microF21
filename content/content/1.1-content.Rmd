@@ -18,6 +18,10 @@ slides: "1.1-slides"
 *Monday, February 1, 2021*
 {{% /alert %}}
 
+{{% alert warning %}}
+Please complete the [preliminary survey](/assignment/00-preliminary-survey) by Sunday August 29.
+{{% /alert %}}
+
 ## <i class="fas fa-info-circle fa-lg"></i> Overview
 
 <span class="newthought">Welcome</span> to ECON 306 — Microeconomic Analysis! Today's lesson will be an overview of the content and the assignments of the course. Please read and familiarize yourself with the [syllabus](/syllabus). 
