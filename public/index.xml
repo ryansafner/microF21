@@ -63,6 +63,16 @@
     </item>
     
     <item>
+      <title>Overview</title>
+      <link>https://microf21.classes.ryansafner.com/practice/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://microf21.classes.ryansafner.com/practice/</guid>
+      <description>&lt;p&gt;Here are all practice problems we do in class. Answers are posted after class on the original page.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Resources</title>
       <link>https://microf21.classes.ryansafner.com/resources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -84,15 +94,6 @@
 &lt;p&gt;The inspiration for making individual course websites, along with the basic structure, comes from the incomparable &lt;a href=&#34;https://andrewheiss.com&#34;&gt;Andrew Heiss&lt;/a&gt;. See his website for examples, as well as a number of helpful tutorials. Sadly, I had to figure out how these websites work on my own, and attempted to document my process in the README of &lt;a href=&#34;https://github.com/ryansafner/classwebtest&#34;&gt;this repository&lt;/a&gt; for those interested. One day I may make a guide.&lt;/p&gt;
 &lt;p&gt;The course hex sticker I made via &lt;a href=&#34;https://github.com/GuangchuangYu/hexSticker&#34;&gt;hexSticker&lt;/a&gt;, and keep all of my course hex stickers in &lt;a href=&#34;https://github.com/ryansafner/hexstickers&#34;&gt;this repository&lt;/a&gt;.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Practices</title>
-      <link>https://microf21.classes.ryansafner.com/practice/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://microf21.classes.ryansafner.com/practice/</guid>
-      <description></description>
     </item>
     
     <item>
