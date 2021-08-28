@@ -13,21 +13,13 @@ output:
     toc: false
 ---
 ```{r message=FALSE, warning=FALSE, include=FALSE}
-library(tidyverse)
-library(pander)
+#library(tidyverse)
+#library(pander)
 ```
 
 <p style="text-align:center"><a target="_blank" href="/practice/1.2-practice-pdf.pdf"><span class="btn btn-primary btn-lg"><i class="fas fa-file-pdf"></i> Download PDF</a></span> <a target="_blank" href="/practice/1.2-practice-answers.html"><span class="btn btn-primary btn-lg"><i class="far fa-life-ring"></i> Answer Key</a></span></p>
 
-You can get music via downloads ($d$) or concert tickets ($t$). You have &#36; 60 to spend each week, and the price of a download is $3 and the price of a concert ticket is $10. Put $d$ on the horizontal axis and $t$ on the vertical axis.
-
-&#x24;
-U+00024
-&#36; 60
-&dollar;
-
-\$45
-$23
+You can get music via downloads ($d$) or concert tickets ($t$). You have &dollar; 60 to spend each week, and the price of a download is &dollar;3 and the price of a concert ticket is &dollar;10. Put $d$ on the horizontal axis and $t$ on the vertical axis.
 
 ## Question 1
 
@@ -47,4 +39,4 @@ Now suppose your income temporarily decreases to $30. Find the new equation of t
 
 ## Question 5
 
-Now return to your original income ($60) but suppose the price of downloads increases to $6. Find the new equation of the budget constraint and graph it.
+Now return to your original income (&dollar;60) but suppose the price of downloads increases to $6. Find the new equation of the budget constraint and graph it.
