@@ -4,7 +4,7 @@ draft: false
 linktitle: Math Review
 menu:
   resources:
-    parent: Math Review
+    parent: Resources
 title: Math Review
 toc: true
 type: docs
