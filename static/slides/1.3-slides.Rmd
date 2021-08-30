@@ -105,9 +105,10 @@ $$a=(4,12) \text{ or } b=(6,12)$$
 
 .pull-left[
 
-- We will allow **three possible answers**:
+- We will allow **three possible answers**:+++
+\\\\
 
-.bg-washed-blue--dark-blue.ba.bw2.br3.shadow-5.ph4.mt5[
+.content-box-blue[
 
 1. .blue[`\\(a \succ b\\)`: (Strictly) prefer `\\(a\\)` over `\\(b\\)`]
 ]
@@ -128,7 +129,7 @@ $$a=(4,12) \text{ or } b=(6,12)$$
 
 - We will allow **three possible answers**:
 
-.bg-washed-blue--dark-blue.ba.bw2.br3.shadow-5.ph4.mt5[
+.content-box-blue[
 
 1. .blue[`\\(a \succ b\\)`: (Strictly) prefer `\\(a\\)` over `\\(b\\)`]
 
@@ -152,7 +153,7 @@ $$a=(4,12) \text{ or } b=(6,12)$$
 
 - We will allow **three possible answers**:
 
-.bg-washed-blue--dark-blue.ba.bw2.br3.shadow-5.ph4.mt5[
+.content-box-blue[
 
 1. .blue[`\\(a \succ b\\)`: (Strictly) prefer `\\(a\\)` over `\\(b\\)`]
 
@@ -176,7 +177,7 @@ $$a=(4,12) \text{ or } b=(6,12)$$
 
 - We will allow **three possible answers**:
 
-.bg-washed-blue--dark-blue.ba.bw2.br3.shadow-5.ph4.mt5[
+.content-box-blue[
 
 1. .blue[`\\(a \succ b\\)`: (Strictly) prefer `\\(a\\)` over `\\(b\\)`]
 

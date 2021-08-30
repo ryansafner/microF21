@@ -5,19 +5,17 @@ linktitle: How to Make a PDF
 menu:
   resources:
     parent: Guides
-title: How to Make a PDF
+title: How to Make a PDF (for Submitting Assignmentss)
 toc: true
 type: docs
 weight: 2
 ---
 
-# How to Make a PDF (For Submitting Assignments)
-
 ## Using an App on Your Phone
 
 There are many good apps out there that will allow you to take photos and convert them to PDFs. **This is actually a *better* method** than using your computer (described below), since theses apps optimize your photos for PDFs (using your computer to convert will often result in very large PDF file sizes!). Here are a few apps you can use:
 
-- [Scannable <i class="fab fa-apple"></i>](https://evernote.com/products/scannable)^[If you use [Evernote](https://evernote.com/) for notes (I do, it's amazing), this can sync up and store your PDFs in Evernote]
+- [Scannable <i class="fab fa-apple"></i>](https://evernote.com/products/scannable). If you use [Evernote](https://evernote.com/) for notes (I do, it's amazing), this can sync up and store your PDFs in Evernote
 - [Turboscan <i class="fab fa-apple"></i><i class="fab fa-android"></i>](https://turboscanapp.com/index.html)
 - [Image to PDF Converter Free <i class="fab fa-android"></i>](https://play.google.com/store/apps/details?id=com.innover.imagetopdf&hl=en_US)
 - [PDF Converter Pro <i class="fab fa-android"></i>](https://play.google.com/store/apps/details?id=com.twansoftware.pdfconverterpro&hl=en_US)

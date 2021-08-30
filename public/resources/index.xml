@@ -32,16 +32,15 @@
     </item>
     
     <item>
-      <title>How to Make a PDF</title>
+      <title>How to Make a PDF (for Submitting Assignmentss)</title>
       <link>https://microf21.classes.ryansafner.com/resources/pdfs/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       
       <guid>https://microf21.classes.ryansafner.com/resources/pdfs/</guid>
-      <description>&lt;h1 id=&#34;how-to-make-a-pdf-for-submitting-assignments&#34;&gt;How to Make a PDF (For Submitting Assignments)&lt;/h1&gt;
-&lt;h2 id=&#34;using-an-app-on-your-phone&#34;&gt;Using an App on Your Phone&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;using-an-app-on-your-phone&#34;&gt;Using an App on Your Phone&lt;/h2&gt;
 &lt;p&gt;There are many good apps out there that will allow you to take photos and convert them to PDFs. &lt;strong&gt;This is actually a &lt;em&gt;better&lt;/em&gt; method&lt;/strong&gt; than using your computer (described below), since theses apps optimize your photos for PDFs (using your computer to convert will often result in very large PDF file sizes!). Here are a few apps you can use:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://evernote.com/products/scannable&#34;&gt;Scannable &lt;i class=&#34;fab fa-apple&#34;&gt;&lt;/i&gt;&lt;/a&gt;^[If you use &lt;a href=&#34;https://evernote.com/&#34;&gt;Evernote&lt;/a&gt; for notes (I do, it&amp;rsquo;s amazing), this can sync up and store your PDFs in Evernote]&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://evernote.com/products/scannable&#34;&gt;Scannable &lt;i class=&#34;fab fa-apple&#34;&gt;&lt;/i&gt;&lt;/a&gt;. If you use &lt;a href=&#34;https://evernote.com/&#34;&gt;Evernote&lt;/a&gt; for notes (I do, it&amp;rsquo;s amazing), this can sync up and store your PDFs in Evernote&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://turboscanapp.com/index.html&#34;&gt;Turboscan &lt;i class=&#34;fab fa-apple&#34;&gt;&lt;/i&gt;&lt;i class=&#34;fab fa-android&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.innover.imagetopdf&amp;amp;hl=en_US&#34;&gt;Image to PDF Converter Free &lt;i class=&#34;fab fa-android&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://play.google.com/store/apps/details?id=com.twansoftware.pdfconverterpro&amp;amp;hl=en_US&#34;&gt;PDF Converter Pro &lt;i class=&#34;fab fa-android&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
@@ -168,6 +167,27 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Math Review</title>
+      <link>https://microf21.classes.ryansafner.com/resources/functions/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://microf21.classes.ryansafner.com/resources/functions/</guid>
+      <description>
+&lt;script src=&#34;https://microf21.classes.ryansafner.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;Below, find the link to the Math Review guide in PDF format.&lt;/p&gt;
+&lt;p style=&#34;text-align:center&#34;&gt;
+&lt;a target=&#34;_blank&#34; href=&#34;https://microf21.classes.ryansafner.com/files/math_review_guide.pdf&#34;&gt;&lt;span class=&#34;btn btn-primary btn-lg&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download PDF&lt;/a&gt;&lt;/span&gt;
+&lt;/p&gt;
+&lt;p&gt;If time permits, I will make these into individual web pages here on the Resources section.&lt;/p&gt;
 </description>
     </item>
     
