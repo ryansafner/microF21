@@ -196,5 +196,319 @@ As usual, this simply says that one’s total expenditures (on all goods) on the
 </description>
     </item>
     
+    <item>
+      <title>1.3 — Preferences — Class Content</title>
+      <link>https://microf21.classes.ryansafner.com/content/1.3-content/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://microf21.classes.ryansafner.com/content/1.3-content/</guid>
+      <description>
+&lt;script src=&#34;https://microf21.classes.ryansafner.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://microf21.classes.ryansafner.com/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://microf21.classes.ryansafner.com/rmarkdown-libs/plotly-binding/plotly.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://microf21.classes.ryansafner.com/rmarkdown-libs/typedarray/typedarray.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://microf21.classes.ryansafner.com/rmarkdown-libs/jquery/jquery.min.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;https://microf21.classes.ryansafner.com/rmarkdown-libs/crosstalk/css/crosstalk.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;https://microf21.classes.ryansafner.com/rmarkdown-libs/crosstalk/js/crosstalk.min.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;https://microf21.classes.ryansafner.com/rmarkdown-libs/plotly-htmlwidgets-css/plotly-htmlwidgets.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;https://microf21.classes.ryansafner.com/rmarkdown-libs/plotly-main/plotly-latest.min.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#overview&#34;&gt;&lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt; Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#readings&#34;&gt;&lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt; Readings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#practice&#34;&gt;&lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt; Practice&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#slides&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Slides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#appendix-1-material-on-preferences&#34;&gt;&lt;i class=&#34;fas fa-sigma&#34;&gt;&lt;/i&gt; Appendix 1: Material on Preferences&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#strict-vs.-weak-preferences&#34;&gt;Strict vs. Weak Preferences&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#assumptions-of-well-behaved-preferences&#34;&gt;Assumptions of “Well-behaved Preferences”&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#assumptions-of-well-behaved-indifference-curves&#34;&gt;Assumptions of “Well-behaved Indifference Curves”&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#steepness-indifference-curves-for-neutrals&#34;&gt;Steepness &amp;amp; Indifference Curves for Neutrals&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#math-appendix&#34;&gt;&lt;i class=&#34;fas fa-sigma&#34;&gt;&lt;/i&gt; Math Appendix&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#derivation-of-mrs-equation-as-ratio-of-marginal-utilities&#34;&gt;Derivation of MRS Equation (as ratio of marginal utilities)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#utility-functions-and-pmts&#34;&gt;Utility Functions and PMTs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#graphing-indifference-curves&#34;&gt;Graphing Indifference Curves&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#utility-functions-for-perfect-substitutes&#34;&gt;Utility Functions for Perfect Substitutes&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#example&#34;&gt;Example&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#utility-functions-for-perfect-complements&#34;&gt;Utility Functions for Perfect Complements&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#example-1&#34;&gt;Example&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#cobb-douglas-functions&#34;&gt;Cobb-Douglas Functions&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#mrs-and-positive-monotonic-transformations&#34;&gt;MRS and Positive Monotonic Transformations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#example-2&#34;&gt;EXAMPLE&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;em&gt;Monday, August 29, 2021&lt;/em&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;div id=&#34;overview&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt; Overview&lt;/h2&gt;
+&lt;p&gt;From last class, we know what constraints individuals face in the market (represented by the budget constraint), but how do people make the choices they do? We must now enter the more controversial — though still the overwhelming consensus view in economics — realm of modeling preferences.&lt;/p&gt;
+&lt;p&gt;As I mentioned in &lt;a href=&#34;https://microf21.classes.ryansafner.com/content/1.2-content&#34;&gt;last class’ page&lt;/a&gt;, a lot of the “in the weeds” details about preference assumptions, indifference curves, and utility functions are a waste of your time. If you look at the textbook chapter, I am skipping a lot of “the fat,” and relegating it to an appendix at the bottom of this page. I used to spend an entire week just teaching about preferences. Again, I reiterate that if you are interested in more advanced economics training, it is &lt;em&gt;essential&lt;/em&gt; that you master all of these details. But not for this course.&lt;/p&gt;
+&lt;p&gt;Today we focus on the essential tools for fitting preferences into our optimization model:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;indifference curves&lt;/strong&gt;: each of which is the set of all bundles that one is &lt;em&gt;indifferent between&lt;/em&gt; (and that give the same amount utility)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;utility functions&lt;/strong&gt;: which measure the &lt;em&gt;ordinal&lt;/em&gt; (but not cardinal!) utility level of any given bundle; for comparisons only!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;marginal rate of substitution&lt;/strong&gt;: the slope of the indifference curve, representing an individual’s subjective tradeoff between goods; measured by the ratio of marginal utilities: &lt;span class=&#34;math inline&#34;&gt;\(MRS_{x,y}=-\frac{MU_x}{MU_y}\)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;readings&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt; Readings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-book&#34;&gt;&lt;/i&gt; Ch. 4.1-4.2 in Goolsbee, Levitt, and Syverson, 2019&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://microf21.classes.ryansafner.com/files/math_review_guide.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Math Review Guide&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;practice&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt; Practice&lt;/h2&gt;
+&lt;p&gt;Answers from last class’ &lt;a href=&#34;https://microf21.classes.ryansafner.com/practice/1.2-practice&#34;&gt;practice problems&lt;/a&gt; are posted on that page.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Slides&lt;/h2&gt;
+&lt;p&gt;Below, you can find the slides in two formats. Clicking the image will bring you to the html version of the slides in a new tab. Note while in going through the slides, you can type &lt;kbd&gt;h&lt;/kbd&gt; to see a special list of viewing options, and type &lt;kbd&gt;o&lt;/kbd&gt; for an outline view of all the slides.&lt;/p&gt;
+&lt;p&gt;The lower button will allow you to download a PDF version of the slides. I suggest printing the slides beforehand and using them to take additional notes in class (&lt;em&gt;not everything&lt;/em&gt; is in the slides)!&lt;/p&gt;
+&lt;p&gt;
+&lt;p style=&#34;text-align:center;&#34;&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://microf21.classes.ryansafner.com/slides/1.3-slides.html&#34;&gt;&lt;img src =&#34;/slides/1.3-slides.png&#34; alt = &#34;1.3-slides&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&#34;text-align:center;&#34;&gt;&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://microf21.classes.ryansafner.com/slides/1.3-slides.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download as PDF&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;appendix-1-material-on-preferences&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-sigma&#34;&gt;&lt;/i&gt; Appendix 1: Material on Preferences&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;strict-vs.-weak-preferences&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Strict vs. Weak Preferences&lt;/h2&gt;
+&lt;p&gt;We have defined preferences as being &lt;strong&gt;strictly&lt;/strong&gt; one of the following possibilities:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(a \succ b\)&lt;/span&gt; (&lt;span class=&#34;math inline&#34;&gt;\(a\)&lt;/span&gt; is &lt;em&gt;strictly&lt;/em&gt; preferred over &lt;em&gt;b&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(a \prec b\)&lt;/span&gt; (&lt;span class=&#34;math inline&#34;&gt;\(b\)&lt;/span&gt; is &lt;em&gt;strictly&lt;/em&gt; preferred over &lt;em&gt;a&lt;/em&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(a \sim b\)&lt;/span&gt; (indifferent between &lt;em&gt;a&lt;/em&gt;)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;You can also have &lt;strong&gt;weak&lt;/strong&gt; preferences, such as&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(a \succeq b\)&lt;/span&gt; (&lt;span class=&#34;math inline&#34;&gt;\(a\)&lt;/span&gt; is &lt;em&gt;at least as preferred&lt;/em&gt; as (or “weakly preferred over” &lt;span class=&#34;math inline&#34;&gt;\(b\)&lt;/span&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(a \preceq b\)&lt;/span&gt; (&lt;span class=&#34;math inline&#34;&gt;\(b\)&lt;/span&gt; is &lt;em&gt;at least as preferred&lt;/em&gt; as (or “weakly preferred over” &lt;span class=&#34;math inline&#34;&gt;\(a\)&lt;/span&gt;)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;These are more technically complete, but it is much more simple for us to focus on strong preferences, and we don’t lose much by doing so.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;assumptions-of-well-behaved-preferences&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Assumptions of “Well-behaved Preferences”&lt;/h2&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Reflexivity&lt;/strong&gt; : any bundle is at least as preferred as itself&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Completeness&lt;/strong&gt; : any two bundles can be compared&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Transitivity&lt;/strong&gt; : rankings are logically consistent:&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;If &lt;span class=&#34;math inline&#34;&gt;\(a \succ b\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(b \succ c\)&lt;/span&gt;, then &lt;span class=&#34;math inline&#34;&gt;\(a \succ c\)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Are these good assumptions? As you will find typical in economics, &lt;em&gt;very often yes, sometimes no!&lt;/em&gt; See the growing field of &lt;a href=&#34;https://en.wikipedia.org/wiki/Behavioral_economics&#34;&gt;Behavioral economics&lt;/a&gt; for interesting anomalies and exceptions to our assumptions.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;assumptions-of-well-behaved-indifference-curves&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Assumptions of “Well-behaved Indifference Curves”&lt;/h2&gt;
+&lt;p&gt;Like preferences, we make 4 major assumptions about indifference curves to describe the normal case. In fact, many of these assumptions are derived from the assumptions we made above about well-behaved preferences&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;strong&gt;We can always draw indifference curves:&lt;/strong&gt; two bundles can always be ranked&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Every possible bundle (point on graph) is on an indifference curve.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://microf21.classes.ryansafner.com/content/1.3-content_files/figure-html/IC-ass-1-1.png&#34; width=&#34;576&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Of course, this means that this entire graph is &lt;em&gt;full&lt;/em&gt; of indifference curves - every single possible point is on &lt;em&gt;some&lt;/em&gt; indifference curve (and this whole graph would just be a solid block of black). Naturally, it’s pointless to draw all the indifference curves, we just want to show a few to make our analysis meaningful. But the general idea comes from assumption 2 of preferences: &lt;em&gt;any two bundles can be compared&lt;/em&gt;, as we can compare two points on this graph and make a judgment.&lt;/p&gt;
+&lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;strong&gt;Indifference curves are monotonic&lt;/strong&gt;, which means practically that “more is preferred to less”&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;For any bundle &lt;span class=&#34;math inline&#34;&gt;\(b\)&lt;/span&gt; with more of at least one good than bundle &lt;span class=&#34;math inline&#34;&gt;\(a \implies a \prec b\)&lt;/span&gt;. Movements to the Northeast always preferable, while movements to the Southwest always unpreferable.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://microf21.classes.ryansafner.com/content/1.3-content_files/figure-html/IC-ass-2-1.png&#34; width=&#34;576&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Here’s a &lt;em&gt;challenge&lt;/em&gt;: what would indifference curves look like if one of the axes contained a &lt;em&gt;bad&lt;/em&gt;, rather than a good? In this case, we would violate the assumption of monotonicity!&lt;/p&gt;
+&lt;ol start=&#34;3&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;strong&gt;Indifference curves are convex&lt;/strong&gt;, which means in practice that “averages are preferred to extremes”&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;From experience, people generally prefer variety in their consumption. Rather than having one bundle that is “extreme” (a lot of one good and little or none of another), they tend to prefer a bundle with a better “mix” or “balance” of some of both goods.&lt;/p&gt;
+&lt;p&gt;Take our example from class, hunting for apartments. Apartment &lt;span class=&#34;math inline&#34;&gt;\(A\)&lt;/span&gt; is very large but near very few friends, whereas apartment &lt;span class=&#34;math inline&#34;&gt;\(B\)&lt;/span&gt; is very small but near many friends. If we could find some apartment, &lt;span class=&#34;math inline&#34;&gt;\(C\)&lt;/span&gt;, that is a weighted average of the two, with a better mix of size and friends, it would be preferred, and thus, on a higher indifference curve than &lt;span class=&#34;math inline&#34;&gt;\(A\)&lt;/span&gt; or &lt;span class=&#34;math inline&#34;&gt;\(B\)&lt;/span&gt;!&lt;/p&gt;
+&lt;p&gt;Mathematically, this feature is because indifference curves are normally convex. A function is &lt;strong&gt;convex&lt;/strong&gt; when a line connecting any two points on the function lies &lt;em&gt;above&lt;/em&gt; the function itself. Check the math review guide for more information.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://microf21.classes.ryansafner.com/content/1.3-content_files/figure-html/IC-as-3-1.png&#34; width=&#34;576&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Here’s a &lt;em&gt;challenge&lt;/em&gt;: what would &lt;em&gt;non-convex&lt;/em&gt; (e.g. &lt;em&gt;concave&lt;/em&gt;) curves look like, and what preferences would cause that situation?&lt;/p&gt;
+&lt;ol start=&#34;4&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;strong&gt;Indifference curves can never cross&lt;/strong&gt; because we have assumed that &lt;em&gt;preferences are transitive&lt;/em&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Suppose two curves crossed, as the ones below:
+- On the blue indifference curve, &lt;code&gt;\\(A \sim B\\)&lt;/code&gt;
+- On the orange indifference curve &lt;code&gt;\\(B \sim C\\)&lt;/code&gt;
+- But clearly &lt;code&gt;\\(C\\)&lt;/code&gt; &lt;span class=&#34;math inline&#34;&gt;\(\succ\)&lt;/span&gt; .&lt;code&gt;\\(B\\)&lt;/code&gt;
+- Preferences are not transitive!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://microf21.classes.ryansafner.com/content/1.3-content_files/figure-html/IC-as-4-1.png&#34; width=&#34;576&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;steepness-indifference-curves-for-neutrals&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Steepness &amp;amp; Indifference Curves for Neutrals&lt;/h2&gt;
+&lt;p&gt;The Steepness of indifference curves tells us how consumers trade off between goods.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://microf21.classes.ryansafner.com/content/1.3-content_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Perfectly vertical curves (left) &lt;span class=&#34;math inline&#34;&gt;\(\implies\)&lt;/span&gt; indifference between having more (point B) or fewer (point A) downloads. There is no tradeoff a person would make to acquire more Downloads, they truly &lt;em&gt;do not care&lt;/em&gt; about them at all. Thus, on the left graph, Downloads would be a neutral.&lt;/p&gt;
+&lt;p&gt;Perfectly horizontal curves (right) &lt;span class=&#34;math inline&#34;&gt;\(\implies\)&lt;/span&gt; indifference between having more (point B) or fewer (point A) Tickets. There is no tradeoff a person would make to acquire more Tickets, they truly do not care about them at all. Thus, on the right graph, Tickets would be a neutral.&lt;/p&gt;
+&lt;p&gt;We can look at less extreme cases:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://microf21.classes.ryansafner.com/content/1.3-content_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;On the left graph, the flatter curve implies the person is willing to give up &lt;em&gt;only a few&lt;/em&gt; Downloads to obtain more Tickets (and vice versa). &lt;span class=&#34;math inline&#34;&gt;\(MRS_{T,D}\)&lt;/span&gt; (slope) is small, indicating downloads are more highly valued relative to tickets.&lt;/p&gt;
+&lt;p&gt;On the right graph, the steeper curve implies the person is willing to give up &lt;em&gt;a lot&lt;/em&gt; Downloads to obtain more Tickets (and vice versa). &lt;span class=&#34;math inline&#34;&gt;\(MRS_{T,D}\)&lt;/span&gt; (slope) is large, indicating downloads are less valued relative to tickets.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;math-appendix&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;i class=&#34;fas fa-sigma&#34;&gt;&lt;/i&gt; Math Appendix&lt;/h1&gt;
+&lt;div id=&#34;derivation-of-mrs-equation-as-ratio-of-marginal-utilities&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Derivation of MRS Equation (as ratio of marginal utilities)&lt;/h2&gt;
+&lt;p&gt;Consider a movement along an indifference curve, how would this change affect utility? There will be a change in &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; and a change in &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt;, and multiplying the marginal utility of each, and adding these together will give us our total change in utility. But we know that if we are on the same indifference curve, moving along the curve will &lt;em&gt;not change utility&lt;/em&gt; (all points on the curve are defined as having the same utility!). So rearrange the equation as follows:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+MU_x \Delta x+MU_y\Delta y&amp;amp;= \Delta u &amp;amp;&amp;amp; \text{Measuring change in utility} \\
+MU_x \Delta x+MU_y \Delta y &amp;amp;=0 &amp;amp;&amp;amp; \text{But change in utility is 0}\\
+MU_y \Delta y&amp;amp;= -MU_{x} \Delta x &amp;amp;&amp;amp; \text{Subtracting x terms}\\
+\underbrace{\frac{\Delta y}{\Delta x}}_{MRS} &amp;amp;= -\frac{MU_{x}}{MU_{y}} &amp;amp;&amp;amp; \text{Dividing to get like terms on each side}\\ \end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Notice rise over run, &lt;span class=&#34;math inline&#34;&gt;\(\frac{\Delta y}{\Delta x}\)&lt;/span&gt;, is the slope, which we have defined as the marginal rate of substitution (MRS). &lt;span class=&#34;math inline&#34;&gt;\(\blacksquare\)&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;utility-functions-and-pmts&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Utility Functions and PMTs&lt;/h2&gt;
+&lt;p&gt;Two utility functions &lt;span class=&#34;math inline&#34;&gt;\(u(\cdot)\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(v(\cdot)\)&lt;/span&gt; represent the same preferences iff there is a &lt;em&gt;strictly&lt;/em&gt; increasing function &lt;span class=&#34;math inline&#34;&gt;\(f\)&lt;/span&gt; such that &lt;span class=&#34;math inline&#34;&gt;\(v(\cdot)=f\left[u(\cdot)\right]\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{aligned}
+a&amp;amp;=(1,2)\\
+b&amp;amp;=(2,2)\\
+c&amp;amp;=(4,3)\\
+\end{aligned}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The following utility functions express the same preferences:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th&gt;&lt;span class=&#34;math inline&#34;&gt;\(u(\cdot)\)&lt;/span&gt;&lt;/th&gt;
+&lt;th&gt;&lt;span class=&#34;math inline&#34;&gt;\(v(\cdot)\)&lt;/span&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;&lt;span class=&#34;math inline&#34;&gt;\(u(a)=1\)&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;math inline&#34;&gt;\(v(a)=2\)&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;&lt;span class=&#34;math inline&#34;&gt;\(u(b)=2\)&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;math inline&#34;&gt;\(v(b)=4\)&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;&lt;span class=&#34;math inline&#34;&gt;\(u(c)=3\)&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;math inline&#34;&gt;\(v(c)=6\)&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[v(\cdot)=2\left[u(\cdot)\right]\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A &lt;strong&gt;positive monotonic transformation (PMT)&lt;/strong&gt; transforms quantities such that the rank order of the quantities is preserved.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Examples: &lt;span class=&#34;math inline&#34;&gt;\(v(u)=u+2; \, v(u)=4u; \, v(u)=u^3; \, v(u)=ln(u)\)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Any PMT of a utility function contains the same preferences!&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;graphing-indifference-curves&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Graphing Indifference Curves&lt;/h2&gt;
+&lt;p&gt;I will not ask you to formally graph indifference curves (just roughly sketch them where appropriate). If you wanted to graph them, and express them in a graphable (slope-intercept form) equation, simply solve for the good on the vertical axis.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;: Suppose we have a typical&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; indifference curve for apples &lt;span class=&#34;math inline&#34;&gt;\((a)\)&lt;/span&gt; and bananas &lt;span class=&#34;math inline&#34;&gt;\((b)\)&lt;/span&gt;:
+&lt;span class=&#34;math display&#34;&gt;\[u(a,b)=ab\]&lt;/span&gt;&lt;/p&gt;
+&lt;div id=&#34;htmlwidget-1&#34; style=&#34;width:672px;height:528px;&#34; class=&#34;plotly html-widget&#34;&gt;&lt;/div&gt;
+&lt;script type=&#34;application/json&#34; data-for=&#34;htmlwidget-1&#34;&gt;{&#34;x&#34;:{&#34;visdat&#34;:{&#34;11d5c3bef5f3c&#34;:[&#34;function () &#34;,&#34;plotlyVisDat&#34;]},&#34;cur_data&#34;:&#34;11d5c3bef5f3c&#34;,&#34;attrs&#34;:{&#34;11d5c3bef5f3c&#34;:{&#34;x&#34;:[0,1,2,3,4,5,6,7,8,9,10],&#34;y&#34;:[0,1,2,3,4,5,6,7,8,9,10],&#34;z&#34;:[[0,0,0,0,0,0,0,0,0,0],[0,1,2,3,4,5,6,7,8,9],[0,2,4,6,8,10,12,14,16,18],[0,3,6,9,12,15,18,21,24,27],[0,4,8,12,16,20,24,28,32,36],[0,5,10,15,20,25,30,35,40,45],[0,6,12,18,24,30,36,42,48,54],[0,7,14,21,28,35,42,49,56,63],[0,8,16,24,32,40,48,56,64,72],[0,9,18,27,36,45,54,63,72,81]],&#34;alpha_stroke&#34;:1,&#34;sizes&#34;:[10,100],&#34;spans&#34;:[1,20],&#34;type&#34;:&#34;surface&#34;,&#34;inherit&#34;:true}},&#34;layout&#34;:{&#34;margin&#34;:{&#34;b&#34;:40,&#34;l&#34;:60,&#34;t&#34;:25,&#34;r&#34;:10},&#34;scene&#34;:{&#34;xaxis&#34;:{&#34;title&#34;:&#34;a&#34;},&#34;yaxis&#34;:{&#34;title&#34;:&#34;b&#34;},&#34;zaxis&#34;:{&#34;title&#34;:&#34;Utility&#34;}},&#34;hovermode&#34;:&#34;closest&#34;,&#34;showlegend&#34;:false,&#34;legend&#34;:{&#34;yanchor&#34;:&#34;top&#34;,&#34;y&#34;:0.5}},&#34;source&#34;:&#34;A&#34;,&#34;config&#34;:{&#34;showSendToCloud&#34;:false},&#34;data&#34;:[{&#34;colorbar&#34;:{&#34;title&#34;:&#34;&#34;,&#34;ticklen&#34;:2,&#34;len&#34;:0.5,&#34;lenmode&#34;:&#34;fraction&#34;,&#34;y&#34;:1,&#34;yanchor&#34;:&#34;top&#34;},&#34;colorscale&#34;:[[&#34;0&#34;,&#34;rgba(68,1,84,1)&#34;],[&#34;0.0416666666666667&#34;,&#34;rgba(70,19,97,1)&#34;],[&#34;0.0833333333333333&#34;,&#34;rgba(72,32,111,1)&#34;],[&#34;0.125&#34;,&#34;rgba(71,45,122,1)&#34;],[&#34;0.166666666666667&#34;,&#34;rgba(68,58,128,1)&#34;],[&#34;0.208333333333333&#34;,&#34;rgba(64,70,135,1)&#34;],[&#34;0.25&#34;,&#34;rgba(60,82,138,1)&#34;],[&#34;0.291666666666667&#34;,&#34;rgba(56,93,140,1)&#34;],[&#34;0.333333333333333&#34;,&#34;rgba(49,104,142,1)&#34;],[&#34;0.375&#34;,&#34;rgba(46,114,142,1)&#34;],[&#34;0.416666666666667&#34;,&#34;rgba(42,123,142,1)&#34;],[&#34;0.458333333333333&#34;,&#34;rgba(38,133,141,1)&#34;],[&#34;0.5&#34;,&#34;rgba(37,144,140,1)&#34;],[&#34;0.541666666666667&#34;,&#34;rgba(33,154,138,1)&#34;],[&#34;0.583333333333333&#34;,&#34;rgba(39,164,133,1)&#34;],[&#34;0.625&#34;,&#34;rgba(47,174,127,1)&#34;],[&#34;0.666666666666667&#34;,&#34;rgba(53,183,121,1)&#34;],[&#34;0.708333333333333&#34;,&#34;rgba(79,191,110,1)&#34;],[&#34;0.75&#34;,&#34;rgba(98,199,98,1)&#34;],[&#34;0.791666666666667&#34;,&#34;rgba(119,207,85,1)&#34;],[&#34;0.833333333333333&#34;,&#34;rgba(147,214,70,1)&#34;],[&#34;0.875&#34;,&#34;rgba(172,220,52,1)&#34;],[&#34;0.916666666666667&#34;,&#34;rgba(199,225,42,1)&#34;],[&#34;0.958333333333333&#34;,&#34;rgba(226,228,40,1)&#34;],[&#34;1&#34;,&#34;rgba(253,231,37,1)&#34;]],&#34;showscale&#34;:true,&#34;x&#34;:[0,1,2,3,4,5,6,7,8,9,10],&#34;y&#34;:[0,1,2,3,4,5,6,7,8,9,10],&#34;z&#34;:[[0,0,0,0,0,0,0,0,0,0],[0,1,2,3,4,5,6,7,8,9],[0,2,4,6,8,10,12,14,16,18],[0,3,6,9,12,15,18,21,24,27],[0,4,8,12,16,20,24,28,32,36],[0,5,10,15,20,25,30,35,40,45],[0,6,12,18,24,30,36,42,48,54],[0,7,14,21,28,35,42,49,56,63],[0,8,16,24,32,40,48,56,64,72],[0,9,18,27,36,45,54,63,72,81]],&#34;type&#34;:&#34;surface&#34;,&#34;frame&#34;:null}],&#34;highlight&#34;:{&#34;on&#34;:&#34;plotly_click&#34;,&#34;persistent&#34;:false,&#34;dynamic&#34;:false,&#34;selectize&#34;:false,&#34;opacityDim&#34;:0.2,&#34;selected&#34;:{&#34;opacity&#34;:1},&#34;debounce&#34;:0},&#34;shinyEvents&#34;:[&#34;plotly_hover&#34;,&#34;plotly_click&#34;,&#34;plotly_selected&#34;,&#34;plotly_relayout&#34;,&#34;plotly_brushed&#34;,&#34;plotly_brushing&#34;,&#34;plotly_clickannotation&#34;,&#34;plotly_doubleclick&#34;,&#34;plotly_deselect&#34;,&#34;plotly_afterplot&#34;,&#34;plotly_sunburstclick&#34;],&#34;base_url&#34;:&#34;https://plot.ly&#34;},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}&lt;/script&gt;
+&lt;p&gt;Each indifference curve (or contour) is one level of utility (all points on the curve give a specific level of utility). So, set that level of utility equal to some constant, &lt;span class=&#34;math inline&#34;&gt;\(k\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[ab=k\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Then, if we are putting &lt;span class=&#34;math inline&#34;&gt;\(b\)&lt;/span&gt; on the vertical axis, we simply solve this for &lt;span class=&#34;math inline&#34;&gt;\(b\)&lt;/span&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+ab&amp;amp;=k\\
+b&amp;amp;=\frac{k}{a}\\
+\end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;This is the general equation for all indifference curves of this utility function: each utility level (value of &lt;span class=&#34;math inline&#34;&gt;\(k)\)&lt;/span&gt; can be graphed as an indifference curve with that equation. Thus, for example, for a utility level of &lt;span class=&#34;math inline&#34;&gt;\(10\)&lt;/span&gt;, the equation for that indifference curve is
+&lt;span class=&#34;math display&#34;&gt;\[b=\frac{10}{a}\]&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://microf21.classes.ryansafner.com/content/1.3-content_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;utility-functions-for-perfect-substitutes&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Utility Functions for Perfect Substitutes&lt;/h2&gt;
+&lt;p&gt;Perfect substitutes produce straight lines for indifference curves. A straight line has a constant slope, which is interpretted as the MRS being constant - you should always be willing to substitute between the two goods at the same rate. The utility function looks like:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[u(x,y)=w_xx+w_yy\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Where each &lt;span class=&#34;math inline&#34;&gt;\(w_i\)&lt;/span&gt; is a relative weight (intensity of relative preference). These are often known as &lt;strong&gt;linear preferences&lt;/strong&gt; because the utility of the two goods are related by addition.&lt;/p&gt;
+&lt;p&gt;Notice, having some of one good and none of the other still provides positive utility (unlike utility functions where the quantities of goods are multiplied!). This is precisely because of the substitutability between the goods!&lt;/p&gt;
+&lt;div id=&#34;example&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Example&lt;/h3&gt;
+&lt;p&gt;Consider 1-Liter bottles of Coke &lt;span class=&#34;math inline&#34;&gt;\(L_{1}\)&lt;/span&gt; and 2-Liter bottles of Coke &lt;span class=&#34;math inline&#34;&gt;\(L_{2}\)&lt;/span&gt;. You should always be willing to substitute between one 2-Liter bottle and two 1-Liter bottles.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[u_{L_{1},L_{2}}=1L_{1}+2L_{2}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The relative weights here are 1 for 1-Liter bottles and 2 for 2-Liter bottles, because 2-Liter bottles are “worth” twice as much for you (it takes two 1-Liter bottles to match a 2-Liter bottle!).&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(MRS_{L_{1},L_{2}}=-\frac{w_x}{w_y} = -\frac{1}{2}\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://microf21.classes.ryansafner.com/content/1.3-content_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;utility-functions-for-perfect-complements&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Utility Functions for Perfect Complements&lt;/h2&gt;
+&lt;p&gt;Perfect complements produce right angles for indifference curves. This is technically not a mathematical function, since each &lt;span class=&#34;math inline&#34;&gt;\(X\)&lt;/span&gt; value must be mapped to a single &lt;span class=&#34;math inline&#34;&gt;\(Y\)&lt;/span&gt; value (i.e. no vertical lines). Thus, the utility function for perfect complements &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt; is quite unique:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[u(x,y)=min\{w_xx,w_yy\}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Where each &lt;span class=&#34;math inline&#34;&gt;\(w_i\)&lt;/span&gt; is a relative weight (intensity of relative preference). Utility is determined by the &lt;em&gt;lesser&lt;/em&gt; value of what you have, &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; (weighted by &lt;span class=&#34;math inline&#34;&gt;\(w_x\)&lt;/span&gt;) or &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt; (weighted by &lt;span class=&#34;math inline&#34;&gt;\(w_y\)&lt;/span&gt;). These are sometimes called “&lt;strong&gt;Leontief preferences&lt;/strong&gt;”.&lt;/p&gt;
+&lt;p&gt;The marginal rate of substitution alternates between &lt;span class=&#34;math inline&#34;&gt;\(0\)&lt;/span&gt; (horizontal line) and &lt;span class=&#34;math inline&#34;&gt;\(\infty\)&lt;/span&gt; (vertical line).&lt;/p&gt;
+&lt;div id=&#34;example-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Example&lt;/h3&gt;
+&lt;p&gt;Consider consuming hot dogs &lt;span class=&#34;math inline&#34;&gt;\((H)\)&lt;/span&gt; and buns &lt;span class=&#34;math inline&#34;&gt;\((B)\)&lt;/span&gt;, that must be consumed together as a package 1:1. The utility function would be:
+&lt;span class=&#34;math display&#34;&gt;\[u(H,B)=min\{H,B\}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Having 2 hot dogs and 3 buns only yields a utility of 2. Having 3 hot dogs and 2 buns also only yields a utility of 2.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://microf21.classes.ryansafner.com/content/1.3-content_files/figure-html/unnamed-chunk-6-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;cobb-douglas-functions&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Cobb-Douglas Functions&lt;/h2&gt;
+&lt;p&gt;Cobb-Douglas functions (both for utility and production) are one of the most common functional forms in economics. Despite their somewhat frightening presence on the surface, they have very neat mathematical properties, and have been empirically useful as well. A Cobb-Douglas function (for utility) looks like:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[u(x, y)=x^a y^b\]&lt;/span&gt;&lt;/p&gt;
+&lt;div id=&#34;mrs-and-positive-monotonic-transformations&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;MRS and Positive Monotonic Transformations&lt;/h3&gt;
+&lt;p&gt;The marginal rate of substitution, using the above equation is:
+&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+    MRS_{x, y}  &amp;amp;=\frac{MU_{x}}{MU_{y}} &amp;amp;&amp;amp; \text{The definition of MRS}\\
+    &amp;amp;= \cfrac{\big(\frac{\partial }{\partial x}\big)}{\big(\frac{\partial}{\partial y}\big)} &amp;amp;&amp;amp; \text{Using the definition of marginal utility as partial derivative}\\
+    &amp;amp;= \frac{a x^{a-1}y^b}{b x^a y^{b-1}} &amp;amp;&amp;amp; \text{Differentiating }u \text{ w.r.t }x \text{ on top and }y \text{ on bottom}\\
+    &amp;amp;=\frac{a}{b} x^{(a-1)-a}y^{b-(b-1)} &amp;amp;&amp;amp; \text{Using exponent rules for division}\\
+    &amp;amp;= \frac{a}{b} x^{-1}y^{1} &amp;amp;&amp;amp; \text{Simplifying exponents}\\
+    &amp;amp;=\frac{a}{b} \frac{y}{x} &amp;amp;&amp;amp; \text{Using exponent rules for negative exponents}\\ \end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Using logarithms, we can take a positive monotonic transformation of the original utility function &lt;span class=&#34;math inline&#34;&gt;\(u\)&lt;/span&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[v(x, y)=a \: ln \: x + b \: ln \: y\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The MRS using the logarithmic form is:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+    MRS_{x, y}  &amp;amp;=\frac{MU_{x}}{MU_{y}} &amp;amp;&amp;amp; \text{The definition of MRS}\\
+    &amp;amp;= \cfrac{\big(\frac{\partial }{\partial x}\big)}{\big(\frac{\partial}{\partial y}\big)} &amp;amp;&amp;amp; \text{Using the definition of marginal utility as partial derivative}\\
+    &amp;amp;= \cfrac{\big(\frac{a}{x}\big)}{\big(\frac{b}{y}\big)} &amp;amp;&amp;amp; \text{Differentiating }u \text{ w.r.t }x \text{ on top and }y \text{ on bottom}\\
+    &amp;amp;=\frac{a}{b} \frac{y}{x} &amp;amp;&amp;amp; \text{Multiplying the righthand side by the reciprocal of the denominator,} \frac{y}{b}\\ \end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Which of course, is the same, because we know any positive monotonic transformation of a utility function preserves the same preferences!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;example-2&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;EXAMPLE&lt;/h3&gt;
+&lt;p&gt;Find the marginal rate of substitution for the utility function:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[u(x, y) = \sqrt{x, y}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;First, recognize that square roots are equivalent to saying &lt;span class=&#34;math inline&#34;&gt;\(x^{0.5} y^{0.5}\)&lt;/span&gt;. The marginal rate of substitution would be:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+        MRS_{x, y}  &amp;amp;=\frac{MU_{x}}{MU_{y}} &amp;amp;&amp;amp; \text{The definition of MRS}\\
+    &amp;amp;= \cfrac{\big(\frac{\partial }{\partial x}\big)}{\big(\frac{\partial}{\partial y}\big)} &amp;amp;&amp;amp; \text{Using the definition of marginal utility as partial derivative}\\
+    &amp;amp;= \frac{0.5 x^{-0.5}y^{0.5}}{0.5x^{0.5}y^{-0.5}} &amp;amp;&amp;amp; \text{Differentiating }u \text{ w.r.t }x \text{ on top and }y \text{ on bottom}\\
+    &amp;amp;=\frac{0.5}{0.5} x^{0.5-0.5}y^{0.5-(-0.5)} &amp;amp;&amp;amp; \text{Using exponent rules for division}\\
+    &amp;amp;=  x^{-1}y^{1} &amp;amp;&amp;amp; \text{Simplifying exponents, and cancelling} \frac{0.5}{0.5}\\
+    &amp;amp;=\frac{y}{x} &amp;amp;&amp;amp; \text{Using exponent rules for negative exponents}\\ \end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Note we could find this equivalently again by taking logs of the original utility function.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[v(x,y)=0.5 \: ln \: x+0.5\: ln\: y\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+        MRS_{x, y}  &amp;amp;=\frac{MU_{x}}{MU_{y}} &amp;amp;&amp;amp; \text{The definition of MRS}\\
+    &amp;amp;= \cfrac{\big(\frac{\partial }{\partial x}\big)}{\big(\frac{\partial}{\partial y}\big)} &amp;amp;&amp;amp; \text{Using the definition of marginal utility as partial derivative}\\
+    &amp;amp;= \cfrac{\big(\frac{0.5}{x}\big)}{\big(\frac{0.5}{y}\big)} &amp;amp;&amp;amp; \text{Differentiating }u \text{ w.r.t }x \text{ on top and }y \text{ on bottom}\\
+    &amp;amp;=\frac{y}{x} &amp;amp;&amp;amp; \text{Multiplying the righthand side by the reciprocal of the denominator,} \frac{y}{0.5}\\ \end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Which again, gives us the same marginal rate of substitution.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Cobb-Douglas!&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

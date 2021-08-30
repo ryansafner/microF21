@@ -15,7 +15,9 @@ lessons:
     practice: "1.2-practice"
     
   - title: "1.3 — Preferences"
-
+    content: "1.3-content"
+    slides: "1.3-slides"
+    
   - title: "1.4 —Utility Maximization"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem Set 1**'
