@@ -44,7 +44,7 @@ Describe, in your own words, what happens at the optimum consumption point. Why 
 
 ## Question 4
 
-Juan enjoys both music and fireworks. His income is $240 per month. Music streaming costs $12 per month, and fireworks cost $8 per bag.
+Juan enjoys both music and fireworks. His income is <span>&#36;</span>240 per month. Music streaming costs <span>&#36;</span>12 per month, and fireworks cost <span>&#36;</span>8 per bag.
 
 ### Part A
 
@@ -157,7 +157,9 @@ A consumer has the following utility function:
 
 $$u(x,y)=\sqrt{xy}$$
 
-### Part A Fill in the following table by calculating the utility for each bundle of $X$ and $Y$. Round to two decimal places.
+### Part A 
+
+Fill in the following table by calculating the utility for each bundle of $X$ and $Y$. Round to two decimal places.
 
 
 ```{r, warning = F, message = F, echo = F}
