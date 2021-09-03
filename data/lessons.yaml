@@ -23,7 +23,8 @@ lessons:
     slides: "1.4-slides"
     practice: "1.4-practice"
 
-  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 1** due Wed Sep 8'
+  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 1** due Mon Sep 13'
+    assignment: "01-problem-set"
 
   - title: "1.5 — Demand"
 

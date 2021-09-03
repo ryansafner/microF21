@@ -510,5 +510,210 @@ b&amp;amp;=\frac{k}{a}\\
 </description>
     </item>
     
+    <item>
+      <title>1.4 — Utility Maximization — Class Content</title>
+      <link>https://microf21.classes.ryansafner.com/content/1.4-content/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://microf21.classes.ryansafner.com/content/1.4-content/</guid>
+      <description>
+&lt;script src=&#34;https://microf21.classes.ryansafner.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#overview&#34;&gt;&lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt; Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#readings&#34;&gt;&lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt; Readings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#practice&#34;&gt;&lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt; Practice&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#slides&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Slides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#assignments&#34;&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; Assignments&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#problem-set-1-due-wed-september-8&#34;&gt;Problem Set 1 Due Wed September 8&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#math-appendix&#34;&gt;&lt;i class=&#34;fas fa-sigma&#34;&gt;&lt;/i&gt; Math Appendix&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#solving-the-constrained-optimization-problem-with-calculus&#34;&gt;Solving the Constrained Optimization Problem with Calculus&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#example&#34;&gt;Example&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#general-case-for-n-goods-marshallian-demand-functions&#34;&gt;General Case for &lt;span class=&#34;math inline&#34;&gt;\(n\)&lt;/span&gt; Goods &amp;amp; Marshallian Demand Functions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;em&gt;Wednesday, September 1, 2021&lt;/em&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    Problem Set 1 is due by &lt;em&gt;Wednesday, September 8&lt;/em&gt;.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;div id=&#34;overview&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt; Overview&lt;/h2&gt;
+&lt;p&gt;Today we put all of our tools together thus far to solve the consumer’s constrained optimization problem. To solve the problem the “traditional way” would be to use &lt;a href=&#34;https://en.wikipedia.org/wiki/Lagrange_multiplier&#34;&gt;Lagrangian multipliers&lt;/a&gt; and calculus and solve for the first order conditions.&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; We instead will find the solution by looking graphically, and use an algebraic rule that should make a lot of intuitive sense. That rule, equivalently expressed in two ways:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[
+\begin{align*}\frac{MU_x}{MU_y} &amp;amp;= \frac{p_x}{p_y}\\
+\frac{MU_x}{p_x} &amp;amp;= \frac{MU_y}{p_y}\\ 
+\end{align*}
+\]&lt;/span&gt;
+The first rule states that the slope of the indifference curve (left) equals the slope of the budget constraint (right). This is stating that the marginal benefit of consuming &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; (left) equals the marginal cost (right) of consuming &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt;, and that the individual is trading off &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt; for &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; at the same rate as the market is.&lt;/p&gt;
+&lt;p&gt;The second (version of the) rule, solved for &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt; terms on either side, shows that the marginal utility per dollar spent is equal across both (all) goods.&lt;/p&gt;
+&lt;p&gt;Both forms are often called the &lt;strong&gt;equimarginal rule&lt;/strong&gt;, that at the optimum choice, the marginal benefit equals the marginal cost (which is the marginal benefit of the next best foregone opportunity).&lt;/p&gt;
+&lt;p&gt;We will do some &lt;a href=&#34;https://microf21.classes.ryansafner.com/practice/1.4-practice&#34;&gt;practice&lt;/a&gt; to make sure you can solve this type of model, and then you are fully prepared for &lt;a href=&#34;https://microf21.classes.ryansafner.com/assignment/01-problem-set&#34;&gt;Problem Set 1&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;readings&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt; Readings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-book&#34;&gt;&lt;/i&gt; Ch. 4.4-4.5 in Goolsbee, Levitt, and Syverson, 2019&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://microf21.classes.ryansafner.com/files/math_review_guide.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Math Review Guide&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;practice&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt; Practice&lt;/h2&gt;
+&lt;p&gt;Today we will be working on &lt;a href=&#34;https://microf21.classes.ryansafner.com/practice/1.4-practice&#34;&gt;practice problems&lt;/a&gt;. Answers will be posted later on that page.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Slides&lt;/h2&gt;
+&lt;p&gt;Below, you can find the slides in two formats. Clicking the image will bring you to the html version of the slides in a new tab. Note while in going through the slides, you can type &lt;kbd&gt;h&lt;/kbd&gt; to see a special list of viewing options, and type &lt;kbd&gt;o&lt;/kbd&gt; for an outline view of all the slides.&lt;/p&gt;
+&lt;p&gt;The lower button will allow you to download a PDF version of the slides. I suggest printing the slides beforehand and using them to take additional notes in class (&lt;em&gt;not everything&lt;/em&gt; is in the slides)!&lt;/p&gt;
+&lt;p&gt;
+&lt;p style=&#34;text-align:center;&#34;&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://microf21.classes.ryansafner.com/slides/1.4-slides.html&#34;&gt;&lt;img src =&#34;/slides/1.4-slides.png&#34; alt = &#34;1.4-slides&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&#34;text-align:center;&#34;&gt;&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://microf21.classes.ryansafner.com/slides/1.4-slides.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download as PDF&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;assignments&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; Assignments&lt;/h2&gt;
+&lt;div id=&#34;problem-set-1-due-wed-september-8&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Problem Set 1 Due Wed September 8&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://microf21.classes.ryansafner.com/assignment/01-problem-set&#34;&gt;Problem set 1&lt;/a&gt; (on 1.1-1.4) is by &lt;strong&gt;Wednesday&lt;/strong&gt; September 8.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;math-appendix&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;i class=&#34;fas fa-sigma&#34;&gt;&lt;/i&gt; Math Appendix&lt;/h1&gt;
+&lt;div id=&#34;solving-the-constrained-optimization-problem-with-calculus&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Solving the Constrained Optimization Problem with Calculus&lt;/h2&gt;
+&lt;div id=&#34;example&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Example&lt;/h3&gt;
+&lt;p&gt;A consumer has a utility function of
+&lt;span class=&#34;math display&#34;&gt;\[u(x, y) = xy\]&lt;/span&gt;
+and faces prices of &lt;span class=&#34;math inline&#34;&gt;\(p_x = 5\)&lt;/span&gt;, &lt;span class=&#34;math inline&#34;&gt;\(p_y = 10\)&lt;/span&gt;, and has an income of &lt;span class=&#34;math inline&#34;&gt;\(m = 50\)&lt;/span&gt;. Find the consumer’s optimum consumption bundle.&lt;/p&gt;
+&lt;p&gt;The problem can be expressed as&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\max_{x,y} xy\]&lt;/span&gt;
+&lt;span class=&#34;math display&#34;&gt;\[s. t. 5x+10y=50\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;There are a few strategies you can use to solve this problem using calculus.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Substitution Method&lt;/strong&gt;: take the budget constraint and solve it for one good in terms of the other good and income. Let’s solve for &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+5x+10y&amp;amp;=50 &amp;amp;&amp;amp; \text{The budget constraint}\\
+5x&amp;amp;=50-10y &amp;amp;&amp;amp; \text{Subtracting     } 10y \text{ from both sides}\\
+x&amp;amp;=10-2y &amp;amp;&amp;amp; \text{Dividing both sides by 5}\\
+\end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Now we can plug this in for &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; in the utility function to get an &lt;em&gt;unconstrained&lt;/em&gt; maximization problem:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+\max_{y} (10-2y)y &amp;amp;&amp;amp; \text{Plugging into the original utility function}\\
+\max_{y} 10y-2y^2 &amp;amp;&amp;amp; \text{Distributing the }y\\
+\end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Then we take the derivative with respect to &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt; and set it equal to zero to find the maximum value of &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt; in the function.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+    u&amp;amp;=10y-2y^2 &amp;amp;&amp;amp; \text{The new utility function}\\
+    \frac{d u}{d y} = 10-4y&amp;amp;=0 &amp;amp;&amp;amp; \text{Taking the first derivative} \\
+    10&amp;amp;=4y &amp;amp;&amp;amp; \text{Adding } 4y \text{ to both sides}\\
+    2.5&amp;amp;=y &amp;amp;&amp;amp; \text{Dividing both sides by } 4\\
+\end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Now that we know &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt; is 2.5. To find &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt;, plug 2.5 in for &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt; in the first equation we found from the budget constraint:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+x&amp;amp;=10-2y &amp;amp;&amp;amp; \text{The equation}\\   
+x&amp;amp;=10-2(2.5) &amp;amp;&amp;amp; \text{Plugging in 2.5}\\
+x&amp;amp;=10-5 &amp;amp;&amp;amp; \text{Distributing the -2}\\
+x&amp;amp;=5 &amp;amp;&amp;amp; \text{Simplifying}\\
+\end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;So we’ve found the &lt;strong&gt;optimal bundle is 5 of &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; and 2.5 of &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt;, or (&lt;span class=&#34;math inline&#34;&gt;\(x^*,y^*)=(5,2.5)\)&lt;/span&gt;.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Lagrangian Method&lt;/strong&gt;: Recall the Lagrangian adds the objective function and the Lagrange multiplier &lt;span class=&#34;math inline&#34;&gt;\((\lambda)\)&lt;/span&gt; times the constraint set equal to 0:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\max_{x, y, \lambda} \Lambda(x, y, \lambda)=xy+\lambda(5x+10y-50)\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Solving for the First Order Conditions (setting all partial derivatives to 0):&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+\frac{\partial \Lambda}{\partial x} &amp;amp;= y+5\lambda &amp;amp;= 0  \\
+\frac{\partial \Lambda}{\partial y} &amp;amp;= x+10\lambda &amp;amp;= 0 \\
+\frac{\partial \Lambda}{\partial \lambda} &amp;amp;= 5x+10y-50 &amp;amp;= 0 \\
+\end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Taking the first two equations, and rearranging each to equal &lt;span class=&#34;math inline&#34;&gt;\(\lambda\)&lt;/span&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+\frac{y}{5}&amp;amp;=\lambda \\
+\frac{x}{10}&amp;amp;=\lambda   \\
+\end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Setting them equal to one another, and solving for &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+ \frac{y}{5}&amp;amp;=\frac{x}{10}  \\
+2y&amp;amp;=x   \\
+\end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;So the consumer will buy twice the amount of &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt; as &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; (note this should be intuitive as &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt; costs twice as much as &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt;!). To find the exact amounts of &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt; she will buy, plug what we just found into the budget constraint:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+5(2y)+10y&amp;amp;=50   \\
+20y&amp;amp;=50 \\
+y&amp;amp;=2.5  \\
+\end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Since we now know &lt;span class=&#34;math inline&#34;&gt;\(y^*\)&lt;/span&gt;, we can find &lt;span class=&#34;math inline&#34;&gt;\(x^*\)&lt;/span&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+x&amp;amp;=2y\\
+x&amp;amp;=2(2.5)=5 \\
+\end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;So the &lt;strong&gt;optimum consumption bundle (&lt;span class=&#34;math inline&#34;&gt;\(x^*, y^*\)&lt;/span&gt;) again is (5,2.5).&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;You may be asking: &lt;em&gt;so what in the world is &lt;span class=&#34;math inline&#34;&gt;\(\lambda\)&lt;/span&gt;?&lt;/em&gt; Besides being instrumental in solving constrained optimization problems, the Lagrangian multiplier &lt;span class=&#34;math inline&#34;&gt;\(\lambda\)&lt;/span&gt; does have some economic interpretation. First, let’s return to the FOCs, knowing &lt;span class=&#34;math inline&#34;&gt;\(x\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt;, to solve for &lt;span class=&#34;math inline&#34;&gt;\(\lambda\)&lt;/span&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+    y+5\lambda &amp;amp;=0\\
+    2.5+5\lambda &amp;amp;=0\\
+\lambda &amp;amp;=0.5   \\
+\end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Mathematically, it can be proved that &lt;span class=&#34;math inline&#34;&gt;\(\lambda=\displaystyle \frac{\partial u(x,y)}{\partial m}\)&lt;/span&gt;: the rate of instantaneous change in your objective function with respect to your constraint (i.e. your income). That is, if you were to change your constraint (i.e. your income) by one unit, &lt;span class=&#34;math inline&#34;&gt;\(\lambda\)&lt;/span&gt; tells us how much your objective function would increase (in units of the objective function).&lt;/p&gt;
+&lt;p&gt;Economically, it is known as the “shadow price,” or sometimes the “marginal utility of wealth.” It tells us how much your utility would increase if you were able to increase your constraint (income) by one unit (e.g. $1). Alternatively, we can think of it as the marginal benefit of relaxing the constraint (having $1 more to spend), or the marginal cost of strengthening the constraint (having $1 less).&lt;/p&gt;
+&lt;p&gt;In our example, &lt;span class=&#34;math inline&#34;&gt;\(\lambda=0.5\)&lt;/span&gt;, so if we had one +(-)$1 in income to spend, utility would increase(decrease) by 0.5.&lt;/p&gt;
+&lt;p&gt;Recall that since utility is &lt;em&gt;ordinal&lt;/em&gt; and not &lt;em&gt;cardinal&lt;/em&gt;, the number of “utils” your utility were to change by is meaningless. &lt;span class=&#34;math inline&#34;&gt;\(\lambda\)&lt;/span&gt; does have meaningful quantitative interpretations when we use constrained optimization to talk about production, where units are dollars and output, rather than dollars and utility.&lt;/p&gt;
+&lt;p&gt;Let’s lastly confirm that this is the optimum using the definition&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+|MRS| &amp;amp;= |\frac{p_x}{p_y}| &amp;amp;&amp;amp; \text{At the optimum, slopes of I.C. and B.C. are equal}\\
+\frac{MU_{x}}{MU_{y}}&amp;amp;=\frac{p_x}{p_y} &amp;amp;&amp;amp; \text{Definition of each slope}\\
+    \frac{y}{x} &amp;amp;= \frac{p_x}{p_y} &amp;amp;&amp;amp; \text{MU&amp;#39;s for this specific utility function}\\
+    \frac{(2.5)}{(5)} &amp;amp;= \frac{5}{10} &amp;amp;&amp;amp; \text{At optimum, } y=2.5, x=5\\ 
+    \frac{1}{2} &amp;amp;= \frac{1}{2} &amp;amp;&amp;amp; \checkmark 
+\end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;general-case-for-n-goods-marshallian-demand-functions&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;General Case for &lt;span class=&#34;math inline&#34;&gt;\(n\)&lt;/span&gt; Goods &amp;amp; Marshallian Demand Functions&lt;/h2&gt;
+&lt;p&gt;In the case of &lt;span class=&#34;math inline&#34;&gt;\(n\)&lt;/span&gt; number of goods (from good &lt;span class=&#34;math inline&#34;&gt;\(x_1\)&lt;/span&gt; to &lt;span class=&#34;math inline&#34;&gt;\(x_n)\)&lt;/span&gt;, the optimal consumption portfolio solves the utility maximization problem:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(\max_{x_1,\cdots,n_n}U(x_1,\cdots, x_n)\)&lt;/span&gt;
+&lt;span class=&#34;math inline&#34;&gt;\(s.t. \sum^{n}_{i=1} x_ip_i \leq m\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;That is, as usual, choosing the consumption bundle that maximizes utility, subject to the budget constraint.&lt;/p&gt;
+&lt;p&gt;Using the Lagrangian method, the Lagrangian is:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\mathbb{L} = U(x_i, \cdots, x_n)+\lambda(M - \sum_{i=1}^{n} x_ip_i)\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The first order conditions are a series of &lt;span class=&#34;math inline&#34;&gt;\(n+1\)&lt;/span&gt; equations, with &lt;span class=&#34;math inline&#34;&gt;\(n+1\)&lt;/span&gt; unknowns:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+\frac{\partial u}{\partial x_1} &amp;amp;= \lambda p_i\\
+\vdots\\
+\frac{\partial u}{\partial x_n} &amp;amp;= \lambda p_n\\
+\sum^{n}_{i=1} x_ip_i &amp;amp;= m\\
+\end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Solving for each individual &lt;span class=&#34;math inline&#34;&gt;\(x_i^*\)&lt;/span&gt; gives us a &lt;strong&gt;Marshallian Demand System&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+x_1^* &amp;amp;= x_1^M(p_1,\cdots,p_n,m)\\
+\vdots\\
+x_n^* &amp;amp;= x_n^M(p_1,\cdots,p_n,m)\\
+\lambda^* &amp;amp;= \lambda^M(p_1,\cdots,p_n,m)\\
+\end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Each equation here is a demand function for that respective good, as a function of all market prices &lt;span class=&#34;math inline&#34;&gt;\((p_1, \cdots, p_n)\)&lt;/span&gt; and income &lt;span class=&#34;math inline&#34;&gt;\(m\)&lt;/span&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Take the full Lagrangian equation and solve for all partial derivatives, set equal to 0.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
