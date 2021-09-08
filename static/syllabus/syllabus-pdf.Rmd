@@ -18,7 +18,7 @@ semester: "[microF21.classes.ryansafner.com](http://microF21.classes.ryansafner.
 
 email: "safner@hood.edu"
 web: "ryansafner.com"
-officehours: "<i class='fas fa-video'></i> MW 10:00—11 AM & by appt"
+officehours: "<i class='fas fa-video'></i> MW 1:30 PM—2:30 PM & by appt"
 office: "Rosenstock 110"
 classroom: "Rosenstock 212"
 classhours: "MW 2:40—4:05 PM"
