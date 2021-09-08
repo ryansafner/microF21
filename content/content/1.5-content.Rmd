@@ -62,6 +62,6 @@ The lower button will allow you to download a PDF version of the slides. I sugge
 
 ## <i class="fas fa-laptop-code"></i> Assignments
 
-### Problem Set 1 Due Wed September 8
+### Problem Set 1 Due Mon September 13
 
 [Problem set 1](/assignment/01-problem-set) (on 1.1-1.4) is by **Monday** September 13.
