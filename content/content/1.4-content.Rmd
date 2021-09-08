@@ -31,7 +31,7 @@ update_geom_defaults("text", list(family = "Fira Sans Condensed"))
 {{% /alert %}}
 
 {{% alert warning %}}
-Problem Set 1 is due by *Wednesday, September 8*.
+[Problem Set 1](/assignments/01-problem-set) is due by *Monday, September 13*. See the [instructions](/assignments/problem-sets) for completing homeworks.
 {{% /alert %}}
 
 ## <i class="fas fa-info-circle fa-lg"></i> Overview
@@ -72,7 +72,7 @@ The lower button will allow you to download a PDF version of the slides. I sugge
 
 ### Problem Set 1 Due Wed September 8
 
-[Problem set 1](/assignment/01-problem-set) (on 1.1-1.4) is by **Wednesday** September 8.
+[Problem set 1](/assignment/01-problem-set) (on 1.1-1.4) is by **Monday** September 13.
 
 # <i class="fas fa-sigma"></i> Math Appendix
 

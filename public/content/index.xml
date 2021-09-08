@@ -548,7 +548,7 @@ b&amp;amp;=\frac{k}{a}\\
 &lt;/p&gt;
 &lt;p&gt;&lt;div class=&#34;alert alert-warning&#34;&gt;
   &lt;div&gt;
-    Problem Set 1 is due by &lt;em&gt;Wednesday, September 8&lt;/em&gt;.
+    &lt;a href=&#34;https://microf21.classes.ryansafner.com/assignments/01-problem-set&#34;&gt;Problem Set 1&lt;/a&gt; is due by &lt;em&gt;Monday, September 13&lt;/em&gt;. See the &lt;a href=&#34;https://microf21.classes.ryansafner.com/assignments/problem-sets&#34;&gt;instructions&lt;/a&gt; for completing homeworks.
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
@@ -589,7 +589,7 @@ The first rule states that the slope of the indifference curve (left) equals the
 &lt;h2&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; Assignments&lt;/h2&gt;
 &lt;div id=&#34;problem-set-1-due-wed-september-8&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Problem Set 1 Due Wed September 8&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://microf21.classes.ryansafner.com/assignment/01-problem-set&#34;&gt;Problem set 1&lt;/a&gt; (on 1.1-1.4) is by &lt;strong&gt;Wednesday&lt;/strong&gt; September 8.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://microf21.classes.ryansafner.com/assignment/01-problem-set&#34;&gt;Problem set 1&lt;/a&gt; (on 1.1-1.4) is by &lt;strong&gt;Monday&lt;/strong&gt; September 13.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div id=&#34;math-appendix&#34; class=&#34;section level1&#34;&gt;
@@ -711,6 +711,76 @@ x_n^* &amp;amp;= x_n^M(p_1,\cdots,p_n,m)\\
 &lt;ol&gt;
 &lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Take the full Lagrangian equation and solve for all partial derivatives, set equal to 0.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>1.5 — Demand — Class Content</title>
+      <link>https://microf21.classes.ryansafner.com/content/1.5-content/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://microf21.classes.ryansafner.com/content/1.5-content/</guid>
+      <description>
+&lt;script src=&#34;https://microf21.classes.ryansafner.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#overview&#34;&gt;&lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt; Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#readings&#34;&gt;&lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt; Readings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#practice&#34;&gt;&lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt; Practice&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#slides&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Slides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#assignments&#34;&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; Assignments&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#problem-set-1-due-wed-september-8&#34;&gt;Problem Set 1 Due Wed September 8&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;em&gt;Wednesday, September 8, 2021&lt;/em&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    &lt;a href=&#34;https://microf21.classes.ryansafner.com/assignments/01-problem-set&#34;&gt;Problem Set 1&lt;/a&gt; is due by &lt;em&gt;Monday, September 13&lt;/em&gt;. See the &lt;a href=&#34;https://microf21.classes.ryansafner.com/assignments/problem-sets&#34;&gt;instructions&lt;/a&gt; for completing homeworks.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;div id=&#34;overview&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt; Overview&lt;/h2&gt;
+&lt;p&gt;Solving a one-time constrained optimum problem might be useful in certain contexts, but the &lt;em&gt;dynamics&lt;/em&gt; of change are far more interesting and useful: how do people optimally &lt;em&gt;respond&lt;/em&gt; to changes in constraints? The remaining few classes before Exam 1 are about how people respond to changes in prices and income.&lt;/p&gt;
+&lt;p&gt;An individual’s &lt;strong&gt;demand function&lt;/strong&gt; (often just called &lt;strong&gt;“demand”&lt;/strong&gt;) for a particular good describes how that person optimally responds to changes in market conditions. While in truth, many things factor into one’s demand for a good, we are simplifying the model to relate a person’s quantity demanded of a good to three things: the price of that good (“own” price), the price of &lt;em&gt;other&lt;/em&gt; goods, and the person’s income. When we look only at the relationship between quantity demanded and the good’s price (holding constant the other two things — other prices, and income), this is the familiar &lt;strong&gt;demand curve&lt;/strong&gt; you see on supply and demand graphs from principles.&lt;/p&gt;
+&lt;p&gt;Today, we look only at how changes in &lt;em&gt;income&lt;/em&gt; or changes in the prices of &lt;em&gt;other&lt;/em&gt; goods can affect your quantity demanded for a good.&lt;/p&gt;
+&lt;p&gt;In doing so, we also introduce a major empirical tool that we will return to many times: an &lt;em&gt;elasticity.&lt;/em&gt; You’ve seen one elasticity before: the price elasticity of demand, and probably calculated it using the “midpoint formula.” There’s a lot more to elasticity (and a lot of other kinds of elasticities!) than that. We will see two varieties today, and will spend most of a lecture on price elasticity, two class periods from now.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;readings&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt; Readings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-book&#34;&gt;&lt;/i&gt; Ch. 5.1, 5.2, 5.4 in Goolsbee, Levitt, and Syverson, 2019&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;practice&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt; Practice&lt;/h2&gt;
+&lt;p&gt;Today we will be working on &lt;a href=&#34;https://microf21.classes.ryansafner.com/practice/1.5-practice&#34;&gt;practice problems&lt;/a&gt;. Answers will be posted later on that page.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Slides&lt;/h2&gt;
+&lt;p&gt;Below, you can find the slides in two formats. Clicking the image will bring you to the html version of the slides in a new tab. Note while in going through the slides, you can type &lt;kbd&gt;h&lt;/kbd&gt; to see a special list of viewing options, and type &lt;kbd&gt;o&lt;/kbd&gt; for an outline view of all the slides.&lt;/p&gt;
+&lt;p&gt;The lower button will allow you to download a PDF version of the slides. I suggest printing the slides beforehand and using them to take additional notes in class (&lt;em&gt;not everything&lt;/em&gt; is in the slides)!&lt;/p&gt;
+&lt;p&gt;
+&lt;p style=&#34;text-align:center;&#34;&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://microf21.classes.ryansafner.com/slides/1.5-slides.html&#34;&gt;&lt;img src =&#34;/slides/1.5-slides.png&#34; alt = &#34;1.5-slides&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&#34;text-align:center;&#34;&gt;&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://microf21.classes.ryansafner.com/slides/1.5-slides.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download as PDF&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;assignments&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; Assignments&lt;/h2&gt;
+&lt;div id=&#34;problem-set-1-due-wed-september-8&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Problem Set 1 Due Wed September 8&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://microf21.classes.ryansafner.com/assignment/01-problem-set&#34;&gt;Problem set 1&lt;/a&gt; (on 1.1-1.4) is by &lt;strong&gt;Monday&lt;/strong&gt; September 13.&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 </description>
     </item>
