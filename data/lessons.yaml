@@ -32,10 +32,13 @@ lessons:
     practice: "1.5-practice"
 
   - title: "1.6 — Income and Substitution Effects"
-
+    content: "1.6-content"
+    slides: "1.6-slides"
+    
   - title: "1.7 — Price Elasticity"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem Set 2**'
+    assignment: "02-problem-set"
 
   - title: '<i class="fas fa-star"></i> **Exam 1**'
 

@@ -1,0 +1,382 @@
+---
+title: "I & S Effects: Price *Increase*"
+subtitle: "ECON 306 • Microeconomic Analysis • Spring 2021"
+author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/microS21"><i class="fa fa-github fa-fw"></i>ryansafner/microS21</a><br> <a href="https://microS21.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>microS21.classes.ryansafner.com</a><br>'
+#date:
+output:
+  xaringan::moon_reader:
+    mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML" # rescales math with css changes https://github.com/yihui/xaringan/issues/143
+    lib_dir: libs
+    #seal: false
+    css: [custom.css, "hygge"] #, metropolis, metropolis-fonts
+    nature:
+      beforeInit: ["macros.js", "https://platform.twitter.com/widgets.js"] # first is for rescaling images , second is for embedding tweets, https://github.com/yihui/xaringan/issues/100
+      highlightStyle: ocean #rainbow #monokai rainbow solarized-light #tomorrow-night -blue -eighties zenburn
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+    includes:
+      in_header: header.html # for font awesome, used in title  
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(echo=F,
+                      message=F,
+                      warning=F,
+                      fig.retina = 3,
+                      fig.align = "center")
+library("tidyverse")
+library("mosaic")
+library("ggrepel")
+library("fontawesome")
+xaringanExtra::use_tile_view()
+xaringanExtra::use_tachyons()
+
+update_geom_defaults("label", list(family = "Fira Sans Condensed"))
+update_geom_defaults("text", list(family = "Fira Sans Condensed"))
+
+set.seed(256)
+```
+
+# Real Income and Substitution Effects, Graphically I
+
+.pull-left[
+
+- Original optimal consumption $(A)$
+
+]
+
+.pull-right[
+
+```{r}
+bc<-function(x){24-x}
+ic<-function(x){144/x}
+points<-tribble(
+  ~x, ~y, ~letter,
+  12, 12, "A"
+)
+opt<-ggplot(data = tibble(x = c(0,10)), aes(x = x))+
+  geom_segment(x = 12, xend = 12, y = 0, yend = 12, linetype = "dashed", size = 1)+
+  geom_segment(x = 0, xend = 12, y = 12, yend = 12, linetype = "dashed", size = 1)+
+  geom_function(fun = bc, geom = "line", size = 2, color = "red")+
+  geom_label(x = 2, y = bc(2), color = "red", label = "BC")+
+  geom_function(fun = ic, geom = "line", size = 2, color = "blue")+
+  geom_label(x = 22, y = ic(22), color = "blue", label = expression(u[1]))+
+  geom_point(data = subset(points, letter %in% c("A")), aes(x = x, y = y), size = 5)+
+  scale_x_continuous(breaks = seq(0,24,2),
+  #                   labels = c(0, expression("\u2113"^"*"), 24),
+                     limits = c(0,25),
+                     expand = c(0,0))+
+  scale_y_continuous(breaks = seq(0,24,2),
+                     #labels = c(0,expression(c^"*"),"24w"),
+                     expand = c(0,0),
+                     limits = c(0,25))+
+  labs(x = "x",
+       y = "y",
+       caption = expression(paste("Optima with ", u(x,y)==x^{0.5}*y^{0.5}, ", ", m==24, ", ", p[y]==1, sep=" ")))+
+  theme_classic(base_family = "Fira Sans Condensed", base_size = 16)
+opt
+```
+]
+
+---
+
+# Real Income and Substitution Effects, Graphically I
+
+.pull-left[
+
+- Original optimal consumption $(A)$
+
+- .purple[**(Total) price effect:** `\\(A \rightarrow C\\)`]
+
+- Let's decompose this into the two effects
+
+]
+
+.pull-right[
+```{r}
+bc2<-function(x){24-2*x}
+ic<-function(x){144/x}
+points<-tribble(
+  ~x, ~y, ~letter,
+  12, 12, "A",
+  9, 8, "B",
+  6, 12, "C"
+)
+ic2<-function(x){72/x}
+bc_sub<-function(x){34-2*x}
+opt2<-ggplot(data = tibble(x = c(0,10)), aes(x = x))+
+  geom_segment(x = 12, xend = 12, y = 0, yend = 12, linetype = "dashed", size = 0.5)+
+  geom_segment(x = 0, xend = 12, y = 12, yend = 12, linetype = "dashed", size = 0.5)+
+  
+  geom_segment(x = 6, xend = 6, y = 0, yend = 12, linetype = "dashed", size = 0.5)+
+  geom_segment(x = 0, xend = 6, y = 12, yend = 12, linetype = "dashed", size = 0.5)+
+  geom_function(fun = bc, geom = "line", size = 2, color = "red")+
+  geom_label(x = 2, y = bc(2), color = "red", label = expression(BC[1]))+
+  geom_function(fun = ic, geom = "line", size = 2, color = "blue")+
+  geom_label(x = 22, y = ic(22), color = "blue", label = expression(u[1]))+
+  
+  geom_function(fun = bc2, geom = "line", size = 2, color = "darkred")+
+  geom_label(x = 2, y = bc2(2), color = "darkred", label = expression(BC[2]))+
+  
+  # geom_function(fun = bc_sub, geom = "line", size = 2, color = "orange", linetype = "dashed")+
+  
+    geom_function(fun = ic2, geom = "line", size = 2, color = "green")+
+  geom_label(x = 22, y = ic2(22), color = "green", label = expression(u[2]))+
+  geom_point(data = subset(points, letter %in% c("A", "C")), aes(x = x, y = y), size = 5)+
+  ggrepel::geom_text_repel(data = subset(points, letter %in% c("A", "C")), aes(x = x, y = y, label = letter), size = 4, seed = 4, box.padding = 0.5)+
+  annotate("segment", x = 12, xend = 6, y = 2, yend = 2, colour = "purple", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="last", type="closed"))+
+  scale_x_continuous(breaks = seq(0,24,2),
+  #                   labels = c(0, expression("\u2113"^"*"), 24),
+                     limits = c(0,25),
+                     expand = c(0,0))+
+  scale_y_continuous(breaks = seq(0,24,2),
+                     #labels = c(0,expression(c^"*"),"24w"),
+                     expand = c(0,0),
+                     limits = c(0,25))+
+  labs(x = "x",
+       y = "y",
+       caption = expression(paste("Optima with ", u(x,y)==x^{0.5}*y^{0.5}, ", ", m==24, ", ", p[y]==1, sep=" ")))+
+  theme_classic(base_family = "Fira Sans Condensed", base_size = 16)
+opt2
+```
+
+]
+
+---
+
+# Real Income and Substitution Effects, Graphically II
+
+.pull-left[
+
+- .orange[**Substitution effect:**] what you would choose under the **new exchange rate** to **remain indifferent** as before the change
+
+]
+
+.pull-right[
+
+```{r, fig.retina=3, fig.height=6}
+opt2
+```
+
+]
+
+---
+
+# Real Income and Substitution Effects, Graphically II
+
+.pull-left[
+
+- .orange[**Substitution effect:**] what you would choose under the **new exchange rate** to **remain indifferent** as before the change
+
+- Graphically: shift *new* budget constraint inwards until tangent with *old* indifference curve
+
+- $A \rightarrow B$ on same I.C. $(\uparrow$ $x$, $\downarrow$ $y)$
+    - Point B *must* be a *different* point on the original curve! 
+
+]
+
+.pull-right[
+```{r}
+bc_sub<-function(x){17-x}
+se_dom<-ggplot(data = tibble(x = c(0,10)), aes(x = x))+
+  geom_function(fun = bc, geom = "line", size = 2, color = "red")+
+  geom_label(x = 2, y = bc(2), color = "red", label = expression(BC[1]))+
+  geom_function(fun = ic, geom = "line", size = 2, color = "blue")+
+  geom_label(x = 22, y = ic(22), color = "blue", label = expression(u[1]))+
+  
+  geom_function(fun = bc2, geom = "line", size = 2, color = "darkred")+
+  geom_label(x = 2, y = bc2(2), color = "darkred", label = expression(BC[2]))+
+  
+  
+  geom_function(fun = bc_sub, geom = "line", size = 2, color = "orange", linetype = "dashed")+
+  
+  geom_function(fun = ic2, geom = "line", size = 2, color = "darkblue")+
+  geom_label(x = 22, y = ic2(22), color = "darkblue", label = expression(u[0]))+
+  geom_segment(x = 12, xend = 12, y = 0, yend = 12, linetype = "dashed", size = 0.5)+
+  geom_segment(x = 0, xend = 12, y = 12, yend = 12, linetype = "dashed", size = 0.5)+
+  
+  geom_segment(x = 6, xend = 6, y = 0, yend = 12, linetype = "dashed", size = 0.5)+
+  geom_segment(x = 0, xend = 6, y = 12, yend = 12, linetype = "dashed", size = 0.5)+
+  
+  geom_segment(x = 9, xend = 9, y = 0, yend = 8, linetype = "dashed", size = 0.5)+
+  geom_segment(x = 0, xend = 9, y = 8, yend = 8, linetype = "dashed", size = 0.5)+
+  geom_point(data = subset(points, letter %in% c("A", "B", "C")), aes(x = x, y = y), size = 5)+
+  ggrepel::geom_text_repel(data = subset(points, letter %in% c("A","B", "C")), aes(x = x, y = y, label = letter), size = 4, seed = 4, box.padding = 0.5)+
+  #annotate("segment", x = 12, xend = 10, y = 2, yend = 2, colour = "purple", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="last", type="closed"))+
+  annotate("segment", x = 12, xend = 9, y = 4, yend = 4, colour = "orange", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="last", type="closed"))+
+  scale_x_continuous(breaks = seq(0,24,2),
+  #                   labels = c(0, expression("\u2113"^"*"), 24),
+                     limits = c(0,25),
+                     expand = c(0,0))+
+  scale_y_continuous(breaks = seq(0,24,2),
+                     #labels = c(0,expression(c^"*"),"24w"),
+                     expand = c(0,0),
+                     limits = c(0,25))+
+  labs(x = "x",
+       y = "y",
+       caption = expression(paste("Optima with ", u(x,y)==x^{0.5}*y^{0.5}, ", ", m==24, ", ", p[y]==1, sep=" ")))+
+  theme_classic(base_family = "Fira Sans Condensed", base_size = 16)
+se_dom
+```
+]
+
+---
+
+# Real Income and Substitution Effects, Graphically III
+
+.pull-left[
+
+- .green[**(Real) income effect:**] change in consumption due to the **change in purchasing power** from the change in price
+
+]
+
+.pull-right[
+
+```{r, fig.retina=3, fig.height=6}
+se_dom
+```
+
+]
+
+---
+
+# Real Income and Substitution Effects, Graphically III
+
+.pull-left[
+
+- .green[**(Real) income effect:**] change in consumption due to the **change in purchasing power** from the change in price
+
+- $B \rightarrow C$ to new budget constraint (can buy more of $x$ and/or $y$)
+]
+
+.pull-right[
+
+```{r, fig.retina=3, fig.height=6}
+se_dom+
+  annotate("segment", x = 9, xend = 6, y = 4, yend = 4, colour = "green", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="last", type="closed"))
+```
+
+]
+
+---
+
+# Real Income and Substitution Effects, Graphically IV
+
+.pull-left[
+
+- Original optimal consumption $(A)$
+
+]
+
+.pull-right[
+
+```{r, fig.retina=3, fig.height=6}
+opt
+```
+
+]
+
+---
+
+# Real Income and Substitution Effects, Graphically IV
+
+.pull-left[
+
+- Original optimal consumption $(A)$
+
+- Price of $x$ falls, new optimal consumption at $(C)$
+
+]
+
+.pull-right[
+
+```{r, fig.retina=3, fig.height=6}
+opt2
+```
+
+]
+
+---
+
+# Real Income and Substitution Effects, Graphically IV
+
+.pull-left[
+
+- Original optimal consumption $(A)$
+
+- Price of $x$ falls, new optimal consumption at $(C)$
+
+- .orange[**Substitution effect:** `\\(A \rightarrow B\\)`] on same I.C. $(\uparrow$ cheaper $x$ and $\downarrow$ $y)$
+
+]
+
+.pull-right[
+
+```{r, fig.retina=3, fig.height=6}
+se_dom
+```
+
+]
+
+---
+
+# Real Income and Substitution Effects, Graphically IV
+
+.pull-left[
+
+- Original optimal consumption $(A)$
+
+- Price of $x$ falls, new optimal consumption at $(C)$
+
+- .orange[**Substitution effect:** `\\(A \rightarrow B\\)`] on same I.C. $(\uparrow$ cheaper $x$ and $\downarrow$ $y)$
+
+- .green[**(Real) income effect:** `\\(B \rightarrow C\\)`] to new budget constraint (can buy more of $x$ and/or $y$)
+
+]
+
+.pull-right[
+
+```{r, fig.retina=3, fig.height=6}
+se_dom+
+  annotate("segment", x = 8, xend = 10, y = 6, yend = 6, colour = "green", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="last", type="closed"))
+```
+
+]
+
+---
+
+# Real Income and Substitution Effects, Graphically IV
+
+.pull-left[
+
+- Original optimal consumption $(A)$
+
+- Price of $x$ falls, new optimal consumption at $(C)$
+
+- .orange[**Substitution effect:** `\\(A \rightarrow B\\)`] on same I.C. $(\uparrow$ cheaper $x$ and $\downarrow$ $y)$
+
+- .green[**(Real) income effect:** `\\(B \rightarrow C\\)`] to new budget constraint (can buy more of $x$ and/or $y$)
+
+- .purple[**(Total) price effect:** `\\(A \rightarrow C\\)`]
+
+]
+
+.pull-right[
+
+```{r, fig.retina=3, fig.height=6}
+se_dom+
+  annotate("segment", x = 9, xend = 6, y = 6, yend = 6, colour = "green", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="last", type="closed"))+
+    annotate("segment", x = 12, xend = 6, y = 2, yend = 2, colour = "purple", size=2, alpha=1, arrow=arrow(length=unit(0.5,"cm"), ends="last", type="closed"))+
+  labs(title = "Change in Consumption From an Increase in Price",
+       subtitle = "Normal Good")
+
+```
+
+]
