@@ -86,7 +86,7 @@ Show all work for calculations. You may lose points, even if correct, for missin
 
 ## Question 5
 
-Steve spends his disposable income on meals at restaurants $(r)$ and paperback novels $(n)$. His usual restaurant meal costs $25, and paperback books cost $8. When Steve’s monthly income is $240, he goes out to eat 8 times and purchases 5 books. When his income rises to $282, he goes out to eat 10 times and purchases 4 books. 
+Steve spends his disposable income on meals at restaurants $(r)$ and paperback novels $(n)$. His usual restaurant meal costs <span>&#36;</span>25, and paperback books cost <span>&#36;</span>8. When Steve’s monthly income is <span>&#36;</span>240, he goes out to eat 8 times and purchases 5 books. When his income rises to <span>&#36;</span>282, he goes out to eat 10 times and purchases 4 books. 
 
 ### Part A
 
@@ -102,15 +102,15 @@ Kendra buys eggs $(e)$, bagels $(b)$, and coffee $(c)$ for breakfast for the wee
 
 ### Part A
 
-When eggs are $2/carton, she buys 5 bagels. When the price of eggs falls to $1/carton, she buys 4 bagels. Calculate the cross-price elasticity between eggs and bagels. Are they complements or substitutes for Kendra?
+When eggs are <span>&#36;</span>2/carton, she buys 5 bagels. When the price of eggs falls to <span>&#36;</span>1/carton, she buys 4 bagels. Calculate the cross-price elasticity between eggs and bagels. Are they complements or substitutes for Kendra?
 
 ### Part B
 
-When eggs are $2/carton, she buys 3 cups of coffee. When the price of eggs falls to $1/carton, she buys 6 cups of coffee. Calculate the cross-price elasticity between eggs and coffee. Are they complements or substitutes for Kendra?
+When eggs are <span>&#36;</span>2/carton, she buys 3 cups of coffee. When the price of eggs falls to <span>&#36;</span>1/carton, she buys 6 cups of coffee. Calculate the cross-price elasticity between eggs and coffee. Are they complements or substitutes for Kendra?
 
 ## Question 7
 
-Sketch a graph showing a *decrease* in the price of a good (on the horizontal axis, e.g. $x$ if you want). Indicate the (real) income effect, substitution effect, and price effect on the graph. Labelling points and describing each effect as a movement between specific points is sufficient. 
+Sketch a graph showing a *decrease* in the price of a good (on the horizontal axis, e.g. $x$ if you want). Indicate the (real) income effect, substitution effect, and price effect on the graph. Labeling points and describing each effect as a movement between specific points is sufficient. 
 
 ## Question 8
 
@@ -123,19 +123,19 @@ Write the inverse demand function.
 
 ### Part B
 
-Calculate the price elasticity of demand at a price of $80. Is this relatively elastic or relatively inelastic?
+Calculate the price elasticity of demand at a price of <span>&#36;</span>80. Is this relatively elastic or relatively inelastic?
 
 ### Part C
 
-What is the total revenue at a price of $80?
+What is the total revenue at a price of <span>&#36;</span>80?
 
 ### Part D
 
-Calculate the price elasticity of demand at a price of $10. Is this relatively elastic or relatively inelastic?
+Calculate the price elasticity of demand at a price of <span>&#36;</span>10. Is this relatively elastic or relatively inelastic?
 
 ### Part E
 
-What is the total revenue at $10?
+What is the total revenue at <span>&#36;</span>10?
  
 ### Part F
 
