@@ -35,8 +35,11 @@ lessons:
     content: "1.6-content"
     slides: "1.6-slides"
     
-  - title: "1.7 — Price Elasticity"
-
+  - title: "1.7 — Price Elasticity of Demand"
+    content: "1.7-content"
+    slides: "1.7-slides"
+    practice: "1.7-practice"
+    
   - title: '<i class="fas fa-laptop-code"></i> **Problem Set 2** due Mon Sep 20'
     assignment: "02-problem-set"
 

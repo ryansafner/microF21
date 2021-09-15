@@ -1,11 +1,11 @@
 # make-pdfs
-pagedown::chrome_print(input = "https://blissful-euler-0e9a9d.netlify.app/slides/1.5-slides.html",
-                       output = "static/slides/1.5-slides.pdf",
+pagedown::chrome_print(input = "https://blissful-euler-0e9a9d.netlify.app/slides/1.6-slides.html",
+                       output = "static/slides/1.6-slides.pdf",
                        timeout = 300)
 
 # create png of first slide
-pagedown::chrome_print(input = "https://blissful-euler-0e9a9d.netlify.app/slides/1.5-slides.html",
-                       output = "static/slides/1.5-slides.png",
+pagedown::chrome_print(input = "https://blissful-euler-0e9a9d.netlify.app/slides/1.6-slides.html",
+                       output = "static/slides/1.6-slides.png",
                        selector = "div.remark-slide",
                        format = "png",
                        timeout = 300)
