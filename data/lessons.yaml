@@ -43,7 +43,8 @@ lessons:
   - title: '<i class="fas fa-laptop-code"></i> **Problem Set 2** due Mon Sep 20'
     assignment: "02-problem-set"
 
-  - title: '<i class="fas fa-star"></i> **Exam 1**'
+  - title: '<i class="fas fa-star"></i> **Exam 1** Mon Sep 27'
+    assignment: "01-exam"
 
   - title: '<span class="fake-header-table">II. Rational Choice Theory: Producers</span>'
     header: True

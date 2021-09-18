@@ -1039,5 +1039,86 @@ p_x&amp;amp;=0.5\frac{m}{x} \\
 </description>
     </item>
     
+    <item>
+      <title>1.7 — Price Elasticity of Demand — Class Content</title>
+      <link>https://microf21.classes.ryansafner.com/content/1.7-content/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://microf21.classes.ryansafner.com/content/1.7-content/</guid>
+      <description>
+&lt;script src=&#34;https://microf21.classes.ryansafner.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#overview&#34;&gt;&lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt; Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#readings&#34;&gt;&lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt; Readings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#slides&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Slides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#assignments&#34;&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; Assignments&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#problem-set-2-due-mon-sep-20&#34;&gt;Problem Set 2 Due Mon Sep 20&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#extra-example-applications-of-consumer-theory-models&#34;&gt;Extra: Example Applications of Consumer Theory Models&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;em&gt;Wednesday, September 15, 2021&lt;/em&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    &lt;a href=&#34;https://microf21.classes.ryansafner.com/assignments/02-problem-set&#34;&gt;Problem Set 2&lt;/a&gt; is due by next Monday September 20.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;div id=&#34;overview&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt; Overview&lt;/h2&gt;
+&lt;p&gt;Today we wrap up Unit 1 by talking more extensively about demand curves and simple demand functions (relating price and quantity demanded of a good, &lt;em&gt;ceterus paribus&lt;/em&gt;). We also (re-)introduce the idea of &lt;strong&gt;price elasticity of demand&lt;/strong&gt; that measures a person’s responsiveness in consumption to a change in that good’s price. However, unlike what you learned in principles&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; we look at the elasticity of &lt;em&gt;any point on the demand curve&lt;/em&gt; using a more useful formula:
+&lt;span class=&#34;math display&#34;&gt;\[\epsilon_{q,p}=\frac{1}{slope} \times \frac{p}{q}\]&lt;/span&gt;
+where slope refers to the slope of the &lt;em&gt;inverse&lt;/em&gt; demand curve (the one that we graph).&lt;/p&gt;
+&lt;p&gt;We will look at the key relationship between price elasticity of demand and total revenue, (Total expenditure, from the perspective of the buyer.) and work on some &lt;a href=&#34;https://microf21.classes.ryansafner.com/practice/1.7-practice&#34;&gt;practice problems&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Next class will be a review session for &lt;a href=&#34;https://microf21.classes.ryansafner.com/assignments/01-exam&#34;&gt;Exam 1&lt;/a&gt;, and you can mind more information about on the exam that page.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;readings&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt; Readings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-book&#34;&gt;&lt;/i&gt; Ch. 2.2, 2.5, 5.5, in Goolsbee, Levitt, and Syverson, 2019&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Slides&lt;/h2&gt;
+&lt;p&gt;Below, you can find the slides in two formats. Clicking the image will bring you to the html version of the slides in a new tab. Note while in going through the slides, you can type &lt;kbd&gt;h&lt;/kbd&gt; to see a special list of viewing options, and type &lt;kbd&gt;o&lt;/kbd&gt; for an outline view of all the slides.&lt;/p&gt;
+&lt;p&gt;The lower button will allow you to download a PDF version of the slides. I suggest printing the slides beforehand and using them to take additional notes in class (&lt;em&gt;not everything&lt;/em&gt; is in the slides)!&lt;/p&gt;
+&lt;p&gt;
+&lt;p style=&#34;text-align:center;&#34;&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://microf21.classes.ryansafner.com/slides/1.7-slides.html&#34;&gt;&lt;img src =&#34;/slides/1.7-slides.png&#34; alt = &#34;1.7-slides&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&#34;text-align:center;&#34;&gt;&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://microf21.classes.ryansafner.com/slides/1.7-slides.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download as PDF&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;assignments&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; Assignments&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;problem-set-2-due-mon-sep-20&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Problem Set 2 Due Mon Sep 20&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://microf21.classes.ryansafner.com/assignments/02-problem-set&#34;&gt;Problem set 2&lt;/a&gt; (on classes 1.6-1.8) is due by Monday, September 20 by PDF upload to Blackboard Assignments.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;extra-example-applications-of-consumer-theory-models&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Extra: Example Applications of Consumer Theory Models&lt;/h2&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;a href=&#34;https://microf21.classes.ryansafner.com/files/CT_Application_1_Uncertainty.pdf&#34;&gt;Uncertainty&lt;/a&gt;: We have examined cases where outcomes are &lt;em&gt;certain&lt;/em&gt;. What if outcomes are not guaranteed, but are &lt;em&gt;uncertain&lt;/em&gt; (i.e. probabilistic)? Things like your health, your investments, and the integrity of your property (from theft, natural disasters, war, etc) certainly fall into this category. For this reason, we take out &lt;em&gt;insurance&lt;/em&gt; on valuable things that have some probability of significantly losing their value. Let’s explore how Consumer Theory can make our actions more intelligible.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://microf21.classes.ryansafner.com/files/CT_Application_2_Exchange.pdf&#34;&gt;Exchange&lt;/a&gt;: We have examined the case of a single individual (a consumer) making optimal choices given market prices, income, and their preferences. In one sense, an economy is just a collection of millions of these individuals all doing the same thing. But economics truly begins where at the more important stage where these individuals interact and exchange &lt;em&gt;with one another.&lt;/em&gt; In particular, we want to examine how relative prices and income are &lt;em&gt;determined&lt;/em&gt; in an economy (up until now we simply &lt;em&gt;assumed&lt;/em&gt; them as given parameters). They must come from somewhere! – the interactions of individuals buying and selling with one another, responding in order to balance supply and demand. This is where the study of (general) &lt;strong&gt;equilibrium&lt;/strong&gt; comes from, and what the traditional Supply and Demand model captures in its simplifications.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://microf21.classes.ryansafner.com/files/CT_Application_3_Taxation.pdf&#34;&gt;Taxation&lt;/a&gt;: This handout uses consumer theory to answer a simple question: &lt;strong&gt;which is better for consumers, a consumption tax (tax per unit), or an equivalent income tax that raises the same amount of revenue for the government?&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;Intertemporal Choice (TBD)&lt;/a&gt;: All of our models thus far have only looked at present consumption and ignored any element of &lt;em&gt;time.&lt;/em&gt; We can also look at &lt;em&gt;intertemporal choice&lt;/em&gt;, that is, consumption decisions over time. This often touches on topics that most consider “macroeconomics,” concepts like interest rates, borrowing, lending, etc. However, these “big picture” ideas must come from actual individual decisions to consume or to save, aggregated across many individuals. Even macroeconomic theories often require “micro-foundations.” Abstract and complex concepts like interest are actually just applications of relative price theory–interest itself is a relative price of consumption today vs. consumption in the future!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Arc-price elasticity using the midpoint between two points on the demand curve: &lt;span class=&#34;math display&#34;&gt;\[\cfrac{\frac{q_{2}-q_{1}}{\left(\frac{q_{1}+q_{2}}{2}\right)}}{\frac{p_{2}-p_{1}}{\left(\frac{p_{1}+p_{2}}{2}\right)}}\]&lt;/span&gt;
+This actually calculates the elasticity of a single point, the one midway between &lt;span class=&#34;math inline&#34;&gt;\((q_1,p_1)\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\((q_2,p_2)\)&lt;/span&gt;.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
