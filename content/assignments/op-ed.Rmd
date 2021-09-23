@@ -19,12 +19,10 @@ library(pander)
 ```
 
 {{% alert warning %}}
-Due by **DATE** and **TIME** by CHALK-AND-WIRE UPLOAD (include a word count)
+Due by the end of the day Monday December 6 by CHALK-AND-WIRE UPLOAD (include a word count)
 {{% /alert %}}
 
 > "How can I know what I think until I see what I say?" [— E. M. Forster]{style="float:right"}
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8CdcUyMug3c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### How to Write a Good Paper
 
