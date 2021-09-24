@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.8.31)  8 SEP 2021 08:03
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.9.17)  24 SEP 2021 08:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1119,10 +1119,10 @@ Package rerunfilecheck Info: File `syllabus-pdf.out' has not changed.
 (rerunfilecheck)             Checksum: BCD2332459C5B88D14CC632DA0E14740;2955.
  ) 
 Here is how much of TeX's memory you used:
- 11482 strings out of 478532
- 233904 string characters out of 5861725
- 599505 words of memory out of 5000000
- 31526 multiletter control sequences out of 15000+600000
+ 11482 strings out of 478492
+ 233904 string characters out of 5860850
+ 599625 words of memory out of 5000000
+ 31566 multiletter control sequences out of 15000+600000
  406101 words of font info for 95 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  73i,9n,112p,388b,356s stack positions out of 5000i,500n,10000p,200000b,80000s

@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.9.17)  24 SEP 2021 08:43
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.9.17)  24 SEP 2021 08:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**02-problem-set-pdf.tex
-(./02-problem-set-pdf.tex
+**02-problem-set-answers-pdf.tex
+(./02-problem-set-answers-pdf.tex
 LaTeX2e <2021-06-01> patch level 1
 L3 programming layer <2021-08-27> (/Users/ryansafner/Library/TinyTeX/texmf-dist
 /tex/latex/base/article.cls
@@ -951,8 +951,8 @@ Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 \rotheadsize=\dimen264
 \c@nlinenum=\count333
 \TeXr@lab=\toks33
-) (./02-problem-set-pdf.aux)
-\openout1 = `02-problem-set-pdf.aux'.
+) (./02-problem-set-answers-pdf.aux)
+\openout1 = `02-problem-set-answers-pdf.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
 LaTeX Font Info:    ... okay on input line 90.
@@ -1251,9 +1251,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 90.
 LaTeX Info: Redefining \pageref on input line 90.
 LaTeX Info: Redefining \nameref on input line 90.
-(./02-problem-set-pdf.out) (./02-problem-set-pdf.out)
+(./02-problem-set-answers-pdf.out) (./02-problem-set-answers-pdf.out)
 \@outlinefile=\write3
-\openout3 = `02-problem-set-pdf.out'.
+\openout3 = `02-problem-set-answers-pdf.out'.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1330,57 +1330,75 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/Users/ryansafner/Library/TinyTeX/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Font shape `TU/FiraSansCondensed(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 95.
 LaTeX Font Info:    Font shape `TU/FiraSansCondensed(0)/b/n' will be
-(Font)              scaled to size 14.4pt on input line 95.
+(Font)              scaled to size 10.95pt on input line 93.
+LaTeX Font Info:    Font shape `TU/FiraSansCondensed(0)/m/n' will be
+(Font)              scaled to size 14.4pt on input line 100.
+LaTeX Font Info:    Font shape `TU/FiraSansCondensed(0)/b/n' will be
+(Font)              scaled to size 14.4pt on input line 100.
 [1
 
-] [2
+]
+LaTeX Font Info:    Font shape `TU/FiraSansCondensed(0)/b/it' will be
+(Font)              scaled to size 10.95pt on input line 157.
+[2
 
 ]
-LaTeX Font Info:    Font shape `TU/FiraSansCondensed(0)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 127.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 9.35445pt on input line 235.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 6.68176pt on input line 235.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 13.36485pt on input line 235.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 9.3554pt on input line 235.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 6.68243pt on input line 235.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 13.36218pt on input line 235.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 9.35352pt on input line 235.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 6.68109pt on input line 235.
+File: 02-problem-set-answers-pdf_files/figure-latex/unnamed-chunk-2-1.pdf Graph
+ic file (type pdf)
+<use 02-problem-set-answers-pdf_files/figure-latex/unnamed-chunk-2-1.pdf>
 [3
 
+] [4
+
+] [5] [6
+
 ]
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 9.35445pt on input line 158.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.68176pt on input line 158.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 13.36485pt on input line 158.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 9.3554pt on input line 158.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.68243pt on input line 158.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 13.36218pt on input line 158.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.35352pt on input line 158.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.68109pt on input line 158.
-[4
-
-] [5
-
-] [6
-
-] [7
+File: 02-problem-set-answers-pdf_files/figure-latex/unnamed-chunk-3-1.pdf Graph
+ic file (type pdf)
+<use 02-problem-set-answers-pdf_files/figure-latex/unnamed-chunk-3-1.pdf>
+[7
 
 ] [8
 
-] (./02-problem-set-pdf.aux)
-Package rerunfilecheck Info: File `02-problem-set-pdf.out' has not changed.
+] [9]
+File: 02-problem-set-answers-pdf_files/figure-latex/unnamed-chunk-4-1.pdf Graph
+ic file (type pdf)
+<use 02-problem-set-answers-pdf_files/figure-latex/unnamed-chunk-4-1.pdf>
+[10] [11] (./02-problem-set-answers-pdf.aux)
+Package rerunfilecheck Info: File `02-problem-set-answers-pdf.out' has not chan
+ged.
 (rerunfilecheck)             Checksum: A1F11EDFA49391E8A34D7EE6DB8655E8;375.
  ) 
 Here is how much of TeX's memory you used:
- 19231 strings out of 478492
- 343774 string characters out of 5860850
- 826983 words of memory out of 5000000
- 39208 multiletter control sequences out of 15000+600000
- 410129 words of font info for 99 fonts, out of 8000000 for 9000
+ 19260 strings out of 478492
+ 345733 string characters out of 5860850
+ 838874 words of memory out of 5000000
+ 39231 multiletter control sequences out of 15000+600000
+ 410137 words of font info for 100 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 87i,9n,122p,523b,337s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 87i,10n,122p,531b,345s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 02-problem-set-pdf.pdf (8 pages).
+Output written on 02-problem-set-answers-pdf.pdf (11 pages).
+out of 15000+600000
+ 410137 words of font info for 100 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 87i,10n,122p,531b,345s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on 02-problem-set-answers-pdf.pdf (11 pages).
