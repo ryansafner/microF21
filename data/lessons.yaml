@@ -50,7 +50,9 @@ lessons:
     header: True
 
   - title: "2.1 — Production, Specialization, and Firms"
-
+    content: "2.1-content"
+    slides: "2.1-slides"
+    
   - title: "2.2 — Short Run and Long Run Production"
 
   - title: "2.3 — Cost Minimization"
