@@ -750,7 +750,7 @@ trade+stat_function(fun = home_high_IC, geom = "line", size = 2, color = "darkgr
 
 ---
 
-# Takeaways: Division of Labor & Comparative Advantage
+# Takeaways: Specialization & Exchange
 
 .pull-left[
 
@@ -806,7 +806,7 @@ Adam Smith
 
 ---
 
-# Takeaways: Division of Labor & Comparative Advantage
+# Takeaways: Specialization & Exchange
 
 .pull-left[
 
