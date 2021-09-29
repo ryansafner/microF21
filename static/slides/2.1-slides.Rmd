@@ -325,9 +325,9 @@ ppf_jagged
 .smaller[
 - .hi-purple[Increasing marginal cost]: to produce more of a good, (opportunity) cost rises as he cultivates more plots of land
 
-- Producing **Bananas** (x-axis), start with most productive plot first (.green[B]), then start cultivation on (.blue[A])
-  - .hi-turquoise[“Intensive margin”]: producing more on existing (most productive) plot (on .green[B])
-  - .hi-orange[“Extensive margin”]: bringing new plots into cultivation for production (moving to .blue[A])
+- Producing **Bananas** (x-axis), start with most productive plot first (.green[Plot B]), then start cultivation on (.blue[Plot A])
+  - .hi-turquoise[“Intensive margin”]: producing more on existing (most productive) plot (on .green[Plot B])
+  - .hi-orange[“Extensive margin”]: bringing new (worse) plots into cultivation for production (moving to .blue[Plot A])
 ]
 ]
 
@@ -451,7 +451,7 @@ geom_point(data = export_b,
 
 .pull-left[
 
-- Based on his preferences, his productive & consumption .hi[optimum] is point A (highest .green[Indifference curve] tangent to .blue[PPF])
+- Based on his preferences, his productive & consumption .hi[optimum] in .hi[autarky] is point A (highest .green[Indifference curve] tangent to .blue[PPF])
 
 - At this point:
 $$\underbrace{\color{blue}{MRT}}_{\text{PPF slope}}=\underbrace{\color{green}{MRS}}_{\text{I.C. slope}}=\underbrace{\color{purple}{\frac{p_b}{p_c}}}_{\text{price line}}$$
@@ -480,7 +480,7 @@ home_ppf_1<-ggplot(data.frame(x=c(0,10)), aes(x=x))+
   stat_function(fun = home_price_1, geom = "line", color = "purple", size = 1, linetype = "dashed")+
   geom_segment(x = 0, xend = 2, y = 2.75, yend = 2.75, linetype = "dotted", size = 1)+
   geom_segment(x = 2, xend = 2, y = 2.75, yend = 0, linetype = "dotted", size = 1)+
-  geom_label(x = 4, y = home_price_1(4), label = expression(frac(p[b],p[c])), size = 3, color = "green")+
+  geom_label(x = 4, y = home_price_1(4), label = expression(frac(p[b],p[c])), size = 3, color = "purple")+
   geom_point(data = home_point,
              mapping=aes(x=x, y=y),
              size = 3)+
@@ -632,8 +632,9 @@ home_exp+annotate("segment", x = 2, xend = 3.15, y = 2.75, yend = 1.8, colour = 
 
 .pull-left[
 
+.smallest[
 - He will trade at the market prices (slope of dark purple dashed line)
-
+]
 ]
 
 .pull-right[
@@ -749,15 +750,15 @@ trade+stat_function(fun = home_high_IC, geom = "line", size = 2, color = "darkgr
 
 ---
 
-# Takeaways: Comparative Advantage
+# Takeaways: Division of Labor & Comparative Advantage
 
 .pull-left[
 
 1. Trade is good
 
-2. .hi[Specialization] and .hi[comparative advantage]
-  - specialize in producing whatever good you have the lower opportunity cost in
-  - buy (import) everything else!
+2. .hi[Specialization] and .hi[exchange]
+  - specialize in producing whatever good you have the .hi[comparative advantage] (lower opportunity cost) in
+  - buy (import) **everything else**!
   - can be comparatively good at something, or comparatively bad at everything else!
 ]
 
@@ -798,23 +799,23 @@ Adam Smith
 
 .right-column[
 
-> "The greatest improvement in the productive powers of labour, and the greater part of the skill, dexterity, and judgment with which it is any where directed, or applied, seem to have been the effects of the **division of labour**," (Book I, Chapter 1).
+> "The greatest improvement in the productive powers of labour, and the greater part of the skill, dexterity, and judgment with which it is any where directed, or applied, seem to have been the effects of the .hi[division of labour]," (Book I, Chapter 1).
 ]
 
 .source[Smith, Adam, 1776, [*An Enquiry into the Nature and Causes of the Wealth of Nations*](https://www.econlib.org/library/Smith/smWN.html)]
 
 ---
 
-# Takeaways: Comparative Advantage
+# Takeaways: Division of Labor & Comparative Advantage
 
 .pull-left[
 
 .smaller[
 1. Trade is good
 
-2. .hi[Specialization] and .hi[comparative advantage]
-  - specialize in producing whatever good you have the lower opportunity cost in
-  - buy (import) everything else!
+2. .hi[Specialization] and .hi[exchange]
+  - specialize in producing whatever good you have the .hi[comparative advantage] (lower opportunity cost) in
+  - buy (import) **everything else**!
   - can be comparatively good at something, or comparatively bad at everything else!
 
 - Learn much more in my [international trade](https://tradef20.classes.ryansafner.com) course
@@ -898,7 +899,8 @@ class: inverse, center, middle
 # The Firm
 
 .pull-left[
-- In modern market economies, most production takes place in a legal organization known as .hi[the firm]
+- In modern market economies, most production takes place in an organization known as a .hi[firm]
+  - A legal fiction for particular purposes
 
 - It does not *have* to be this way, and for most of history it was not this way!
     - Craft guilds
@@ -946,7 +948,7 @@ class: inverse, center, middle
 
 .pull-left[
 
-- We'll assume "the firm" is the agent to model:
+- We'll assume “the firm” is the agent to model:
 
 - So what do firms do? 
 
@@ -1028,7 +1030,7 @@ class: inverse, center, middle
 # What Do Firms Do? III
 
 .pull-left[
-- .hi[Technology] or a .hi[production function]: rate at which firm can convert specified inputs $(x_1, x_2, \cdots, x_n)$ into output $(q)$
+- .hi[Technology] or a .hi[production function]: rate at which firm can convert specified **inputs** $(x_1, x_2, \cdots, x_n)$ into **output** $(q)$
 $$q=f(x_1, x_2, \cdots, x_n)$$
 
 ]
@@ -1248,7 +1250,7 @@ $$\pi=\underbrace{pq}_{revenues}-\underbrace{(wl+rk)}_{costs}$$
 
 ---
 
-# Reminder from Macroeconomics: "The Circular Flow"
+# Reminder from Macroeconomics: “The Circular Flow”
 
 .center[
 ![:scale 60%](../images/circularflow.png)
@@ -1381,7 +1383,7 @@ $$\pi=\underbrace{pq}_{revenues}-\underbrace{(wl+rk)}_{costs}$$
     - Depends on the market the firm is operating in!
     - Study of <span class="hi">industrial organization</span>
     
-- Essential question: how competitive is a market? This will influence what firms (can) do
+- Essential question: .hi-turquoise[how competitive is a market?] This will influence what firms (can) do
 ]
 
 .pull-right[
@@ -1396,7 +1398,7 @@ $$\pi=\underbrace{pq}_{revenues}-\underbrace{(wl+rk)}_{costs}$$
 
 .pull-left[
 
-- Begin with one extreme case: .hi["perfect competition"]
+- Begin with one extreme case: .hi[“perfect competition”]
   - Firms can choose to sell as much $q^*$ as they want
   - Firms are constrained to sell at the (exogenous) market price $\bar{p}$
 
@@ -1415,9 +1417,9 @@ $$\pi=\underbrace{pq}_{revenues}-\underbrace{(wl+rk)}_{costs}$$
 
 .pull-left[
 
-- After we find firm's **optimal decisions** in this market (and have Exam 2), we will then finally look at **market equilibrium**
+- After we find firm's .hi-purple[optimal decisions] in this market (and have Exam 2), we will then finally look at .hi-purple[Unit III: Market Equilibrium]
 
-- Put Supply and Demand together
+- Put .red[Supply] and .blue[Demand] together
 ]
 
 .pull-right[
@@ -1506,7 +1508,7 @@ p
 - Examine another extreme case: .hi[monopoly] of a single seller
     - Appropriate for some markets
 
-- .hi-purple["Imperfect competition"]: models of .hi[monopolistic competition] & .hi[oligopoly]
+- .hi-purple[“Imperfect competition”]: models of .hi[monopolistic competition] & .hi[oligopoly]
     - In latter case, firms act **strategically**, so we will need <span class="hi-purple">game theory</span>
     
 - Firms can choose *both* $q^*$ & $p^*$ to maximize $\pi$
