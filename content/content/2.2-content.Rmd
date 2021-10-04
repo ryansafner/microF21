@@ -69,8 +69,8 @@ The lower button will allow you to download a PDF version of the slides. I sugge
 Consider a movement along an isoquant curve, how would this change affect output? There will be a change in $l$ and a change in $k$, and multiplying the marginal product of each, and adding these together will give us our total change in output. But we know that if we are on the same isoquant curve, moving along the curve will *not change output* (all points on the curve are defined as having the same output!). So rearrange the equation as follows:
 
 $$\begin{align*}
-MP_l \Delta l+MU=P_k\Delta k&= \Delta q && \text{Measuring change in output} \\
-MP_l \Delta l+MU=P_k\Delta k&=0 && \text{But change in output is 0}\\
+MP_l \Delta l+MP_k\Delta k&= \Delta q && \text{Measuring change in output} \\
+MP_l \Delta l+MP_k\Delta k&=0 && \text{But change in output is 0}\\
 MP_k \Delta k&= -MP_{l} \Delta l && \text{Subtracting l terms}\\
 \underbrace{\frac{\Delta k}{\Delta l}}_{MRTS} &= -\frac{MP_{l}}{MP_{k}} && \text{Dividing to get like terms on each side}\\ \end{align*}$$
 

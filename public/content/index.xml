@@ -1255,8 +1255,8 @@ This actually calculates the elasticity of a single point, the one midway betwee
 &lt;h2&gt;Derivation of MRTS Equation (as ratio of marginal products)&lt;/h2&gt;
 &lt;p&gt;Consider a movement along an isoquant curve, how would this change affect output? There will be a change in &lt;span class=&#34;math inline&#34;&gt;\(l\)&lt;/span&gt; and a change in &lt;span class=&#34;math inline&#34;&gt;\(k\)&lt;/span&gt;, and multiplying the marginal product of each, and adding these together will give us our total change in output. But we know that if we are on the same isoquant curve, moving along the curve will &lt;em&gt;not change output&lt;/em&gt; (all points on the curve are defined as having the same output!). So rearrange the equation as follows:&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
-MP_l \Delta l+MU=P_k\Delta k&amp;amp;= \Delta q &amp;amp;&amp;amp; \text{Measuring change in output} \\
-MP_l \Delta l+MU=P_k\Delta k&amp;amp;=0 &amp;amp;&amp;amp; \text{But change in output is 0}\\
+MP_l \Delta l+MP_k\Delta k&amp;amp;= \Delta q &amp;amp;&amp;amp; \text{Measuring change in output} \\
+MP_l \Delta l+MP_k\Delta k&amp;amp;=0 &amp;amp;&amp;amp; \text{But change in output is 0}\\
 MP_k \Delta k&amp;amp;= -MP_{l} \Delta l &amp;amp;&amp;amp; \text{Subtracting l terms}\\
 \underbrace{\frac{\Delta k}{\Delta l}}_{MRTS} &amp;amp;= -\frac{MP_{l}}{MP_{k}} &amp;amp;&amp;amp; \text{Dividing to get like terms on each side}\\ \end{align*}\]&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Notice rise over run, &lt;span class=&#34;math inline&#34;&gt;\(\frac{\Delta k}{\Delta l}\)&lt;/span&gt;, is the slope, which we have defined as the marginal rate of technical substitution (MRTS). &lt;span class=&#34;math inline&#34;&gt;\(\blacksquare\)&lt;/span&gt;&lt;/p&gt;
@@ -1448,7 +1448,7 @@ AVC(q) = \frac{ \partial VC}{\partial q} = w \frac{l}{q}= w \frac{1}{AP_l}
     </item>
     
     <item>
-      <title>2.2 — Production in the Short Run &amp; Long Run — Class Content</title>
+      <title>2.3 — Cost Minimization — Class Content</title>
       <link>https://microf21.classes.ryansafner.com/content/2.3-content/</link>
       <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
       
@@ -1513,8 +1513,8 @@ AVC(q) = \frac{ \partial VC}{\partial q} = w \frac{l}{q}= w \frac{1}{AP_l}
 &lt;p&gt;Below, you can find the slides in two formats. Clicking the image will bring you to the html version of the slides in a new tab. Note while in going through the slides, you can type &lt;kbd&gt;h&lt;/kbd&gt; to see a special list of viewing options, and type &lt;kbd&gt;o&lt;/kbd&gt; for an outline view of all the slides.&lt;/p&gt;
 &lt;p&gt;The lower button will allow you to download a PDF version of the slides. I suggest printing the slides beforehand and using them to take additional notes in class (&lt;em&gt;not everything&lt;/em&gt; is in the slides)!&lt;/p&gt;
 &lt;p&gt;
-&lt;p style=&#34;text-align:center;&#34;&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://microf21.classes.ryansafner.com/slides/2.2-slides.html&#34;&gt;&lt;img src =&#34;/slides/2.2-slides.png&#34; alt = &#34;2.2-slides&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p style=&#34;text-align:center;&#34;&gt;&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://microf21.classes.ryansafner.com/slides/2.2-slides.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download as PDF&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&#34;text-align:center;&#34;&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://microf21.classes.ryansafner.com/slides/2.3-slides.html&#34;&gt;&lt;img src =&#34;/slides/2.3-slides.png&#34; alt = &#34;2.3-slides&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&#34;text-align:center;&#34;&gt;&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://microf21.classes.ryansafner.com/slides/2.3-slides.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download as PDF&lt;/a&gt;&lt;/p&gt;
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;practice&#34; class=&#34;section level2&#34;&gt;
