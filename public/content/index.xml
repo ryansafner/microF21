@@ -1171,5 +1171,390 @@ This actually calculates the elasticity of a single point, the one midway betwee
 </description>
     </item>
     
+    <item>
+      <title>2.2 — Production in the Short Run &amp; Long Run — Class Content</title>
+      <link>https://microf21.classes.ryansafner.com/content/2.2-content/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://microf21.classes.ryansafner.com/content/2.2-content/</guid>
+      <description>
+&lt;script src=&#34;https://microf21.classes.ryansafner.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#overview&#34;&gt;&lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt; Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#readings&#34;&gt;&lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt; Readings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#slides&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Slides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#assignments&#34;&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; Assignments&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#problem-set-3-due-wed-oct-13&#34;&gt;Problem Set 3 Due Wed Oct 13&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#appendix&#34;&gt;&lt;i class=&#34;fas fa-sigma&#34;&gt;&lt;/i&gt; Appendix&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#derivation-of-mrts-equation-as-ratio-of-marginal-products&#34;&gt;Derivation of MRTS Equation (as ratio of marginal products)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#solving-the-firms-problem-in-one-step&#34;&gt;Solving the Firm’s Problem in One Step&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#objective-maximize-profits&#34;&gt;Objective: Maximize Profits&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#constraint-technology&#34;&gt;Constraint: Technology&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#solving-the-problem&#34;&gt;Solving the Problem&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#the-firms-supply-and-demand-functions&#34;&gt;The Firm’s Supply and Demand Functions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#the-geometry-of-short-run-production&#34;&gt;The Geometry of Short-Run Production&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#i.-increasing-returns&#34;&gt;I. Increasing Returns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#ii.-decreasing-returns&#34;&gt;II. Decreasing Returns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#iii.-negative-returns&#34;&gt;III. Negative Returns&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#the-relationship-between-marginal-and-average&#34;&gt;The Relationship Between Marginal and Average&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;em&gt;Monday, October 4, 2021&lt;/em&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    &lt;a href=&#34;https://microf21.classes.ryansafner.com/assignments/03-problem-set&#34;&gt;Problem Set 3&lt;/a&gt; is due by Wednesday October 13.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;div id=&#34;overview&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt; Overview&lt;/h2&gt;
+&lt;p&gt;Today we continue with setting up the second stage of the firm’s problem, the &lt;em&gt;cost-minimization problem&lt;/em&gt;, where firms choose inputs &lt;span class=&#34;math inline&#34;&gt;\((l,k)\)&lt;/span&gt; that minimize total cost &lt;span class=&#34;math inline&#34;&gt;\((wl+rk)\)&lt;/span&gt; in order to produce the optimal amount of output &lt;span class=&#34;math inline&#34;&gt;\(q^*\)&lt;/span&gt;. For now, we are merely &lt;em&gt;assuming&lt;/em&gt; the amount of output that is optimal, later we will explicitly solve for it as our first stage (&lt;em&gt;profit maximization problem&lt;/em&gt;).&lt;/p&gt;
+&lt;p&gt;In doing so, we need to split up production activity into the &lt;em&gt;short-run&lt;/em&gt;, where firms cannot change all inputs (we traditionally assume capital is fixed &lt;span class=&#34;math inline&#34;&gt;\(\bar{k}\)&lt;/span&gt; and firms can only change labor &lt;span class=&#34;math inline&#34;&gt;\(l)\)&lt;/span&gt;, and the long run, where firms can change all inputs. We discuss short run production and associated input-based metrics: &lt;em&gt;marginal product&lt;/em&gt; and &lt;em&gt;average product.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In the long-run, firms can choose &lt;em&gt;many&lt;/em&gt; combinations of inputs &lt;span class=&#34;math inline&#34;&gt;\((l,k)\)&lt;/span&gt; that yield a desired output. We introduce two tools that will remind you a lot like the tools from consumer theory: (1) an &lt;em&gt;isoquant curve&lt;/em&gt;&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; that, similar to an indifference curve, contains all the combinations of inputs that yield the same output, and (2) an &lt;em&gt;isocost line&lt;/em&gt;&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; that, similar to a budget constraint, contains all the combinations of inputs that are the same total cost. We discuss some properties about each of these things and do some examples in anticipation of putting these tools together in the next class to solve the problem.&lt;/p&gt;
+&lt;p&gt;For some students, it takes this second time around with the tools of consumer theory for them to finally “click,” and that’s okay!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;readings&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt; Readings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-book&#34;&gt;&lt;/i&gt; Ch. 6.2-6.4 in Goolsbee, Levitt, and Syverson, 2019&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Slides&lt;/h2&gt;
+&lt;p&gt;Below, you can find the slides in two formats. Clicking the image will bring you to the html version of the slides in a new tab. Note while in going through the slides, you can type &lt;kbd&gt;h&lt;/kbd&gt; to see a special list of viewing options, and type &lt;kbd&gt;o&lt;/kbd&gt; for an outline view of all the slides.&lt;/p&gt;
+&lt;p&gt;The lower button will allow you to download a PDF version of the slides. I suggest printing the slides beforehand and using them to take additional notes in class (&lt;em&gt;not everything&lt;/em&gt; is in the slides)!&lt;/p&gt;
+&lt;p&gt;
+&lt;p style=&#34;text-align:center;&#34;&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://microf21.classes.ryansafner.com/slides/2.2-slides.html&#34;&gt;&lt;img src =&#34;/slides/2.2-slides.png&#34; alt = &#34;2.2-slides&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&#34;text-align:center;&#34;&gt;&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://microf21.classes.ryansafner.com/slides/2.2-slides.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download as PDF&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;assignments&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; Assignments&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;problem-set-3-due-wed-oct-13&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Problem Set 3 Due Wed Oct 13&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://microf21.classes.ryansafner.com/assignments/03-problem-set&#34;&gt;Problem set 3&lt;/a&gt; (on classes 2.1-2.3) is due by the end of the day Wednesday, October 13 by PDF upload to Blackboard Assignments.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;appendix&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;i class=&#34;fas fa-sigma&#34;&gt;&lt;/i&gt; Appendix&lt;/h1&gt;
+&lt;div id=&#34;derivation-of-mrts-equation-as-ratio-of-marginal-products&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Derivation of MRTS Equation (as ratio of marginal products)&lt;/h2&gt;
+&lt;p&gt;Consider a movement along an isoquant curve, how would this change affect output? There will be a change in &lt;span class=&#34;math inline&#34;&gt;\(l\)&lt;/span&gt; and a change in &lt;span class=&#34;math inline&#34;&gt;\(k\)&lt;/span&gt;, and multiplying the marginal product of each, and adding these together will give us our total change in output. But we know that if we are on the same isoquant curve, moving along the curve will &lt;em&gt;not change output&lt;/em&gt; (all points on the curve are defined as having the same output!). So rearrange the equation as follows:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+MP_l \Delta l+MU=P_k\Delta k&amp;amp;= \Delta q &amp;amp;&amp;amp; \text{Measuring change in output} \\
+MP_l \Delta l+MU=P_k\Delta k&amp;amp;=0 &amp;amp;&amp;amp; \text{But change in output is 0}\\
+MP_k \Delta k&amp;amp;= -MP_{l} \Delta l &amp;amp;&amp;amp; \text{Subtracting l terms}\\
+\underbrace{\frac{\Delta k}{\Delta l}}_{MRTS} &amp;amp;= -\frac{MP_{l}}{MP_{k}} &amp;amp;&amp;amp; \text{Dividing to get like terms on each side}\\ \end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Notice rise over run, &lt;span class=&#34;math inline&#34;&gt;\(\frac{\Delta k}{\Delta l}\)&lt;/span&gt;, is the slope, which we have defined as the marginal rate of technical substitution (MRTS). &lt;span class=&#34;math inline&#34;&gt;\(\blacksquare\)&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;solving-the-firms-problem-in-one-step&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Solving the Firm’s Problem in One Step&lt;/h2&gt;
+&lt;p&gt;Traditionally, it is easier if we break the firm’s profit maximization problem into two stages:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;The firm’s &lt;strong&gt;profit maximization problem&lt;/strong&gt;:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span color=&#34;blue&#34;&gt;&lt;strong&gt;Choose&lt;/strong&gt;: &lt;span class=&#34;math inline&#34;&gt;\(&amp;lt;\)&lt;/span&gt; Output: &lt;span class=&#34;math inline&#34;&gt;\(q\)&lt;/span&gt; &lt;span class=&#34;math inline&#34;&gt;\(&amp;gt;\)&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span color=&#34;green&#34;&gt;&lt;strong&gt;To Maximize&lt;/strong&gt;: &lt;span class=&#34;math inline&#34;&gt;\(&amp;lt;\)&lt;/span&gt; Profit: &lt;span class=&#34;math inline&#34;&gt;\(\pi=pq-C(q)\)&lt;/span&gt; &lt;span class=&#34;math inline&#34;&gt;\(&amp;gt;\)&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;written mathematically:
+&lt;span class=&#34;math display&#34;&gt;\[\max_{q \geq 0}pq-C(q)\]&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;The firm’s &lt;strong&gt;cost minimization problem&lt;/strong&gt;:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span color=&#34;blue&#34;&gt;&lt;strong&gt;Choose&lt;/strong&gt;: &lt;span class=&#34;math inline&#34;&gt;\(&amp;lt;\)&lt;/span&gt; Inputs: &lt;span class=&#34;math inline&#34;&gt;\(l,k\)&lt;/span&gt; &lt;span class=&#34;math inline&#34;&gt;\(&amp;gt;\)&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span color=&#34;green&#34;&gt;&lt;strong&gt;To Minimize&lt;/strong&gt;: &lt;span class=&#34;math inline&#34;&gt;\(&amp;lt;\)&lt;/span&gt; Total cost: &lt;span class=&#34;math inline&#34;&gt;\(C(q)=wl+rk\)&lt;/span&gt; &lt;span class=&#34;math inline&#34;&gt;\(&amp;gt;\)&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span color=&#34;red&#34;&gt;&lt;strong&gt;Subject to&lt;/strong&gt;: &lt;span class=&#34;math inline&#34;&gt;\(&amp;lt;\)&lt;/span&gt; Producing optimal output: &lt;span class=&#34;math inline&#34;&gt;\(q^*=f(k,l)\)&lt;/span&gt; &lt;span class=&#34;math inline&#34;&gt;\(&amp;gt;\)&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;written mathematically:
+&lt;span class=&#34;math display&#34;&gt;\[\min_{l,k \geq 0}pq-C(q)\]&lt;/span&gt;
+&lt;span class=&#34;math display&#34;&gt;\[s.t. y^*=f(k,l)\]&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We proceed in class with the second stage first, and then the first stage. However, this appendix shows that the problem can be solved in a &lt;em&gt;single stage.&lt;/em&gt; For simplicity, we look at the short run, where there is a single input &lt;span class=&#34;math inline&#34;&gt;\(l\)&lt;/span&gt; that can be chosen &lt;span class=&#34;math inline&#34;&gt;\((\bar{k}\)&lt;/span&gt; is fixed).&lt;/p&gt;
+&lt;p&gt;The firm’s &lt;strong&gt;profit maximization problem&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Choose&lt;/strong&gt;: &lt;span class=&#34;math inline&#34;&gt;\(&amp;lt;\)&lt;/span&gt; Input and Output: &lt;span class=&#34;math inline&#34;&gt;\(l,q\)&lt;/span&gt; &lt;span class=&#34;math inline&#34;&gt;\(&amp;gt;\)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;To Maximize&lt;/strong&gt;: &lt;span class=&#34;math inline&#34;&gt;\(&amp;lt;\)&lt;/span&gt; Profit: &lt;span class=&#34;math inline&#34;&gt;\(\pi=pq-wl\)&lt;/span&gt; &lt;span class=&#34;math inline&#34;&gt;\(&amp;gt;\)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Subject to&lt;/strong&gt;: &lt;span class=&#34;math inline&#34;&gt;\(&amp;lt;\)&lt;/span&gt; Technology: &lt;span class=&#34;math inline&#34;&gt;\(q=f(\bar{k},l)\)&lt;/span&gt; &lt;span class=&#34;math inline&#34;&gt;\(&amp;gt;\)&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Written mathematically:
+&lt;span class=&#34;math display&#34;&gt;\[\max_{l,q \geq 0}pq-wl\]&lt;/span&gt;
+&lt;span class=&#34;math display&#34;&gt;\[s.t. q=f(\bar{k},l)\]&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id=&#34;objective-maximize-profits&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Objective: Maximize Profits&lt;/h3&gt;
+&lt;p&gt;The objective function is trying to maximize profits. So we need to think about different levels (“contour lines”) of profit that correspond to combinations of input and output (at constant prices).&lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A firm earns profits (&lt;span class=&#34;math inline&#34;&gt;\(\pi\)&lt;/span&gt;) as revenues minus costs:
+&lt;span class=&#34;math display&#34;&gt;\[\pi=pq-wl\]&lt;/span&gt;
+Where
+- &lt;span class=&#34;math inline&#34;&gt;\(q\)&lt;/span&gt;: quantity of output
+- &lt;span class=&#34;math inline&#34;&gt;\(p\)&lt;/span&gt;: price of output
+- &lt;span class=&#34;math inline&#34;&gt;\(w\)&lt;/span&gt;: price of input (wage)
+- &lt;span class=&#34;math inline&#34;&gt;\(l\)&lt;/span&gt;: quantity of input (labor)&lt;/p&gt;
+&lt;p&gt;Imagine different amounts of input and output that would generate the same profit. We can think of an &lt;strong&gt;isoprofit line&lt;/strong&gt; as having the equation above.&lt;/p&gt;
+&lt;p&gt;However, it’s easier if we graph it as output in terms of input (our two axes for drawing the production function):
+&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+\pi &amp;amp;=pq-wl\\
+\pi+wl&amp;amp;=pq\\
+\frac{\pi}{p}+\frac{w}{p}l&amp;amp;=q\\
+\end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://microf21.classes.ryansafner.com/content/2.2-content_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;For these example isoprofit lines, since the price of our input &lt;span class=&#34;math inline&#34;&gt;\((w)\)&lt;/span&gt; is $1, and the price of output &lt;span class=&#34;math inline&#34;&gt;\((p)\)&lt;/span&gt; is $2, the slope of each of the isoprofit lines is positive &lt;span class=&#34;math inline&#34;&gt;\(0.5\)&lt;/span&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;constraint-technology&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Constraint: Technology&lt;/h3&gt;
+&lt;p&gt;The constraint is what is technologically feasible for the firm to produce, according to its production function. We need to make a few assumptions about production functions in order to get an optimum solution:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(q&amp;gt;0\)&lt;/span&gt;: firms always produce a positive amount&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(\frac{dq}{d l}&amp;gt;0\)&lt;/span&gt;: The more inputs used, the more output produced (the marginal product, i.e. the slope of production function, i.e. it’s first derivative, is positive)&lt;/li&gt;
+&lt;li&gt;&lt;span class=&#34;math inline&#34;&gt;\(\frac{d^2q}{d l^2}&amp;lt;0\)&lt;/span&gt;: Diminishing marginal productivity (production increases at a decreasing rate, i.e. the second derivative of the production function is negative)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;These assumptions generate &lt;em&gt;decreasing returns to scale&lt;/em&gt; in production: doubling input produces less than double output. These assumptions give us a mathematically-easy answer to find, but not all production fits these assumptions. A production function that fits these assumptions would look like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://microf21.classes.ryansafner.com/content/2.2-content_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;solving-the-problem&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Solving the Problem&lt;/h3&gt;
+&lt;p&gt;Essentially, we are trying to find the highest profit line tangent to our production function:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://microf21.classes.ryansafner.com/content/2.2-content_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;At a tangency, the slopes of the two functions are equal. The slope of the isoprofit lines we know are &lt;span class=&#34;math inline&#34;&gt;\(\frac{w}{p}\)&lt;/span&gt;. The slope of the production function is the marginal product (of labor). So at the point of tangency:
+&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+    \text{Slope of production function} &amp;amp;= \text{Slope of Isoprofit line}\\
+    \mathbf{MP_l}&amp;amp;\mathbf{=\frac{w}{p}}\\
+\end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-firms-supply-and-demand-functions&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;The Firm’s Supply and Demand Functions&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-geometry-of-short-run-production&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;The Geometry of Short-Run Production&lt;/h2&gt;
+&lt;p&gt;This appendix explores the geometry of production functions in the short run. From the common law of diminishing returns (sometimes called “&lt;em&gt;the law of variable proportions&lt;/em&gt;”), with constant technology, increasing the use of one factor (e.g. &lt;span class=&#34;math inline&#34;&gt;\(l)\)&lt;/span&gt;, holding other factors constant (e.g. &lt;span class=&#34;math inline&#34;&gt;\(\bar{k})\)&lt;/span&gt;, will ultimately experience diminishing returns. We often break up short-run production into three stages, based on the type of returns to increasing the use of one factor: increasing, decreasing, and negative.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://microf21.classes.ryansafner.com/content/2.2-content_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://microf21.classes.ryansafner.com/content/2.2-content_files/figure-html/unnamed-chunk-6-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;div id=&#34;i.-increasing-returns&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;I. Increasing Returns&lt;/h3&gt;
+&lt;p&gt;In Stage I, labor experiences &lt;em&gt;increasing returns&lt;/em&gt;. Both the marginal and the average product of labor are positive and (mostly) increasing. That is to say, output is increasing at an increasing rate when more labor is added, and the productivity per worker increases. For the example above, Stage I occurs over the range of 0-6 workers.&lt;/p&gt;
+&lt;p&gt;Intuitively, increasing returns means that output increases at an increasing rate. This is not the same, but you can think of this almost like exponential growth – just by adding a few more units of input we can get massive amounts of output. If this held forever, we could grow the entire world’s supply of food in a single flower pot!&lt;/p&gt;
+&lt;p&gt;Note that at 4 workers, marginal product reaches a maximum. Beyond this point, marginal product remains positive but begins to decrease. Looking at the production function, at 4 workers, the production function is at an inflection point. After 4 workers, the production function continues to increase, but now at a &lt;em&gt;decreasing rate&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Geometrically, what this means is that between 0-4 workers, the production function is convex (a line connecting two points is above the function), between 4-6 workers, the production function is concave (a line connecting two points is below the function), the inflection point at 4 is where it switches between convex and concave.&lt;/p&gt;
+&lt;p&gt;Stage I ends not at 4 laborers, where marginal product is maximized, but at 6 workers, where the marginal product and average product intersect (are equal).&lt;/p&gt;
+&lt;p&gt;In practice, most firms breeze through Stage I very quickly. Naturally, if firms can boost output a lot, and cheaply, just by adding a worker or two, they will keep hiring workers and hiring workers…&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ii.-decreasing-returns&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;II. Decreasing Returns&lt;/h3&gt;
+&lt;p&gt;In Stage II, labor experiences &lt;em&gt;diminishing returns&lt;/em&gt;. As we discussed with the law of diminishing returns, this will eventually happen to all factors of production if you keep adding them (holding other factors constant). Now, output is increasing, but at a decreasing rate. Adding more workers will increase output, but by progressively less and less, and each worker also is less productive on average, since both average and marginal product is declining (though total product is increasing). For the example above, Stage II occurs over the range of 6-8 workers.&lt;/p&gt;
+&lt;p&gt;Stage II ends at 8 workers, where the marginal product falls to zero.&lt;/p&gt;
+&lt;p&gt;In practice, most firms operate in Stage II, so this range is sometimes called the ``economic region’’ of short run production. We have seen that it is in the interest of a firm to keep adding labor during Stage I. We will next see that it is disadvantageous for a firm to keep adding labor beyond Stage II. Hence, the optimal amount of labor is often somewhere in Stage II.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;iii.-negative-returns&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;III. Negative Returns&lt;/h3&gt;
+&lt;p&gt;In Stage III, labor experiences &lt;em&gt;negative returns&lt;/em&gt;, that is, adding labor actually &lt;em&gt;decreases&lt;/em&gt; output! Here we have the “too many cooks in the kitchen” phenomenon. For the example above, Stage III happens when the firm is using 8 or more workers. We can see that the marginal product is negative, and average product continues to decline, as does output.&lt;/p&gt;
+&lt;p&gt;Recall diminishing returns implies that we are adding labor but holding all other factors (e.g. capital) constant. It is possible to increase the number of workers beyond 8 and still increase output, but that would require an increase in &lt;em&gt;capital&lt;/em&gt;. If we do &lt;em&gt;not&lt;/em&gt; increase capital, then by continually adding labor we will eventually hit diminishing (and negative) returns.&lt;/p&gt;
+&lt;table&gt;
+&lt;colgroup&gt;
+&lt;col width=&#34;22%&#34; /&gt;
+&lt;col width=&#34;25%&#34; /&gt;
+&lt;col width=&#34;25%&#34; /&gt;
+&lt;col width=&#34;25%&#34; /&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th&gt;Stage&lt;/th&gt;
+&lt;th&gt;Output&lt;/th&gt;
+&lt;th&gt;&lt;span class=&#34;math inline&#34;&gt;\(MP_l\)&lt;/span&gt;&lt;/th&gt;
+&lt;th&gt;&lt;span class=&#34;math inline&#34;&gt;\(AP_l\)&lt;/span&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;I&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;math inline&#34;&gt;\(\uparrow\)&lt;/span&gt; at &lt;span class=&#34;math inline&#34;&gt;\(\uparrow\)&lt;/span&gt; rate, then &lt;span class=&#34;math inline&#34;&gt;\(\uparrow\)&lt;/span&gt; at &lt;span class=&#34;math inline&#34;&gt;\(\downarrow\)&lt;/span&gt; rate&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;math inline&#34;&gt;\(\uparrow\)&lt;/span&gt;, then &lt;span class=&#34;math inline&#34;&gt;\(\downarrow\)&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;math inline&#34;&gt;\(\uparrow\)&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;II&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;math inline&#34;&gt;\(\uparrow\)&lt;/span&gt; at &lt;span class=&#34;math inline&#34;&gt;\(\downarrow\)&lt;/span&gt; rate&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;math inline&#34;&gt;\(\downarrow\)&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;math inline&#34;&gt;\(\downarrow\)&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;III&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;math inline&#34;&gt;\(\downarrow\)&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Negative&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;math inline&#34;&gt;\(\downarrow\)&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-relationship-between-marginal-and-average&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;The Relationship Between Marginal and Average&lt;/h2&gt;
+&lt;p&gt;There is a consistent relationship between any marginal magnitude and any average magnitude. We will see this when we talk about production, about costs, revenues, profits, etc.&lt;/p&gt;
+&lt;p&gt;When the marginal is greater than the average, the average is increasing because the marginal “pulls up” the average. When the marginal is less than the average, the average is decreasing because the marginal “pulls down” the average. Therefore, average is neither increasing nor decreasing (reaches a maximum/minimum) when the marginal equals the average.&lt;/p&gt;
+&lt;p&gt;Think of your grades or your GPA. Suppose your average is a B, and you get back a (marginal) grade that is an A. Since the marginal is higher than the average, this pulls up your average. Suppose instead you get back a (marginal) grade that is a C. Since the marginal is lower than the average, this pulls down your average.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th&gt;Case&lt;/th&gt;
+&lt;th&gt;&lt;span class=&#34;math inline&#34;&gt;\(AP_l\)&lt;/span&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;&lt;span class=&#34;math inline&#34;&gt;\(MP_l &amp;gt; AP_l\)&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;math inline&#34;&gt;\(\uparrow\)&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;&lt;span class=&#34;math inline&#34;&gt;\(MP_l = AP_l\)&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Maximized&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;&lt;span class=&#34;math inline&#34;&gt;\(MP_l &amp;lt; AP_l\)&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;span class=&#34;math inline&#34;&gt;\(\downarrow\)&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Look at the lower panel of the figure above and you can see, in Stage I, &lt;span class=&#34;math inline&#34;&gt;\(MP_l&amp;gt;AP_l\)&lt;/span&gt; and thus &lt;span class=&#34;math inline&#34;&gt;\(AP_l\)&lt;/span&gt; is increasing. The transition to Stage II occurs where &lt;span class=&#34;math inline&#34;&gt;\(MP_l=AP_l\)&lt;/span&gt; and thus &lt;span class=&#34;math inline&#34;&gt;\(AP_l\)&lt;/span&gt; reaches its maximum. In Stage III, &lt;span class=&#34;math inline&#34;&gt;\(MP_l&amp;lt;AP_l\)&lt;/span&gt; and thus &lt;span class=&#34;math inline&#34;&gt;\(AP_l\)&lt;/span&gt; is falling.&lt;/p&gt;
+&lt;p&gt;If these graphs looks vaguely familiar, cost curves (total cost, marginal cost, average cost) are &lt;em&gt;monetized reciprocals&lt;/em&gt; of product curves (total product, marginal product, average product). Here is a proof (that will make sense a few lessons from now):&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[MC(q)  = \frac{ \partial VC(q)}{\partial q} = w \frac{\partial l}{\partial q}= w \frac{1}{MP_l}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[
+AVC(q) = \frac{ \partial VC}{\partial q} = w \frac{l}{q}= w \frac{1}{AP_l}
+\]&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Call it an output curve to remember it better.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;Call it just a cost line to remember it better.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;This is similar to finding indifference curves for consumers’ attempting to maximize their utility function (by finding the highest indifference curve for their budget).&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2.2 — Production in the Short Run &amp; Long Run — Class Content</title>
+      <link>https://microf21.classes.ryansafner.com/content/2.3-content/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://microf21.classes.ryansafner.com/content/2.3-content/</guid>
+      <description>
+&lt;script src=&#34;https://microf21.classes.ryansafner.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#overview&#34;&gt;&lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt; Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#readings&#34;&gt;&lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt; Readings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#slides&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Slides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#practice&#34;&gt;&lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt; Practice&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#assignments&#34;&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; Assignments&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#problem-set-3-due-wed-oct-13&#34;&gt;Problem Set 3 Due Wed Oct 13&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#appendix&#34;&gt;&lt;i class=&#34;fas fa-sigma&#34;&gt;&lt;/i&gt; Appendix&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#a-change-in-relative-factor-prices&#34;&gt;A Change in Relative Factor Prices&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#improvements-in-technology&#34;&gt;Improvements in Technology&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;em&gt;Wednesday, October 6, 2021&lt;/em&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    &lt;a href=&#34;https://microf21.classes.ryansafner.com/assignments/03-problem-set&#34;&gt;Problem Set 3&lt;/a&gt; is due by Wednesday October 13.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;div id=&#34;overview&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt; Overview&lt;/h2&gt;
+&lt;p&gt;Today we put our tools together (production functions/isoquants and isocost lines) to solve the firm’s cost minimization problem. Again, we do not solve this constrained optimization problem with calculus, but by looking graphically, and using an algebraic rule that should make intuitive sense.&lt;/p&gt;
+&lt;p&gt;Again, these tools and rules are almost &lt;em&gt;identical&lt;/em&gt; to how we solved the consumer’s problem. Compare &lt;span class=&#34;math inline&#34;&gt;\(\frac{MP_l}{MP_k}=\frac{w}{r}\)&lt;/span&gt; to &lt;span class=&#34;math inline&#34;&gt;\(\frac{MU_x}{MU_y}=\frac{p_x}{p_y}\)&lt;/span&gt; or &lt;span class=&#34;math inline&#34;&gt;\(\frac{MP_l}{w}=\frac{MP_k}{r}\)&lt;/span&gt; to &lt;span class=&#34;math inline&#34;&gt;\(\frac{MU_x}{p_x} = \frac{MU_y}{p_y}\)&lt;/span&gt;!, with a major exception:&lt;/p&gt;
+&lt;p&gt;Consumers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;choose goods to maximize utility subject to their budget constraint&lt;/li&gt;
+&lt;li&gt;budget constraint (line) is what is fixed&lt;/li&gt;
+&lt;li&gt;get on highest indifference curve tangent to budget constraint&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Produces:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;choose inputs to minimize cost subject to producing the optimal amount (their constraint)&lt;/li&gt;
+&lt;li&gt;isoquant curve is what is fixed (want to produce a specific amount!)&lt;/li&gt;
+&lt;li&gt;get on &lt;em&gt;lowest&lt;/em&gt; isocost line tangent to isoquant curve&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We finally wrap up with a discussion of &lt;em&gt;returns to scale&lt;/em&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;readings&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt; Readings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-book&#34;&gt;&lt;/i&gt; Ch. 6.4-6.7 in Goolsbee, Levitt, and Syverson, 2019&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Slides&lt;/h2&gt;
+&lt;p&gt;Below, you can find the slides in two formats. Clicking the image will bring you to the html version of the slides in a new tab. Note while in going through the slides, you can type &lt;kbd&gt;h&lt;/kbd&gt; to see a special list of viewing options, and type &lt;kbd&gt;o&lt;/kbd&gt; for an outline view of all the slides.&lt;/p&gt;
+&lt;p&gt;The lower button will allow you to download a PDF version of the slides. I suggest printing the slides beforehand and using them to take additional notes in class (&lt;em&gt;not everything&lt;/em&gt; is in the slides)!&lt;/p&gt;
+&lt;p&gt;
+&lt;p style=&#34;text-align:center;&#34;&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://microf21.classes.ryansafner.com/slides/2.2-slides.html&#34;&gt;&lt;img src =&#34;/slides/2.2-slides.png&#34; alt = &#34;2.2-slides&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&#34;text-align:center;&#34;&gt;&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://microf21.classes.ryansafner.com/slides/2.2-slides.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download as PDF&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;practice&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt; Practice&lt;/h2&gt;
+&lt;p&gt;Today we will be working on &lt;a href=&#34;https://microf21.classes.ryansafner.com/practice/2.3-practice&#34;&gt;practice problems&lt;/a&gt;. Answers will be posted later on that page.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;assignments&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; Assignments&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;problem-set-3-due-wed-oct-13&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Problem Set 3 Due Wed Oct 13&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://microf21.classes.ryansafner.com/assignments/03-problem-set&#34;&gt;Problem set 3&lt;/a&gt; (on classes 2.1-2.3) is due by the end of the day Wednesday, October 13 by PDF upload to Blackboard Assignments.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;appendix&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;i class=&#34;fas fa-sigma&#34;&gt;&lt;/i&gt; Appendix&lt;/h1&gt;
+&lt;div id=&#34;a-change-in-relative-factor-prices&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;A Change in Relative Factor Prices&lt;/h2&gt;
+&lt;p&gt;If an input (labor or capital) changes in price, we saw that it rotated the isocost line by changing the slope, and the intercept for that input. How does it affect the cost-minimizing (optimal) combination of inputs?&lt;/p&gt;
+&lt;p&gt;It turns out, a change in one input’s price relative to the other is likely to change the ratio of inputs, as well as the total cost of production due to the mathematics and geometry of cost minimization. Recall the cost-minimizing combination of inputs occurs where the slope of the isoquant is equal to the slope of the lowest isocost line tangent to the isoquant. In the graph below, this occurs at point &lt;span class=&#34;math inline&#34;&gt;\(A\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Then, suppose the price of labor &lt;span class=&#34;math inline&#34;&gt;\(w\)&lt;/span&gt; increases from $2 to $4. This causes a move along the isoquant from &lt;span class=&#34;math inline&#34;&gt;\(A\)&lt;/span&gt; to &lt;span class=&#34;math inline&#34;&gt;\(B\)&lt;/span&gt;, the firm substitutes more capital for labor, and this costs more!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://microf21.classes.ryansafner.com/content/2.3-content_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Why does the optimal isocost line rotate along &lt;em&gt;both&lt;/em&gt; axes (i.e. &lt;em&gt;both&lt;/em&gt; axis-endpoints change)? With the budget constraint, we saw a change in one price caused the budget constraint to rotate and change an endpoint only along the axis with the good that changed in price.&lt;/p&gt;
+&lt;p&gt;Here, recall that the isoquant is unmovable - this is the set optimal quantity we want to produce. If an input were to change in price, that would rotate the isocost line and change only the intercept of that input that changed in price, as with a budget constraint. However, that new line (dashed darker red line) would &lt;em&gt;not&lt;/em&gt; be tangent to our original budget constraint anymore - that is, we could not produce the output we want at the &lt;em&gt;same&lt;/em&gt; total cost as before. Thus, it must be on a &lt;em&gt;new&lt;/em&gt; isocost line (indicating a &lt;em&gt;different&lt;/em&gt; total cost), just with the same slope as the new isocost line after the price change.&lt;/p&gt;
+&lt;p&gt;Note you could also go in the other direction. Begin at point &lt;span class=&#34;math inline&#34;&gt;\(B\)&lt;/span&gt; and suppose the price of labor &lt;em&gt;decreases&lt;/em&gt; (or perhaps the price of capital &lt;em&gt;increases&lt;/em&gt;). Then, the firm will substitute more labor for capital, and this will cost less!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;improvements-in-technology&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Improvements in Technology&lt;/h2&gt;
+&lt;p&gt;We defined our original production function as including an “input” called “&lt;a href=&#34;https://en.wikipedia.org/wiki/Total_factor_productivity&#34;&gt;total factor productivity&lt;/a&gt;.” In our Cobb-Douglas case, we included it in our function as &lt;span class=&#34;math inline&#34;&gt;\(A\)&lt;/span&gt;, as in:
+&lt;span class=&#34;math display&#34;&gt;\[q=Ak^\alpha l^\beta\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Now let’s see how this affects production. Suppose the firm wants to produce 100 units of output at a particular set of input prices, with the following technology (represented by the production function):
+&lt;span class=&#34;math display&#34;&gt;\[q=k^{0.5}l^{0.5}\]&lt;/span&gt;
+&lt;img src=&#34;https://microf21.classes.ryansafner.com/content/2.3-content_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Then the firm’s “technology” improves, such that its new production function is&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[q=2k^{0.5}l^{0.5}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Notice total factor productivity &lt;span class=&#34;math inline&#34;&gt;\((A)\)&lt;/span&gt; has doubled, such that, for the same amount of inputs &lt;span class=&#34;math inline&#34;&gt;\(l\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(k\)&lt;/span&gt;, the firm can now produce &lt;em&gt;twice&lt;/em&gt; as much output &lt;span class=&#34;math inline&#34;&gt;\((2q)\)&lt;/span&gt;. So suppose again the firm still wishes to produce &lt;span class=&#34;math inline&#34;&gt;\(q^*=100\)&lt;/span&gt;, the same as before. Under the new technology, the firm can &lt;strong&gt;produce the same output with fewer inputs&lt;/strong&gt;. This is the definition of productivity increases or, for an entire economy, economic growth.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://microf21.classes.ryansafner.com/content/2.3-content_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
