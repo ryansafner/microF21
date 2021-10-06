@@ -1,0 +1,40 @@
+---
+title: "2.3 — Cost Minimization — Practice"
+draft: false
+date: "2020-06-08"
+linktitle: "2.3 — Cost Minimization"
+menu:
+  practice:
+    parent: Practice Problems
+    weight: 6
+type: docs
+output:
+  blogdown::html_page:
+    toc: false
+---
+```{r message=FALSE, warning=FALSE, include=FALSE}
+#library(tidyverse)
+#library(pander)
+```
+
+<p style="text-align:center"><a target="_blank" href="/practice/2.3-practice-pdf.pdf"><span class="btn btn-primary btn-lg"><i class="fas fa-file-pdf"></i> Download PDF</a></span></p>
+
+
+Your firm can use labor $l$ and capital $k$ to produce output according to the production function:
+$$q=4lk$$
+The marginal products are:
+
+$$\begin{align*}
+MP_l &=4k \\
+MP_k &=4l \\ \end{align*}$$
+
+Suppose you  need to produce 144 units, the price of labor is <span>&#36;</span>10, and the price of capital is <span>&#36;</span>40. 
+
+## 1. 
+What is the least-cost combination of labor and capital that produces 144 units of output?
+
+## 2.
+How much does this combination cost?
+
+## 3.
+Does this technology experience constant returns, increasing returns, or decreasing returns to scale?
