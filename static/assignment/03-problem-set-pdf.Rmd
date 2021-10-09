@@ -1,7 +1,7 @@
 ---
 title: "Problem Set 3"
 author: "ECON 306 — Fall 2021"
-date: "Due by the end of the day Wednesday October 13 via Blackboard Assignments"
+date: "Due by the end of the day Monday October 18 via Blackboard Assignments"
 output:
   pdf_document:
     dev: cairo_pdf

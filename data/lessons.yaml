@@ -62,10 +62,11 @@ lessons:
     slides: '2.3-slides'
     practice: "2.3-practice"
 
-  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 3** due Wed Oct 13'
+  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 3** due Mon Oct 18'
     assignment: "03-problem-set"
 
   - title: "2.4 — Costs of Production"
+    content: "2.4-content"
 
   - title: "2.5 — Short Run Profit Maximization"
 

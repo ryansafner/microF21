@@ -31,7 +31,7 @@ update_geom_defaults("text", list(family = "Fira Sans Condensed"))
 {{% /alert %}}
 
 {{% alert warning %}}
-[Problem Set 3](/assignments/03-problem-set) is due by Wednesday October 13.
+[Problem Set 3](/assignments/03-problem-set) is due by Monday October 18.
 {{% /alert %}}
 
 ## <i class="fas fa-info-circle fa-lg"></i> Overview
@@ -46,7 +46,7 @@ Consumers:
 - budget constraint (line) is what is fixed
 - get on highest indifference curve tangent to budget constraint
 
-Produces:
+Producers (Firms):
 
 - choose inputs to minimize cost subject to producing the optimal amount (their constraint)
 - isoquant curve is what is fixed (want to produce a specific amount!)
@@ -72,13 +72,13 @@ Today we will be working on [practice problems](/practice/2.3-practice). Answers
 
 ## <i class="fas fa-laptop-code"></i> Assignments
 
-## Problem Set 3 Due Wed Oct 13
+## Problem Set 3 Due Mon Oct 18
 
-[Problem set 3](/assignments/03-problem-set) (on classes 2.1-2.3) is due by the end of the day Wednesday, October 13 by PDF upload to Blackboard Assignments.
+[Problem set 3](/assignments/03-problem-set) (on classes 2.1-2.3) is due by the end of the day Monday, October 18 by upload to Blackboard Assignments.
 
-# <i class="fas fa-sigma"></i> Appendix
+## <i class="fas fa-sigma"></i> Appendix
 
-## A Change in Relative Factor Prices
+### A Change in Relative Factor Prices
 
 If an input (labor or capital) changes in price, we saw that it rotated the isocost line by changing the slope, and the intercept for that input. How does it affect the cost-minimizing (optimal) combination of inputs?
 
@@ -145,7 +145,7 @@ Here, recall that the isoquant is unmovable - this is the set optimal quantity w
 
 Note you could also go in the other direction. Begin at point $B$ and suppose the price of labor *decreases* (or perhaps the price of capital *increases*). Then, the firm will substitute more labor for capital, and this will cost less!
 
-## Improvements in Technology
+### Improvements in Technology
 
 We defined our original production function as including an "input" called "[total factor productivity](https://en.wikipedia.org/wiki/Total_factor_productivity)." In our Cobb-Douglas case, we included it in our function as $A$, as in:
 $$q=Ak^\alpha l^\beta$$

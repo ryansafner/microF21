@@ -1,0 +1,162 @@
+---
+title: "2.4 — Costs of Production — Class Content"
+draft: false
+linktitle: "2.4 — Costs of Production"
+date: "2020-06-08"
+menu:
+  content:
+    parent: Course content
+    weight: 11
+type: docs
+output:
+  blogdown::html_page:
+    toc: true
+slides: "2.4-slides"
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+<div id="TOC">
+<ul>
+<li><a href="#overview"><i class="fas fa-info-circle fa-lg"></i> Overview</a></li>
+<li><a href="#readings"><i class="fas fa-book-reader fa-lg"></i> Readings</a></li>
+<li><a href="#slides"><i class="fas fa-chalkboard-teacher"></i> Slides</a></li>
+<li><a href="#assignments"><i class="fas fa-laptop-code"></i> Assignments</a></li>
+<li><a href="#problem-set-3-due-mon-oct-18">Problem Set 3 Due Mon Oct 18</a></li>
+<li><a href="#appendix"><i class="far fa-sigma"></i> Appendix</a>
+<ul>
+<li><a href="#the-relationship-between-returns-to-scale-and-costs">The Relationship Between Returns to Scale and Costs</a></li>
+<li><a href="#constant-returns-to-scale">Constant Returns to Scale:</a></li>
+<li><a href="#decreasing-returns-to-scale">Decreasing Returns to Scale</a></li>
+<li><a href="#increasing-returns-to-scale">Increasing Returns to Scale</a></li>
+<li><a href="#cobb-douglas-cost-functions">Cobb-Douglas Cost Functions</a></li>
+</ul></li>
+</ul>
+</div>
+
+<p>{{% alert note %}}
+<em>Wednesday, October 13, 2021</em>
+{{% /alert %}}</p>
+<p>{{% alert warning %}}
+<a href="/assignments/03-problem-set">Problem Set 3</a> is due by the end of the day Monday October 18.
+{{% /alert %}}</p>
+<div id="overview" class="section level2">
+<h2><i class="fas fa-info-circle fa-lg"></i> Overview</h2>
+<p>Today we cover costs before we put them together next class with revenues to solve the firm’s (first stage) <em>profit maximization problem</em>. While it seems we are adding quite a bit, and learning some new math problems with calculating costs, we will practice it more next class, when put together with revenues.</p>
+</div>
+<div id="readings" class="section level2">
+<h2><i class="fas fa-book-reader fa-lg"></i> Readings</h2>
+<ul>
+<li><i class="fas fa-book"></i> Ch. 7 in Goolsbee, Levitt, and Syverson, 2019</li>
+</ul>
+</div>
+<div id="slides" class="section level2">
+<h2><i class="fas fa-chalkboard-teacher"></i> Slides</h2>
+<p>Below, you can find the slides in two formats. Clicking the image will bring you to the html version of the slides in a new tab. Note while in going through the slides, you can type <kbd>h</kbd> to see a special list of viewing options, and type <kbd>o</kbd> for an outline view of all the slides.</p>
+<p>The lower button will allow you to download a PDF version of the slides. I suggest printing the slides beforehand and using them to take additional notes in class (<em>not everything</em> is in the slides)!</p>
+<p>{{% slide-links %}}</p>
+</div>
+<div id="assignments" class="section level2">
+<h2><i class="fas fa-laptop-code"></i> Assignments</h2>
+</div>
+<div id="problem-set-3-due-mon-oct-18" class="section level2">
+<h2>Problem Set 3 Due Mon Oct 18</h2>
+<p><a href="/assignments/03-problem-set">Problem set 3</a> (on classes 2.1-2.3) is due by the end of the day Monday, October 18 by upload to Blackboard Assignments.</p>
+</div>
+<div id="appendix" class="section level2">
+<h2><i class="far fa-sigma"></i> Appendix</h2>
+<div id="the-relationship-between-returns-to-scale-and-costs" class="section level3">
+<h3>The Relationship Between Returns to Scale and Costs</h3>
+<p>There is a direct relationship between a technology’s returns to scale<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> and its cost structure: the rate at which its total costs increase<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> and its marginal costs change<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a>. This is easiest to see for a single input, such as our assumptions of the short run (where firms can change <span class="math inline">\(l\)</span> but not <span class="math inline">\(\bar{k})\)</span>:</p>
+<p><span class="math display">\[q=f(\bar{k},l)\]</span></p>
+</div>
+<div id="constant-returns-to-scale" class="section level3">
+<h3>Constant Returns to Scale:</h3>
+<p><img src="/content/2.4-content_files/figure-html/unnamed-chunk-1-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+<div id="decreasing-returns-to-scale" class="section level3">
+<h3>Decreasing Returns to Scale</h3>
+<p><img src="/content/2.4-content_files/figure-html/unnamed-chunk-2-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+<div id="increasing-returns-to-scale" class="section level3">
+<h3>Increasing Returns to Scale</h3>
+<p><img src="/content/2.4-content_files/figure-html/unnamed-chunk-3-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+<div id="cobb-douglas-cost-functions" class="section level3">
+<h3>Cobb-Douglas Cost Functions</h3>
+<p>The total cost function for Cobb-Douglas production functions of the form
+<span class="math display">\[q=l^{\alpha}k^{\beta}\]</span>
+can be shown with some <em>very tedious</em> algebra to be:</p>
+<p><span class="math display">\[C(w,r,q)=\left[\left(\frac{\alpha}{\beta}\right)^{\frac{\beta}{\alpha+\beta}} + \left(\frac{\alpha}{\beta}\right)^{\frac{-\alpha}{\alpha+\beta}}\right] w^{\frac{\alpha}{\alpha+\beta}} r^{\frac{\beta}{\alpha+\beta}} q^{\frac{1}{\alpha+\beta}}\]</span></p>
+<p>If you take the first derivative of this (to get marginal cost), it is:</p>
+<p><span class="math display">\[\frac{\partial C(w,r,q)}{\partial q}= MC(q) = \frac{1}{\alpha+\beta} \left(w^{\frac{\alpha}{\alpha+\beta}} r^{\frac{\beta}{\alpha+\beta}}\right) q^{\left(\frac{1}{\alpha+\beta}\right)-1}\]</span></p>
+<p>How does marginal cost change with increased output? Take the second derivative:</p>
+<p><span class="math display">\[\frac{\partial^2 C(w,r,q)}{\partial q^2}= \frac{1}{\alpha+\beta} \left(\frac{1}{\alpha+\beta} -1 \right) \left(w^{\frac{\alpha}{\alpha+\beta}} r^{\frac{\beta}{\alpha+\beta}}\right) q^{\left(\frac{1}{\alpha+\beta}\right)-2}\]</span></p>
+<p>Three possible cases:</p>
+<ol style="list-style-type: decimal">
+<li>If <span class="math inline">\(\frac{1}{\alpha+\beta} &gt; 1\)</span>, this is positive <span class="math inline">\(\implies\)</span> <strong><em>decreasing</em> returns to scale</strong></li>
+</ol>
+<ul>
+<li>Production function exponents <span class="math inline">\(\alpha+\beta &lt; 1\)</span></li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li>If <span class="math inline">\(\frac{1}{\alpha+\beta} &lt; 1\)</span>, this is negative <span class="math inline">\(\implies\)</span> <strong><em>increasing</em> returns to scale</strong></li>
+</ol>
+<ul>
+<li>Production function exponents <span class="math inline">\(\alpha+\beta &gt; 1\)</span></li>
+</ul>
+<ol start="3" style="list-style-type: decimal">
+<li>If <span class="math inline">\(\frac{1}{\alpha+\beta} = 1\)</span>, this is constant <span class="math inline">\(\implies\)</span> <strong><em>constant</em> returns to scale</strong></li>
+</ol>
+<ul>
+<li>Production function exponents<span class="math inline">\(\alpha+\beta = 1\)</span></li>
+</ul>
+<div id="example-constant-returns" class="section level4">
+<h4>Example (Constant Returns)</h4>
+<p>Let <span class="math inline">\(q=l^{0.5}k^{0.5}\)</span>.</p>
+<p><span class="math display">\[\begin{align*}
+C(w,r,q)&amp;=\left[\left(\frac{0.5}{0.5}\right)^{\frac{0.5}{0.5+0.5}} + \left(\frac{0.5}{0.5}\right)^{\frac{-0.5}{0.5+0.5}}\right] w^{\frac{0.5}{0.5+0.5}} r^{\frac{0.5}{0.5+0.5}} q^{\frac{1}{0.5+0.5}}\\
+C(w,r,q)&amp;= \left[1^{0.5}+1^{-0.5} \right]w^{0.5}r^{0.5}q^{0.5}\\
+C(w,r,q)&amp;= w^{0.5}r^{0.5}q^{1}\\
+\end{align*}\]</span></p>
+<p>Consider input prices of <span class="math inline">\(w=\$9\)</span> and <span class="math inline">\(r=\$25\)</span>:</p>
+<p><span class="math display">\[\begin{align*}C(w=9,r=25,q)&amp;=9^{0.5}25^{0.5}q \\ 
+&amp; =3*5*q\\
+&amp; =15q\\\end{align*}\]</span></p>
+<p>That is, total costs (at those given input prices, and technology) is equal to 15 times the output level, <span class="math inline">\(q\)</span>:</p>
+<p><img src="/content/2.4-content_files/figure-html/unnamed-chunk-4-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p>Marginal costs would be</p>
+<p><span class="math display">\[MC(q) = \frac{\partial C(q)}{\partial q} = 15\]</span></p>
+<p>Average costs would be</p>
+<p><span class="math display">\[MC(q) = \frac{C(q)}{q} = \frac{15q}{q} = 15\]</span></p>
+<p><img src="/content/2.4-content_files/figure-html/unnamed-chunk-5-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+<div id="example-decreasing-returns" class="section level4">
+<h4>Example (Decreasing Returns)</h4>
+<p>Let <span class="math inline">\(q=l^{0.25}k^{0.25}\)</span>.</p>
+<p><span class="math display">\[\begin{align*}
+C(w,r,q)&amp;=\left[\left(\frac{0.25}{0.25}\right)^{\frac{0.25}{0.25+0.25}} + \left(\frac{0.25}{0.25}\right)^{\frac{-0.25}{0.25+0.25}}\right] w^{\frac{0.25}{0.25+0.25}} r^{\frac{0.25}{0.25+0.25}} q^{\frac{1}{0.25+0.25}}\\
+C(w,r,q)&amp;= \left[1^{0.5}+1^{-0.5} \right]w^{0.5}r^{0.5}q^{2}\\
+C(w,r,q)&amp;= w^{0.5}r^{0.5}q^{2}\\
+\end{align*}\]</span></p>
+<p>If <span class="math inline">\(w=9\)</span>, <span class="math inline">\(r=25\)</span>:</p>
+<p><span class="math display">\[\begin{align*}C(w=9,r=25,q)&amp;=9^{0.5}25^{0.5}q^2 \\ 
+&amp; =3*5*q^2\\
+&amp; =15q^2\\\end{align*}\]</span></p>
+<p><img src="/content/2.4-content_files/figure-html/unnamed-chunk-6-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p>Marginal costs would be</p>
+<p><span class="math display">\[MC(q) = \frac{\partial C(q)}{\partial q} = 30q\]</span></p>
+<p>Average costs would be</p>
+<p><span class="math display">\[AC(q) = \frac{C(q)}{q} = \frac{15q^2}{q} = 15q\]</span></p>
+<p><img src="/content/2.4-content_files/figure-html/unnamed-chunk-7-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Increasing, decreasing, or constant<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p>At a decreasing rate, at an increasing rate, or at a constant rate, respectively<a href="#fnref2" class="footnote-back">↩︎</a></p></li>
+<li id="fn3"><p>Decreasing, increasing, or constant, respectively<a href="#fnref3" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
