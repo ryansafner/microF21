@@ -67,14 +67,15 @@ lessons:
 
   - title: "2.4 — Costs of Production"
     content: "2.4-content"
+    slides: '2.4-slides'
 
   - title: "2.5 — Short Run Profit Maximization"
 
   - title: "2.6 — Long Run Industry Equilibrium"
 
-  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 4**'
+  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 4** due Mon Oct 25'
 
-  - title: '<i class="fas fa-star"></i> **Exam 2**'
+  - title: '<i class="fas fa-star"></i> **Exam 2** Wed Oct 27'
 
   - title: '<span class="fake-header-table">III. Market Equilibrium</span>'
     header: True
