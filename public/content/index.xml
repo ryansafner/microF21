@@ -1463,7 +1463,7 @@ AVC(q) = \frac{ \partial VC}{\partial q} = w \frac{l}{q}= w \frac{1}{AP_l}
 &lt;li&gt;&lt;a href=&#34;#slides&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Slides&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#practice&#34;&gt;&lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt; Practice&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#assignments&#34;&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; Assignments&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#problem-set-3-due-wed-oct-13&#34;&gt;Problem Set 3 Due Wed Oct 13&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#problem-set-3-due-mon-oct-18&#34;&gt;Problem Set 3 Due Mon Oct 18&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#appendix&#34;&gt;&lt;i class=&#34;fas fa-sigma&#34;&gt;&lt;/i&gt; Appendix&lt;/a&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#a-change-in-relative-factor-prices&#34;&gt;A Change in Relative Factor Prices&lt;/a&gt;&lt;/li&gt;
@@ -1480,7 +1480,7 @@ AVC(q) = \frac{ \partial VC}{\partial q} = w \frac{l}{q}= w \frac{1}{AP_l}
 &lt;/p&gt;
 &lt;p&gt;&lt;div class=&#34;alert alert-warning&#34;&gt;
   &lt;div&gt;
-    &lt;a href=&#34;https://microf21.classes.ryansafner.com/assignments/03-problem-set&#34;&gt;Problem Set 3&lt;/a&gt; is due by Wednesday October 13.
+    &lt;a href=&#34;https://microf21.classes.ryansafner.com/assignments/03-problem-set&#34;&gt;Problem Set 3&lt;/a&gt; is due by Monday October 18.
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
@@ -1494,7 +1494,7 @@ AVC(q) = \frac{ \partial VC}{\partial q} = w \frac{l}{q}= w \frac{1}{AP_l}
 &lt;li&gt;budget constraint (line) is what is fixed&lt;/li&gt;
 &lt;li&gt;get on highest indifference curve tangent to budget constraint&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Produces:&lt;/p&gt;
+&lt;p&gt;Producers (Firms):&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;choose inputs to minimize cost subject to producing the optimal amount (their constraint)&lt;/li&gt;
 &lt;li&gt;isoquant curve is what is fixed (want to produce a specific amount!)&lt;/li&gt;
@@ -1524,14 +1524,14 @@ AVC(q) = \frac{ \partial VC}{\partial q} = w \frac{l}{q}= w \frac{1}{AP_l}
 &lt;div id=&#34;assignments&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; Assignments&lt;/h2&gt;
 &lt;/div&gt;
-&lt;div id=&#34;problem-set-3-due-wed-oct-13&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Problem Set 3 Due Wed Oct 13&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://microf21.classes.ryansafner.com/assignments/03-problem-set&#34;&gt;Problem set 3&lt;/a&gt; (on classes 2.1-2.3) is due by the end of the day Wednesday, October 13 by PDF upload to Blackboard Assignments.&lt;/p&gt;
+&lt;div id=&#34;problem-set-3-due-mon-oct-18&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Problem Set 3 Due Mon Oct 18&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://microf21.classes.ryansafner.com/assignments/03-problem-set&#34;&gt;Problem set 3&lt;/a&gt; (on classes 2.1-2.3) is due by the end of the day Monday, October 18 by upload to Blackboard Assignments.&lt;/p&gt;
 &lt;/div&gt;
-&lt;div id=&#34;appendix&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;&lt;i class=&#34;fas fa-sigma&#34;&gt;&lt;/i&gt; Appendix&lt;/h1&gt;
-&lt;div id=&#34;a-change-in-relative-factor-prices&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;A Change in Relative Factor Prices&lt;/h2&gt;
+&lt;div id=&#34;appendix&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-sigma&#34;&gt;&lt;/i&gt; Appendix&lt;/h2&gt;
+&lt;div id=&#34;a-change-in-relative-factor-prices&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;A Change in Relative Factor Prices&lt;/h3&gt;
 &lt;p&gt;If an input (labor or capital) changes in price, we saw that it rotated the isocost line by changing the slope, and the intercept for that input. How does it affect the cost-minimizing (optimal) combination of inputs?&lt;/p&gt;
 &lt;p&gt;It turns out, a change in one input’s price relative to the other is likely to change the ratio of inputs, as well as the total cost of production due to the mathematics and geometry of cost minimization. Recall the cost-minimizing combination of inputs occurs where the slope of the isoquant is equal to the slope of the lowest isocost line tangent to the isoquant. In the graph below, this occurs at point &lt;span class=&#34;math inline&#34;&gt;\(A\)&lt;/span&gt;.&lt;/p&gt;
 &lt;p&gt;Then, suppose the price of labor &lt;span class=&#34;math inline&#34;&gt;\(w\)&lt;/span&gt; increases from $2 to $4. This causes a move along the isoquant from &lt;span class=&#34;math inline&#34;&gt;\(A\)&lt;/span&gt; to &lt;span class=&#34;math inline&#34;&gt;\(B\)&lt;/span&gt;, the firm substitutes more capital for labor, and this costs more!&lt;/p&gt;
@@ -1540,8 +1540,8 @@ AVC(q) = \frac{ \partial VC}{\partial q} = w \frac{l}{q}= w \frac{1}{AP_l}
 &lt;p&gt;Here, recall that the isoquant is unmovable - this is the set optimal quantity we want to produce. If an input were to change in price, that would rotate the isocost line and change only the intercept of that input that changed in price, as with a budget constraint. However, that new line (dashed darker red line) would &lt;em&gt;not&lt;/em&gt; be tangent to our original budget constraint anymore - that is, we could not produce the output we want at the &lt;em&gt;same&lt;/em&gt; total cost as before. Thus, it must be on a &lt;em&gt;new&lt;/em&gt; isocost line (indicating a &lt;em&gt;different&lt;/em&gt; total cost), just with the same slope as the new isocost line after the price change.&lt;/p&gt;
 &lt;p&gt;Note you could also go in the other direction. Begin at point &lt;span class=&#34;math inline&#34;&gt;\(B\)&lt;/span&gt; and suppose the price of labor &lt;em&gt;decreases&lt;/em&gt; (or perhaps the price of capital &lt;em&gt;increases&lt;/em&gt;). Then, the firm will substitute more labor for capital, and this will cost less!&lt;/p&gt;
 &lt;/div&gt;
-&lt;div id=&#34;improvements-in-technology&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Improvements in Technology&lt;/h2&gt;
+&lt;div id=&#34;improvements-in-technology&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Improvements in Technology&lt;/h3&gt;
 &lt;p&gt;We defined our original production function as including an “input” called “&lt;a href=&#34;https://en.wikipedia.org/wiki/Total_factor_productivity&#34;&gt;total factor productivity&lt;/a&gt;.” In our Cobb-Douglas case, we included it in our function as &lt;span class=&#34;math inline&#34;&gt;\(A\)&lt;/span&gt;, as in:
 &lt;span class=&#34;math display&#34;&gt;\[q=Ak^\alpha l^\beta\]&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Now let’s see how this affects production. Suppose the firm wants to produce 100 units of output at a particular set of input prices, with the following technology (represented by the production function):
@@ -1552,6 +1552,171 @@ AVC(q) = \frac{ \partial VC}{\partial q} = w \frac{l}{q}= w \frac{1}{AP_l}
 &lt;p&gt;Notice total factor productivity &lt;span class=&#34;math inline&#34;&gt;\((A)\)&lt;/span&gt; has doubled, such that, for the same amount of inputs &lt;span class=&#34;math inline&#34;&gt;\(l\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(k\)&lt;/span&gt;, the firm can now produce &lt;em&gt;twice&lt;/em&gt; as much output &lt;span class=&#34;math inline&#34;&gt;\((2q)\)&lt;/span&gt;. So suppose again the firm still wishes to produce &lt;span class=&#34;math inline&#34;&gt;\(q^*=100\)&lt;/span&gt;, the same as before. Under the new technology, the firm can &lt;strong&gt;produce the same output with fewer inputs&lt;/strong&gt;. This is the definition of productivity increases or, for an entire economy, economic growth.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://microf21.classes.ryansafner.com/content/2.3-content_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2.4 — Costs of Production — Class Content</title>
+      <link>https://microf21.classes.ryansafner.com/content/2.4-content/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://microf21.classes.ryansafner.com/content/2.4-content/</guid>
+      <description>
+&lt;script src=&#34;https://microf21.classes.ryansafner.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#overview&#34;&gt;&lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt; Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#readings&#34;&gt;&lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt; Readings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#slides&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Slides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#assignments&#34;&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; Assignments&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#problem-set-3-due-mon-oct-18&#34;&gt;Problem Set 3 Due Mon Oct 18&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#appendix&#34;&gt;&lt;i class=&#34;far fa-sigma&#34;&gt;&lt;/i&gt; Appendix&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#the-relationship-between-returns-to-scale-and-costs&#34;&gt;The Relationship Between Returns to Scale and Costs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#constant-returns-to-scale&#34;&gt;Constant Returns to Scale:&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#decreasing-returns-to-scale&#34;&gt;Decreasing Returns to Scale&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#increasing-returns-to-scale&#34;&gt;Increasing Returns to Scale&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#cobb-douglas-cost-functions&#34;&gt;Cobb-Douglas Cost Functions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;em&gt;Wednesday, October 13, 2021&lt;/em&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    &lt;a href=&#34;https://microf21.classes.ryansafner.com/assignments/03-problem-set&#34;&gt;Problem Set 3&lt;/a&gt; is due by the end of the day Monday October 18.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;div id=&#34;overview&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt; Overview&lt;/h2&gt;
+&lt;p&gt;Today we cover costs before we put them together next class with revenues to solve the firm’s (first stage) &lt;em&gt;profit maximization problem&lt;/em&gt;. While it seems we are adding quite a bit, and learning some new math problems with calculating costs, we will practice it more next class, when put together with revenues.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;readings&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt; Readings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fa-book&#34;&gt;&lt;/i&gt; Ch. 7 in Goolsbee, Levitt, and Syverson, 2019&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Slides&lt;/h2&gt;
+&lt;p&gt;Below, you can find the slides in two formats. Clicking the image will bring you to the html version of the slides in a new tab. Note while in going through the slides, you can type &lt;kbd&gt;h&lt;/kbd&gt; to see a special list of viewing options, and type &lt;kbd&gt;o&lt;/kbd&gt; for an outline view of all the slides.&lt;/p&gt;
+&lt;p&gt;The lower button will allow you to download a PDF version of the slides. I suggest printing the slides beforehand and using them to take additional notes in class (&lt;em&gt;not everything&lt;/em&gt; is in the slides)!&lt;/p&gt;
+&lt;p&gt;
+&lt;p style=&#34;text-align:center;&#34;&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://microf21.classes.ryansafner.com/slides/2.4-slides.html&#34;&gt;&lt;img src =&#34;/slides/2.4-slides.png&#34; alt = &#34;2.4-slides&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&#34;text-align:center;&#34;&gt;&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://microf21.classes.ryansafner.com/slides/2.4-slides.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download as PDF&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;assignments&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; Assignments&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;problem-set-3-due-mon-oct-18&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Problem Set 3 Due Mon Oct 18&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://microf21.classes.ryansafner.com/assignments/03-problem-set&#34;&gt;Problem set 3&lt;/a&gt; (on classes 2.1-2.3) is due by the end of the day Monday, October 18 by upload to Blackboard Assignments.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;appendix&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;far fa-sigma&#34;&gt;&lt;/i&gt; Appendix&lt;/h2&gt;
+&lt;div id=&#34;the-relationship-between-returns-to-scale-and-costs&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;The Relationship Between Returns to Scale and Costs&lt;/h3&gt;
+&lt;p&gt;There is a direct relationship between a technology’s returns to scale&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; and its cost structure: the rate at which its total costs increase&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; and its marginal costs change&lt;a href=&#34;#fn3&#34; class=&#34;footnote-ref&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;. This is easiest to see for a single input, such as our assumptions of the short run (where firms can change &lt;span class=&#34;math inline&#34;&gt;\(l\)&lt;/span&gt; but not &lt;span class=&#34;math inline&#34;&gt;\(\bar{k})\)&lt;/span&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[q=f(\bar{k},l)\]&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;constant-returns-to-scale&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Constant Returns to Scale:&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://microf21.classes.ryansafner.com/content/2.4-content_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;decreasing-returns-to-scale&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Decreasing Returns to Scale&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://microf21.classes.ryansafner.com/content/2.4-content_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;increasing-returns-to-scale&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Increasing Returns to Scale&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://microf21.classes.ryansafner.com/content/2.4-content_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;cobb-douglas-cost-functions&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Cobb-Douglas Cost Functions&lt;/h3&gt;
+&lt;p&gt;The total cost function for Cobb-Douglas production functions of the form
+&lt;span class=&#34;math display&#34;&gt;\[q=l^{\alpha}k^{\beta}\]&lt;/span&gt;
+can be shown with some &lt;em&gt;very tedious&lt;/em&gt; algebra to be:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[C(w,r,q)=\left[\left(\frac{\alpha}{\beta}\right)^{\frac{\beta}{\alpha+\beta}} + \left(\frac{\alpha}{\beta}\right)^{\frac{-\alpha}{\alpha+\beta}}\right] w^{\frac{\alpha}{\alpha+\beta}} r^{\frac{\beta}{\alpha+\beta}} q^{\frac{1}{\alpha+\beta}}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;If you take the first derivative of this (to get marginal cost), it is:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\frac{\partial C(w,r,q)}{\partial q}= MC(q) = \frac{1}{\alpha+\beta} \left(w^{\frac{\alpha}{\alpha+\beta}} r^{\frac{\beta}{\alpha+\beta}}\right) q^{\left(\frac{1}{\alpha+\beta}\right)-1}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;How does marginal cost change with increased output? Take the second derivative:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\frac{\partial^2 C(w,r,q)}{\partial q^2}= \frac{1}{\alpha+\beta} \left(\frac{1}{\alpha+\beta} -1 \right) \left(w^{\frac{\alpha}{\alpha+\beta}} r^{\frac{\beta}{\alpha+\beta}}\right) q^{\left(\frac{1}{\alpha+\beta}\right)-2}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Three possible cases:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;If &lt;span class=&#34;math inline&#34;&gt;\(\frac{1}{\alpha+\beta} &amp;gt; 1\)&lt;/span&gt;, this is positive &lt;span class=&#34;math inline&#34;&gt;\(\implies\)&lt;/span&gt; &lt;strong&gt;&lt;em&gt;decreasing&lt;/em&gt; returns to scale&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Production function exponents &lt;span class=&#34;math inline&#34;&gt;\(\alpha+\beta &amp;lt; 1\)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;If &lt;span class=&#34;math inline&#34;&gt;\(\frac{1}{\alpha+\beta} &amp;lt; 1\)&lt;/span&gt;, this is negative &lt;span class=&#34;math inline&#34;&gt;\(\implies\)&lt;/span&gt; &lt;strong&gt;&lt;em&gt;increasing&lt;/em&gt; returns to scale&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Production function exponents &lt;span class=&#34;math inline&#34;&gt;\(\alpha+\beta &amp;gt; 1\)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;3&#34; style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;If &lt;span class=&#34;math inline&#34;&gt;\(\frac{1}{\alpha+\beta} = 1\)&lt;/span&gt;, this is constant &lt;span class=&#34;math inline&#34;&gt;\(\implies\)&lt;/span&gt; &lt;strong&gt;&lt;em&gt;constant&lt;/em&gt; returns to scale&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Production function exponents&lt;span class=&#34;math inline&#34;&gt;\(\alpha+\beta = 1\)&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id=&#34;example-constant-returns&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Example (Constant Returns)&lt;/h4&gt;
+&lt;p&gt;Let &lt;span class=&#34;math inline&#34;&gt;\(q=l^{0.5}k^{0.5}\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+C(w,r,q)&amp;amp;=\left[\left(\frac{0.5}{0.5}\right)^{\frac{0.5}{0.5+0.5}} + \left(\frac{0.5}{0.5}\right)^{\frac{-0.5}{0.5+0.5}}\right] w^{\frac{0.5}{0.5+0.5}} r^{\frac{0.5}{0.5+0.5}} q^{\frac{1}{0.5+0.5}}\\
+C(w,r,q)&amp;amp;= \left[1^{0.5}+1^{-0.5} \right]w^{0.5}r^{0.5}q^{0.5}\\
+C(w,r,q)&amp;amp;= w^{0.5}r^{0.5}q^{1}\\
+\end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Consider input prices of &lt;span class=&#34;math inline&#34;&gt;\(w=\$9\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(r=\$25\)&lt;/span&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}C(w=9,r=25,q)&amp;amp;=9^{0.5}25^{0.5}q \\ 
+&amp;amp; =3*5*q\\
+&amp;amp; =15q\\\end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;That is, total costs (at those given input prices, and technology) is equal to 15 times the output level, &lt;span class=&#34;math inline&#34;&gt;\(q\)&lt;/span&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://microf21.classes.ryansafner.com/content/2.4-content_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Marginal costs would be&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[MC(q) = \frac{\partial C(q)}{\partial q} = 15\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Average costs would be&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[MC(q) = \frac{C(q)}{q} = \frac{15q}{q} = 15\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://microf21.classes.ryansafner.com/content/2.4-content_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;example-decreasing-returns&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Example (Decreasing Returns)&lt;/h4&gt;
+&lt;p&gt;Let &lt;span class=&#34;math inline&#34;&gt;\(q=l^{0.25}k^{0.25}\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+C(w,r,q)&amp;amp;=\left[\left(\frac{0.25}{0.25}\right)^{\frac{0.25}{0.25+0.25}} + \left(\frac{0.25}{0.25}\right)^{\frac{-0.25}{0.25+0.25}}\right] w^{\frac{0.25}{0.25+0.25}} r^{\frac{0.25}{0.25+0.25}} q^{\frac{1}{0.25+0.25}}\\
+C(w,r,q)&amp;amp;= \left[1^{0.5}+1^{-0.5} \right]w^{0.5}r^{0.5}q^{2}\\
+C(w,r,q)&amp;amp;= w^{0.5}r^{0.5}q^{2}\\
+\end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;If &lt;span class=&#34;math inline&#34;&gt;\(w=9\)&lt;/span&gt;, &lt;span class=&#34;math inline&#34;&gt;\(r=25\)&lt;/span&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}C(w=9,r=25,q)&amp;amp;=9^{0.5}25^{0.5}q^2 \\ 
+&amp;amp; =3*5*q^2\\
+&amp;amp; =15q^2\\\end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://microf21.classes.ryansafner.com/content/2.4-content_files/figure-html/unnamed-chunk-6-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Marginal costs would be&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[MC(q) = \frac{\partial C(q)}{\partial q} = 30q\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Average costs would be&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[AC(q) = \frac{C(q)}{q} = \frac{15q^2}{q} = 15q\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://microf21.classes.ryansafner.com/content/2.4-content_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Increasing, decreasing, or constant&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;At a decreasing rate, at an increasing rate, or at a constant rate, respectively&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;Decreasing, increasing, or constant, respectively&lt;a href=&#34;#fnref3&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
 &lt;/div&gt;
 </description>
     </item>

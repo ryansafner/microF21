@@ -22,7 +22,7 @@ library(tidyverse)
 Please submit on Blackboard Assignments by the end of the day Monday October 18.
 {{% /alert %}}
 
-<p style="text-align:center"><a target="_blank" href="/assignment/02-problem-set-pdf.pdf"><span class="btn btn-primary btn-lg"><i class="fas fa-file-pdf"></i> Download PDF</a></span></p>
+<p style="text-align:center"><a target="_blank" href="/assignment/03-problem-set-pdf.pdf"><span class="btn btn-primary btn-lg"><i class="fas fa-file-pdf"></i> Download PDF</a></span></p>
 
 Please read the [instructions](/assignments/problem-sets) for completing homeworks.
 
