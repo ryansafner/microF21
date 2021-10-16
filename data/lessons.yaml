@@ -70,10 +70,16 @@ lessons:
     slides: '2.4-slides'
 
   - title: "2.5 — Short Run Profit Maximization"
+    content: "2.5-content"
+    slides: "2.5-slides"
+    practice: "2.5-practice"
 
   - title: "2.6 — Long Run Industry Equilibrium"
+    content: "2.6-content"
+    slides: "2.6-slides"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem Set 4** due Mon Oct 25'
+    assignment: "04-problem-set"
 
   - title: '<i class="fas fa-star"></i> **Exam 2** Wed Oct 27'
 

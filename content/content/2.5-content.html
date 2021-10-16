@@ -1,0 +1,114 @@
+---
+title: "2.5 — Short Run Profit Maximization — Class Content"
+draft: false
+linktitle: "2.5 — Short Run Profit Maximization"
+date: "2020-06-08"
+menu:
+  content:
+    parent: Course content
+    weight: 12
+type: docs
+output:
+  blogdown::html_page:
+    toc: true
+slides: "2.5-slides"
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+<div id="TOC">
+<ul>
+<li><a href="#overview"><i class="fas fa-info-circle fa-lg"></i> Overview</a></li>
+<li><a href="#readings"><i class="fas fa-book-reader fa-lg"></i> Readings</a></li>
+<li><a href="#slides"><i class="fas fa-chalkboard-teacher"></i> Slides</a></li>
+<li><a href="#practice"><i class="fas fa-dumbbell"></i> Practice</a>
+<ul>
+<li><a href="#assignments"><i class="fas fa-laptop-code"></i> Assignments</a></li>
+<li><a href="#problem-set-3-due-mon-oct-18">Problem Set 3 Due Mon Oct 18</a></li>
+<li><a href="#problem-set-4-due-mon-oct-25">Problem Set 4 Due Mon Oct 25</a></li>
+<li><a href="#appendix"><i class="far fa-sigma"></i> Appendix</a></li>
+<li><a href="#common-cost-assumptions">Common Cost Assumptions</a></li>
+</ul></li>
+</ul>
+</div>
+
+<p>{{% alert note %}}
+<em>Monday, October 18, 2021</em>
+{{% /alert %}}</p>
+<p>{{% alert warning %}}
+<a href="/assignments/03-problem-set">Problem Set 3</a> is due by the end of the day Monday October 18.</p>
+<p><a href="/assignments/04-problem-set">Problem Set 4</a> is due by the end of the day Monday October 25.
+{{% /alert %}}</p>
+<div id="overview" class="section level2">
+<h2><i class="fas fa-info-circle fa-lg"></i> Overview</h2>
+<p>Today we briefly discuss revenues before we put them together to solve the firm’s <em>profit maximization problem</em>. We focus on the <em>short run</em>, where the firm incurs fixed costs and must stay in the market regardless. We derive the firm’s (inverse) <em>supply curve</em>.</p>
+<p>Next class will be about the long run, and finish up unit 2.</p>
+</div>
+<div id="readings" class="section level2">
+<h2><i class="fas fa-book-reader fa-lg"></i> Readings</h2>
+<ul>
+<li><i class="fas fa-book"></i> Chs. 8.1-8.3 in Goolsbee, Levitt, and Syverson, 2019</li>
+</ul>
+</div>
+<div id="slides" class="section level2">
+<h2><i class="fas fa-chalkboard-teacher"></i> Slides</h2>
+<p>Below, you can find the slides in two formats. Clicking the image will bring you to the html version of the slides in a new tab. Note while in going through the slides, you can type <kbd>h</kbd> to see a special list of viewing options, and type <kbd>o</kbd> for an outline view of all the slides.</p>
+<p>The lower button will allow you to download a PDF version of the slides. I suggest printing the slides beforehand and using them to take additional notes in class (<em>not everything</em> is in the slides)!</p>
+<p>{{% slide-links %}}</p>
+</div>
+<div id="practice" class="section level1">
+<h1><i class="fas fa-dumbbell"></i> Practice</h1>
+<p>Today we will be working on <a href="/practice/2.5-practice">practice problems</a>. Answers will be posted later on that page.</p>
+<div id="assignments" class="section level2">
+<h2><i class="fas fa-laptop-code"></i> Assignments</h2>
+</div>
+<div id="problem-set-3-due-mon-oct-18" class="section level2">
+<h2>Problem Set 3 Due Mon Oct 18</h2>
+<p><a href="/assignments/03-problem-set">Problem set 3</a> (on classes 2.1-2.3) is due by the end of the day Monday, October 18 by upload to Blackboard Assignments.</p>
+</div>
+<div id="problem-set-4-due-mon-oct-25" class="section level2">
+<h2>Problem Set 4 Due Mon Oct 25</h2>
+<p><a href="/assignments/04-problem-set">Problem set 4</a> (on classes 2.4-2.6) is due by the end of the day Monday, October 25 by upload to Blackboard Assignments.</p>
+</div>
+<div id="appendix" class="section level2">
+<h2><i class="far fa-sigma"></i> Appendix</h2>
+</div>
+<div id="common-cost-assumptions" class="section level2">
+<h2>Common Cost Assumptions</h2>
+<p>Economists often make simple assumptions about costs to illustrate key concepts without marring the analysis with unnecessary complexity. This also makes graphs quite easy to point to and calculate key areas, such as profits or deadweight losses.</p>
+<p>One common set of cost assumptions is the following:</p>
+<ol style="list-style-type: decimal">
+<li>A firm has no fixed costs</li>
+<li>A firm has constant marginal costs, <span class="math inline">\(MC(q)=c\)</span> where <span class="math inline">\(c\geq0\)</span></li>
+</ol>
+<p>If this is the case, then we can show that average costs will be <em>equal</em> to marginal costs, i.e. <span class="math inline">\(MC=AC=AVC=c\)</span>.</p>
+<p>Since marginal cost is the first derivative of the total cost function, integrating a marginal cost function <span class="math inline">\(MC=c\)</span> leaves with with a total cost function of <span class="math inline">\(C(q)=cq\)</span>.<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a> If this is the case, then we can find the average cost:</p>
+<p><span class="math display">\[\begin{align*}
+C(q)&amp;=cq\\
+AC(q)=\frac{C(q)}{q}&amp;=\frac{cq}{q}\\
+AC(q)&amp;=c\\
+\end{align*}\]</span></p>
+<p><img src="/content/2.5-content_files/figure-html/unnamed-chunk-1-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p>Another common set of cost assumptions is the following:</p>
+<ol style="list-style-type: decimal">
+<li>A firm has fixed costs, <span class="math inline">\(f\)</span></li>
+<li>A firm has constant marginal costs, <span class="math inline">\(MC(q)=c\)</span> where <span class="math inline">\(c\geq0\)</span></li>
+</ol>
+<p>If this is the case, then we can show that average costs are strictly decreasing over all output <span class="math inline">\(q\geq0\)</span>.</p>
+<p>Again, we can integrate marginal cost to the total cost function (but here we need the arbitrary constant from integration, which we shall label <span class="math inline">\(f\)</span>, for fixed costs): <span class="math inline">\(C(q)=cq+f\)</span>. We can then find the average cost:</p>
+<p><span class="math display">\[\begin{align*}
+C(q)&amp;=cq+f\\
+AC(q)=\frac{C(q)}{q}&amp;=\frac{cq+f}{q}\\
+AC(q)&amp;=c+\frac{f}{q}\\
+\end{align*}\]</span></p>
+<p>Since <span class="math inline">\(f&gt;0\)</span>, as <span class="math inline">\(q \rightarrow \infty\)</span>, <span class="math inline">\(AC(q) \rightarrow c\)</span>, that is, average cost is getting asymptotically close to marginal cost, <span class="math inline">\(c\)</span>, but will never intersect it. Note, I also included AFC, which again is always decreasing, and asymptotically approaching 0.</p>
+<p>The importance of this type of cost structure is that it creates <strong>economies of scale</strong>, and represents a lot of industries that tend towards <strong>natural monopoly</strong>.</p>
+<p><img src="/content/2.5-content_files/figure-html/unnamed-chunk-2-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Since we assumed there are no fixed costs, then there is no arbitrary constant from integration.<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
