@@ -102,13 +102,12 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
 .pull-right[
 
 - $\color{orange}{AC(q)_{min}}$ at a market price of $6
-
-- At $6, the firm earns .hi["normal economic profits"] (of 0)
+  - Firm earns .hi[“normal” economic profits] (of 0)
 
 - At any market price *below* $6.00, firm earns **losses**
   - Short Run: firm shuts down if $p<AVC(q)$
 
-- At any market price *above* $6.00, firm earns .hi["supernormal profits"] (>0)
+- At any market price *above* $6.00, firm earns .hi[“supernormal” profits] (>0)
 
 ]
 
@@ -1585,7 +1584,7 @@ $$\epsilon_{q,p} = \mathbf{\frac{1}{slope} \times \frac{p}{q}}$$
 ]
 
 .pull-right[
-.smallest[
+.quitesmall[
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">A report by <a href="https://twitter.com/PIIE?ref_src=twsrc%5Etfw">@PIIE</a> found an N-95 respirator mask still faces a 7% U.S. tariff. <br><br>Remaining US duties include<br>• 5% on hand sanitizer<br>• 4.5% on protective medical clothing<br>• 2.5% on goggles<br>• 6.4-8.3% on other medical headwear<br><br>By <a href="https://twitter.com/ABehsudi?ref_src=twsrc%5Etfw">@ABehsudi</a> 1/<a href="https://t.co/LcxE0FFlXO">https://t.co/LcxE0FFlXO</a></p>&mdash; Chad P. Bown (@ChadBown) <a href="https://twitter.com/ChadBown/status/1252602275098492928?ref_src=twsrc%5Etfw">April 21, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 ]
 ]
@@ -1616,3 +1615,20 @@ $$\epsilon_{q,p} = \mathbf{\frac{1}{slope} \times \frac{p}{q}}$$
 
 ]
 ]
+
+.pull-right[
+> “[T]he number of new building permits and housing starts has been lower than in the previous boom...if prices have gone up as much as before but quantity has not, it follows that the elasticity of supply has fallen.”
+
+]
+
+
+
+---
+
+# Price Elasticity of Supply: Examples
+
+.center[
+![](../images/supplychainbroken.gif)
+]
+
+.source[Source: Washington Post (Oct 2, 2021): [“Inside America’s Broken Supply Chain”](https://www.washingtonpost.com/business/interactive/2021/supply-chain-issues/)]
