@@ -82,7 +82,8 @@ lessons:
     assignment: "04-problem-set"
 
   - title: '<i class="fas fa-star"></i> **Exam 2** Wed Oct 27'
-
+    assignment: "02-exam"
+    
   - title: '<span class="fake-header-table">III. Market Equilibrium</span>'
     header: True
 
