@@ -26,13 +26,13 @@ slides: "2.6-slides"
 <li><a href="#assignments"><i class="fas fa-laptop-code"></i> Assignments</a></li>
 <li><a href="#problem-set-3-due-mon-oct-18">Problem Set 3 Due Mon Oct 18</a></li>
 <li><a href="#problem-set-4-due-mon-oct-25">Problem Set 4 Due Mon Oct 25</a></li>
-<li><a href="#appendix"><i class="far fa-sigma"></i> Appendix</a></li>
-<li><a href="#producer-surplus">Producer Surplus</a>
+<li><a href="#appendix"><i class="far fa-sigma"></i> Appendix</a>
 <ul>
+<li><a href="#producer-surplus">Producer Surplus</a></li>
 <li><a href="#whats-the-difference-between-producer-surplus-and-profit">What’s the Difference Between Producer Surplus and Profit?</a></li>
+<li><a href="#economic-rents">Economic Rents</a></li>
 <li><a href="#external-economies-of-scale">External Economies of Scale</a></li>
 </ul></li>
-<li><a href="#cut-for-time-external-economies">Cut for time: External Economies</a></li>
 </ul></li>
 </ul>
 </div>
@@ -80,16 +80,15 @@ slides: "2.6-slides"
 </div>
 <div id="appendix" class="section level2">
 <h2><i class="far fa-sigma"></i> Appendix</h2>
-<p>Appendix</p>
-</div>
-<div id="producer-surplus" class="section level2">
-<h2>Producer Surplus</h2>
+<div id="producer-surplus" class="section level3">
+<h3>Producer Surplus</h3>
 <p>You may recall from principles of microeconomics the concepts of consumer surplus and producer surplus in markets. While we will study them in our next unit with Supply &amp; Demand, we can talk about the producer surplus to each firm here.</p>
 <p>Producer surplus essentially measures the “gains from exchange” to each party — for a producer, it is how much they benefit (on net) from selling their output.</p>
 <p>There are three equivalent ways of visualizing and measuring producer surplus for a firm. I will begin with a generalized series of cost curves:</p>
 <p><img src="/content/2.6-content_files/figure-html/unnamed-chunk-1-1.png" width="672" style="display: block; margin: auto;" /></p>
 <p>These often converge, and are also easier to identify when marginal cost is linear (and thus, average variable cost is also linear, and starts at the same point as marginal cost, the shutdown price). Here it producer surplus becomes the familiar “triangle” between the market price and the supply curve. Note we can also calculate it as the rectangle of revenues minus variable costs (right).</p>
 <p><img src="/content/2.6-content_files/figure-html/unnamed-chunk-2-1.png" width="672" style="display: block; margin: auto;" /></p>
+</div>
 <div id="whats-the-difference-between-producer-surplus-and-profit" class="section level3">
 <h3>What’s the Difference Between Producer Surplus and Profit?</h3>
 <p>Producer surplus (PS) <em>looks</em> a lot like profits <span class="math inline">\((\pi)\)</span>, but they are in fact different:</p>
@@ -109,16 +108,30 @@ slides: "2.6-slides"
 <p>Thus producer surplus exists <span class="math inline">\(\iff p&gt;AVC(q)\)</span>.</p>
 <p><img src="/content/2.6-content_files/figure-html/unnamed-chunk-3-1.png" width="672" style="display: block; margin: auto;" /></p>
 </div>
+<div id="economic-rents" class="section level3">
+<h3>Economic Rents</h3>
+<p>Economic rents come from factors of production that are fixed in supply (talent, productive land, etc.). Take productive land for a moment, which has a fixed supply. There would be just as much land supplied at a price of zero dollars as at $1000 (its factor supply curve is perfectly inelastic), because (assume for a moment) we can’t produce any more of it.</p>
+<p>For the economy as a whole, it is the price of agricultural products that determines the value of agricultural land (used to grow agricultural products). But for the individual farmer (firm producing food), the value of her land that she rents is a <em>cost</em> of production that enters into the pricing of her product.</p>
+<p>Below, <span class="math inline">\(AVC(q)\)</span> represents the average cost curve for all variable factors of production, i.e. <em>excluding</em> land costs (the fixed factor). If the price of the crop grown on this land is p∗, then the “profits” attributable to the land are measured by the area in orange: these are the economic rents. This is how much the rent (price) of the land would be in a competitive market — whatever it took to drive the profits to zero.</p>
+<p><img src="/content/2.6-content_files/figure-html/unnamed-chunk-4-1.png" width="672" style="display: block; margin: auto;" /></p>
+<p>In long run equilibrium, if there is competition for the productive land, the price of the land will be bid upwards, raising the cost to the farmers who must rent it, and raising the income to the owner of the land. Thus, economic rents increase to push profits to the firms to zero (but higher-than-opportunity-cost returns to the owners of land), since they must pay more to rent it.</p>
+<p>The average cost curve <em>including</em> the cost of the land is <span class="math inline">\(AC(q)\)</span>. Since the equilibrium rent for the land will be whatever it takes to drive firm profits to zero:</p>
+<p><span class="math display">\[\begin{align*}
+\underbrace{R(q^\star) - C(q^\star)}_{\pi} &amp;= 0\\
+p^\star q^\star - VC(q^\star) - rent &amp;= 0\\
+rent &amp;= p^\star q^\star - VC(q^\star)\\
+\end{align*}\]</span></p>
+<p>In other words, economic rent is the difference between revenues <span class="math inline">\((p^\star q^\star)\)</span> and variable costs. On the graph below, this is shaded in orange; we can also see it per unit as the difference between price and average variable costs (i.e. <span class="math inline">\(AFC(q))\)</span>.</p>
+<p>This shows that rent is also precisely the same thing as producer surplus (discussed above). That means you can also calculate the economic rent as the area to the left of the marginal cost curve, etc.</p>
+<p>Given what we said in the equations above, it is now easier to see the truth of what we said earlier: <strong>it is the market equilibrium price that determines economic rents</strong>, not the reverse. The firm supplies along its marginal cost curve — which is independent of the cost of the fixed factors. <strong>Rents will adjust to drive profits to zero.</strong></p>
+</div>
 <div id="external-economies-of-scale" class="section level3">
 <h3>External Economies of Scale</h3>
-</div>
-</div>
-<div id="cut-for-time-external-economies" class="section level2">
-<h2>Cut for time: External Economies</h2>
 <p>I was going to talk about <strong>external economies</strong>, which are cost externalities within an entire industry, but we will be skipping this for time. I put my slides here if you want to know more.</p>
 <p>The idea is firms entering/exiting a profitable/unprofitable industry over the long run certainly shift the industry supply curve and change the market equilibrium. But in a lot of industries as more firms enter and produce and compete with one another, that might raise costs for <em>all firms</em> (increasing cost industry/external diseconomies) or lower costs for <em>all firms</em> (decreasing cost industry/external economies). These effects may create either an upward sloping, flat, or downward sloping industry supply curve over the long run.</p>
 <ul>
 <li><a href="/slides/external-economies.html"><i class="fas fa-external-link-square-alt"></i> External Economies</a></li>
 </ul>
+</div>
 </div>
 </div>

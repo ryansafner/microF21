@@ -53,8 +53,8 @@ class: inverse
 ### [Market Entry and Exit](#14)
 ### [Deriving the Industry Supply Curve](#20)
 ### [Zero Economic Profits & Economic Rents](#28)
-### [Supply Functions](#46)
-### [Price Elasticity of Supply](#52)
+### [Supply Functions](#48)
+### [Price Elasticity of Supply](#4)
 
 ---
 
@@ -1128,6 +1128,211 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
 
 ---
 
+# Economic Rents Reduce Profits
+
+.tri-left[
+
+```{r, fig.retina=3, fig.height=4.5}
+industry_1+
+  geom_hline(yintercept=10, size=2, color="blue")+
+  geom_hline(yintercept=10, size=2, color="blue")+
+  geom_label(x=9,y=10,label = "MR(q)", color="blue", size =4)+
+  geom_segment(x=5,xend=5,y=0,yend=10, size=1, linetype="dashed")+
+  geom_segment(x=0,xend=5,y=7.30,yend=7.30, size=1, linetype="dashed")+
+  geom_rect(xmin=0,xmax=5,ymin=7.3,ymax=10, fill="green", alpha=0.25)+
+  labs(title="Firm 1 (Lower Cost)")
+```
+]
+
+.tri-middle[
+```{r, fig.retina=3, fig.height=4.5}
+mc_worse<-function(x){2*x+4}
+ac_worse<-function(x){x+9/x+4}
+
+ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  stat_function(fun=mc_worse, geom="line", size=2, color = "red")+
+    geom_label(aes(x=9.5,y=mc_worse(9.5)), color = "red", label="MC(q)", size = 4)+
+  stat_function(fun=ac_worse, geom="line", size=2, color = "orange")+
+    geom_label(aes(x=9.5,y=ac_worse(9.5)), color = "orange", label="AC(q)", size = 4)+
+  # break even line
+  geom_hline(yintercept=10, size=1, linetype="dashed")+
+  geom_label(x=9,y=10, label="Break-even Price", size =5, color="orange")+
+  
+geom_hline(yintercept=10, size=2, color="blue")+
+  geom_hline(yintercept=10, size=2, color="blue")+
+  geom_label(x=9,y=10,label = "MR(q)", color="blue", size =4)+
+  geom_segment(x=3,xend=3,y=0,yend=10, size=1, linetype="dashed")+
+ scale_x_continuous(breaks=seq(0,10,1),
+                     limits=c(0,10),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks=seq(0,20,2),
+                     labels=scales::dollar,
+                     limits=c(0,20),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  labs(x = "Output, q",
+       y = "$/Unit",
+       title = "Firm 2 (Higher Cost)")+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=20)
+```
+]
+
+.tri-right[
+```{r, fig.retina=3, fig.height=4.5}
+ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  geom_path(data=market_supply_rents_points, aes(x=x,y=y), size=3, color = "red")+
+  geom_segment(x=0,xend=0,y=0,yend=6, color="red", size=5)+
+  geom_label(x=16,y=18, color = "red", label="Industry Supply", size = 4)+
+  stat_function(fun=market_demand_rents, geom="line", size=3, color = "blue")+
+    geom_label(aes(x=18,y=market_demand_rents(18)), color = "blue", label="Industry Demand", size = 4)+
+  geom_segment(x=8,xend=8,y=0,yend=10, size=1, linetype="dashed")+
+  geom_segment(x=0,xend=8,y=10,yend=10, size=1, linetype="dashed")+
+      scale_x_continuous(breaks=seq(0,20,2),
+                     limits=c(0,20),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks=seq(0,20,2),
+                     labels=scales::dollar,
+                     limits=c(0,20),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  labs(x = "Output, q",
+       y = "$/Unit",
+       title = "Industry")+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=20)
+```
+
+]
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+.smallest[
+
+- **Short Run**: firm that possesses scarce rent-generating factors has lower costs, perhaps .green[short-run profits]
+]
+
+---
+
+# Economic Rents Reduce Profits
+
+.tri-left[
+
+```{r, fig.retina=3, fig.height=4.5}
+ac_worse_2<-function(x){x+6/(x-2.5)+2.75}
+
+ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  stat_function(fun=mc, geom="line", size=2, color = "red")+
+    geom_label(aes(x=9.5,y=mc(9.5)), color = "red", label="MC(q)", size = 4)+
+  stat_function(fun=ac_worse_2, geom="line", size=2, color = "orange")+
+    geom_label(aes(x=9.5,y=ac_worse_2(9.5)), color = "orange", label="AC(q)", size = 4)+
+  # break even line
+  geom_hline(yintercept=10, size=1, linetype="dashed")+
+  geom_label(x=9,y=10, label="Break-even Price", size =5, color="orange")+
+  
+geom_hline(yintercept=10, size=2, color="blue")+
+  geom_hline(yintercept=10, size=2, color="blue")+
+  geom_label(x=9,y=10,label = "MR(q)", color="blue", size =4)+
+  geom_segment(x=5,xend=5,y=0,yend=10, size=1, linetype="dashed")+
+ scale_x_continuous(breaks=seq(0,10,1),
+                     limits=c(0,10),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks=seq(0,20,2),
+                     labels=scales::dollar,
+                     limits=c(0,20),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  labs(x = "Output, q",
+       y = "$/Unit",
+       title = "Firm 1 (No Longer Lower Cost)")+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=20)
+```
+]
+
+.tri-middle[
+```{r, fig.retina=3, fig.height=4.5}
+ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  stat_function(fun=mc_worse, geom="line", size=2, color = "red")+
+    geom_label(aes(x=9.5,y=mc_worse(9.5)), color = "red", label="MC(q)", size = 4)+
+  stat_function(fun=ac_worse, geom="line", size=2, color = "orange")+
+    geom_label(aes(x=9.5,y=ac_worse(9.5)), color = "orange", label="AC(q)", size = 4)+
+  # break even line
+  geom_hline(yintercept=10, size=1, linetype="dashed")+
+  geom_label(x=9,y=10, label="Break-even Price", size =5, color="orange")+
+  
+geom_hline(yintercept=10, size=2, color="blue")+
+  geom_hline(yintercept=10, size=2, color="blue")+
+  geom_label(x=9,y=10,label = "MR(q)", color="blue", size =4)+
+  geom_segment(x=3,xend=3,y=0,yend=10, size=1, linetype="dashed")+
+ scale_x_continuous(breaks=seq(0,10,1),
+                     limits=c(0,10),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks=seq(0,20,2),
+                     labels=scales::dollar,
+                     limits=c(0,20),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  labs(x = "Output, q",
+       y = "$/Unit",
+       title = "Firm 2 (Higher Cost)")+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=20)
+```
+]
+
+.tri-right[
+```{r, fig.retina=3, fig.height=4.5}
+market_supply_rents_GONE_points <- tribble(
+  ~x, ~y,
+  0, 10,
+  8, 10,
+  10, 12,
+  12, 14,
+  14, 16,
+  16, 18,
+  18, 20
+)
+
+ggplot(data.frame(x=c(0,10)), aes(x=x))+
+  geom_path(data=market_supply_rents_GONE_points, aes(x=x,y=y), size=3, color = "red")+
+  geom_segment(x=0,xend=0,y=0,yend=10, color="red", size=5)+
+  geom_label(x=14,y=18, color = "red", label="Industry Supply", size = 4)+
+  stat_function(fun=market_demand_rents, geom="line", size=3, color = "blue")+
+    geom_label(aes(x=18,y=market_demand_rents(18)), color = "blue", label="Industry Demand", size = 4)+
+  geom_segment(x=8,xend=8,y=0,yend=10, size=1, linetype="dashed")+
+      scale_x_continuous(breaks=seq(0,20,2),
+                     limits=c(0,20),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  scale_y_continuous(breaks=seq(0,20,2),
+                     labels=scales::dollar,
+                     limits=c(0,20),
+                     expand=expand_scale(mult=c(0,0.1)))+
+  labs(x = "Output, q",
+       y = "$/Unit",
+       title = "Industry")+
+  theme_classic(base_family = "Fira Sans Condensed", base_size=20)
+```
+
+]
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+.smallest[
+- **Short Run**: firm that possesses scarce rent-generating factors has lower costs, perhaps .green[short-run profits]
+
+- **Long run**: competition over those factors pushes up their prices, **raising costs to firm**, until its profits go to zero as well
+  - Increase in *fixed* cost (scarce factor), raising .orange[AC(q)], which now includes rents (more info [here](content/2.6-content/#economic-rents))
+]
+
+---
+
 # Recall: Accounting vs. Economic Point of View
 
 .pull-left[
@@ -1632,3 +1837,21 @@ $$\epsilon_{q,p} = \mathbf{\frac{1}{slope} \times \frac{p}{q}}$$
 ]
 
 .source[Source: Washington Post (Oct 2, 2021): [“Inside America’s Broken Supply Chain”](https://www.washingtonpost.com/business/interactive/2021/supply-chain-issues/)]
+
+---
+
+# Price Elasticity of Supply: Examples
+
+.pull-left[
+.center[
+.smallest[
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Yesterday I rented a boat and took the leader of one of Flexport&#39;s partners in Long Beach on a 3 hour of the port complex. Here&#39;s a thread about what I learned.</p>&mdash; Ryan Petersen (@typesfast) <a href="https://twitter.com/typesfast/status/1451543776992845834?ref_src=twsrc%5Etfw">October 22, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+]
+]
+]
+
+.pull-right[
+.center[
+![](../images/cargocontainerslongbeach.jpg)
+]
+]
