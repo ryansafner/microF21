@@ -1858,13 +1858,13 @@ AC(q)&amp;amp;=c+\frac{f}{q}\\
 &lt;li&gt;&lt;a href=&#34;#assignments&#34;&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; Assignments&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#problem-set-3-due-mon-oct-18&#34;&gt;Problem Set 3 Due Mon Oct 18&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#problem-set-4-due-mon-oct-25&#34;&gt;Problem Set 4 Due Mon Oct 25&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#appendix&#34;&gt;&lt;i class=&#34;far fa-sigma&#34;&gt;&lt;/i&gt; Appendix&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#producer-surplus&#34;&gt;Producer Surplus&lt;/a&gt;
+&lt;li&gt;&lt;a href=&#34;#appendix&#34;&gt;&lt;i class=&#34;far fa-sigma&#34;&gt;&lt;/i&gt; Appendix&lt;/a&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#producer-surplus&#34;&gt;Producer Surplus&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#whats-the-difference-between-producer-surplus-and-profit&#34;&gt;What’s the Difference Between Producer Surplus and Profit?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#economic-rents&#34;&gt;Economic Rents&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;#external-economies-of-scale&#34;&gt;External Economies of Scale&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;#cut-for-time-external-economies&#34;&gt;Cut for time: External Economies&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
@@ -1922,16 +1922,15 @@ AC(q)&amp;amp;=c+\frac{f}{q}\\
 &lt;/div&gt;
 &lt;div id=&#34;appendix&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;&lt;i class=&#34;far fa-sigma&#34;&gt;&lt;/i&gt; Appendix&lt;/h2&gt;
-&lt;p&gt;Appendix&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;producer-surplus&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Producer Surplus&lt;/h2&gt;
+&lt;div id=&#34;producer-surplus&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Producer Surplus&lt;/h3&gt;
 &lt;p&gt;You may recall from principles of microeconomics the concepts of consumer surplus and producer surplus in markets. While we will study them in our next unit with Supply &amp;amp; Demand, we can talk about the producer surplus to each firm here.&lt;/p&gt;
 &lt;p&gt;Producer surplus essentially measures the “gains from exchange” to each party — for a producer, it is how much they benefit (on net) from selling their output.&lt;/p&gt;
 &lt;p&gt;There are three equivalent ways of visualizing and measuring producer surplus for a firm. I will begin with a generalized series of cost curves:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://microf21.classes.ryansafner.com/content/2.6-content_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;These often converge, and are also easier to identify when marginal cost is linear (and thus, average variable cost is also linear, and starts at the same point as marginal cost, the shutdown price). Here it producer surplus becomes the familiar “triangle” between the market price and the supply curve. Note we can also calculate it as the rectangle of revenues minus variable costs (right).&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://microf21.classes.ryansafner.com/content/2.6-content_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
 &lt;div id=&#34;whats-the-difference-between-producer-surplus-and-profit&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;What’s the Difference Between Producer Surplus and Profit?&lt;/h3&gt;
 &lt;p&gt;Producer surplus (PS) &lt;em&gt;looks&lt;/em&gt; a lot like profits &lt;span class=&#34;math inline&#34;&gt;\((\pi)\)&lt;/span&gt;, but they are in fact different:&lt;/p&gt;
@@ -1951,17 +1950,31 @@ AC(q)&amp;amp;=c+\frac{f}{q}\\
 &lt;p&gt;Thus producer surplus exists &lt;span class=&#34;math inline&#34;&gt;\(\iff p&amp;gt;AVC(q)\)&lt;/span&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://microf21.classes.ryansafner.com/content/2.6-content_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
+&lt;div id=&#34;economic-rents&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Economic Rents&lt;/h3&gt;
+&lt;p&gt;Economic rents come from factors of production that are fixed in supply (talent, productive land, etc.). Take productive land for a moment, which has a fixed supply. There would be just as much land supplied at a price of zero dollars as at $1000 (its factor supply curve is perfectly inelastic), because (assume for a moment) we can’t produce any more of it.&lt;/p&gt;
+&lt;p&gt;For the economy as a whole, it is the price of agricultural products that determines the value of agricultural land (used to grow agricultural products). But for the individual farmer (firm producing food), the value of her land that she rents is a &lt;em&gt;cost&lt;/em&gt; of production that enters into the pricing of her product.&lt;/p&gt;
+&lt;p&gt;Below, &lt;span class=&#34;math inline&#34;&gt;\(AVC(q)\)&lt;/span&gt; represents the average cost curve for all variable factors of production, i.e. &lt;em&gt;excluding&lt;/em&gt; land costs (the fixed factor). If the price of the crop grown on this land is p∗, then the “profits” attributable to the land are measured by the area in orange: these are the economic rents. This is how much the rent (price) of the land would be in a competitive market — whatever it took to drive the profits to zero.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://microf21.classes.ryansafner.com/content/2.6-content_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;In long run equilibrium, if there is competition for the productive land, the price of the land will be bid upwards, raising the cost to the farmers who must rent it, and raising the income to the owner of the land. Thus, economic rents increase to push profits to the firms to zero (but higher-than-opportunity-cost returns to the owners of land), since they must pay more to rent it.&lt;/p&gt;
+&lt;p&gt;The average cost curve &lt;em&gt;including&lt;/em&gt; the cost of the land is &lt;span class=&#34;math inline&#34;&gt;\(AC(q)\)&lt;/span&gt;. Since the equilibrium rent for the land will be whatever it takes to drive firm profits to zero:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+\underbrace{R(q^\star) - C(q^\star)}_{\pi} &amp;amp;= 0\\
+p^\star q^\star - VC(q^\star) - rent &amp;amp;= 0\\
+rent &amp;amp;= p^\star q^\star - VC(q^\star)\\
+\end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;In other words, economic rent is the difference between revenues &lt;span class=&#34;math inline&#34;&gt;\((p^\star q^\star)\)&lt;/span&gt; and variable costs. On the graph below, this is shaded in orange; we can also see it per unit as the difference between price and average variable costs (i.e. &lt;span class=&#34;math inline&#34;&gt;\(AFC(q))\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;This shows that rent is also precisely the same thing as producer surplus (discussed above). That means you can also calculate the economic rent as the area to the left of the marginal cost curve, etc.&lt;/p&gt;
+&lt;p&gt;Given what we said in the equations above, it is now easier to see the truth of what we said earlier: &lt;strong&gt;it is the market equilibrium price that determines economic rents&lt;/strong&gt;, not the reverse. The firm supplies along its marginal cost curve — which is independent of the cost of the fixed factors. &lt;strong&gt;Rents will adjust to drive profits to zero.&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
 &lt;div id=&#34;external-economies-of-scale&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;External Economies of Scale&lt;/h3&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;cut-for-time-external-economies&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Cut for time: External Economies&lt;/h2&gt;
 &lt;p&gt;I was going to talk about &lt;strong&gt;external economies&lt;/strong&gt;, which are cost externalities within an entire industry, but we will be skipping this for time. I put my slides here if you want to know more.&lt;/p&gt;
 &lt;p&gt;The idea is firms entering/exiting a profitable/unprofitable industry over the long run certainly shift the industry supply curve and change the market equilibrium. But in a lot of industries as more firms enter and produce and compete with one another, that might raise costs for &lt;em&gt;all firms&lt;/em&gt; (increasing cost industry/external diseconomies) or lower costs for &lt;em&gt;all firms&lt;/em&gt; (decreasing cost industry/external economies). These effects may create either an upward sloping, flat, or downward sloping industry supply curve over the long run.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://microf21.classes.ryansafner.com/slides/external-economies.html&#34;&gt;&lt;i class=&#34;fas fa-external-link-square-alt&#34;&gt;&lt;/i&gt; External Economies&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 </description>

@@ -48,7 +48,7 @@ Show all work for calculations. You may lose points, even if correct, for missin
 
 ## Question 4
 
-Frame de Art is an art framing shop in a small town. Frame de Art has one storefront (with a rent of $500/week), and can hire workers for \$300/week per worker. The table below shows how output of framed art (in 100s/week) varies with the number of workers. 
+Frame de Art is an art framing shop in a small town. Frame de Art has one storefront (with a rent of <span>&#36;</span>500/week), and can hire workers for <span>&#36;</span>300/week per worker. The table below shows how output of framed art (in 100s/week) varies with the number of workers. 
 
 | Output (hundreds) | Labor |
 |-------:|------:|
