@@ -54,7 +54,7 @@ class: inverse
 ### [Deriving the Industry Supply Curve](#20)
 ### [Zero Economic Profits & Economic Rents](#28)
 ### [Supply Functions](#48)
-### [Price Elasticity of Supply](#4)
+### [Price Elasticity of Supply](#54)
 
 ---
 
