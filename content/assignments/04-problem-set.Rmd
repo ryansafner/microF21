@@ -24,6 +24,10 @@ Please submit on Blackboard Assignments by the end of the day Monday October 25.
 
 <p style="text-align:center"><a target="_blank" href="/assignment/04-problem-set-pdf.pdf"><span class="btn btn-primary btn-lg"><i class="fas fa-file-pdf"></i> Download PDF</a></span></p>
 
+## Answers
+
+<p style="text-align:center"><a target="_blank" href="/assignment/04-problem-set-answers.html"><span class="btn btn-primary btn-lg"><i class="far fa-life-ring"></i> Answers</a> <a target="_blank" href="/assignment/04-problem-set-answers-pdf.pdf"><span class="btn btn-primary btn-lg"><i class="fas fa-file-pdf"></i> Answers (PDF)</a> </p>
+
 Please read the [instructions](/assignments/problem-sets) for completing homeworks.
 
 # Concepts and Critical Thinking

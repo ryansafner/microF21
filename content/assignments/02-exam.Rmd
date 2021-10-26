@@ -41,10 +41,10 @@ It is more important to me that you spend your time working and writing the answ
 
 # "Practice" Exam
 
-- [<i class="fas fa-file-pdf"></i> Download Old Exam 1](/examprep/Exam2.pdf)
-<!-- [<i class="far fa-life-ring"></i> Answer Key](/examprep/Exam1_Answer_Key.pdf)-->
+- [<i class="fas fa-file-pdf"></i> Download Old Exam 2](/examprep/Exam2.pdf)
+- [<i class="far fa-life-ring"></i> Answer Key](/examprep/Exam1_Answer_Key.pdf)
 
-Above, you have a previous semester's actual exam. Use it to get a sense of what questions are asked, the format, and how many. 
+Above, you have a previous semester's actual exam. Use it to get a sense of what questions are asked, the format, and how many. Note we skipped content that the first question covers (constant cost industries).
 
 **Be aware: this is pre-Covid when exams were taken in person on paper. The online nature of this semester will significantly affect the questions asked!** Questions draw from topics in Unit 1, and note that **just because topics or questions were not in the practice exam does NOT mean they may not show up on your exam.**^[I hope that this is obvious. I write this to ensure there is no misunderstanding.] Aside from minor extensions, no mathematical problem on any exam should be something you have not seen in some form before. 
 
