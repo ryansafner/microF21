@@ -88,8 +88,11 @@ lessons:
     header: True
 
   - title: "3.1 — The Supply and Demand Model"
+    content: "3.1-content"
 
   - title: "3.2 — Market Competition and Surpluses"
+    content: "3.2-content"
+    practice: "3.2-practice"
 
   - title: "3.3 — Welfare Economics & Market Failures"
 
