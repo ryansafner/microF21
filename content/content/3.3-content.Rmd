@@ -27,7 +27,7 @@ update_geom_defaults("text", list(family = "Fira Sans Condensed"))
 ```
 
 {{% alert note %}}
-*Wednedsay, November 3, 2021*
+*Monday, November 8, 2021*
 {{% /alert %}}
 
 ## <i class="fas fa-info-circle fa-lg"></i> Overview
@@ -61,7 +61,7 @@ Chapter 16, however, is a pretty accessible discussion of externalities and publ
 
 The following Wikipedia entries can also provide more background on today’s concepts (which are well known and standard among economists):
 
-## On Efficiency & Welfare:
+### On Efficiency & Welfare:
 
 - [<i class="fab fa-wikipedia-w"></i> Allocative efficiency](https://en.wikipedia.org/wiki/Allocative_efficiency)
 - [<i class="fab fa-wikipedia-w"></i> Productive efficiency](https://en.wikipedia.org/wiki/Productive_efficiency)
@@ -71,7 +71,7 @@ The following Wikipedia entries can also provide more background on today’s co
 
 - [<i class="fab fa-wikipedia-w"></i> Welfare economics](https://en.wikipedia.org/wiki/Welfare_economics)
 
-## On Market Failures (and their Solutions):
+### On Market Failures (and their Solutions):
 
 - [<i class="fab fa-wikipedia-w"></i> Market Failure](https://en.wikipedia.org/wiki/Market_failure)
 - [<i class="fab fa-wikipedia-w"></i> Public good](https://en.wikipedia.org/wiki/Public_good_(economics))
