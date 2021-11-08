@@ -96,9 +96,11 @@ lessons:
     practice: "3.2-practice"
     slides: "3.2-slides"
 
-  - title: "3.3 — Welfare Economics & Market Failures"
-
-  - title: "3.4 — Entrepreneurship, Profits, & Prices"
+  - title: "3.3 — Welfare Economics: The Static Benefits of Markets, & Market Failure"
+    content: "3.3-content"
+    slides: "3.3-slides"
+    
+  - title: "3.4 — The Dynamic Benefits of Markets: Entrepreneurship, Profits, & Prices"
 
   - title: "3.5 — Political Economy"
 
