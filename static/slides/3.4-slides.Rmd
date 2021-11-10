@@ -1,5 +1,5 @@
 ---
-title: "3.4 — Social Functions of Market Prices"
+title: "3.4 — The *Dynamic* Benefits of Markets"
 subtitle: "ECON 306 • Microeconomic Analysis • Spring 2021"
 author: 'Ryan Safner<br> Assistant Professor of Economics <br> <a href="mailto:safner@hood.edu"><i class="fa fa-paper-plane fa-fw"></i>safner@hood.edu</a> <br> <a href="https://github.com/ryansafner/microS21"><i class="fa fa-github fa-fw"></i>ryansafner/microS21</a><br> <a href="https://microS21.classes.ryansafner.com"> <i class="fa fa-globe fa-fw"></i>microS21.classes.ryansafner.com</a><br>'
 #date:
