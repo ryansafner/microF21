@@ -105,8 +105,11 @@ lessons:
     slides: "3.4-slides"
     
   - title: "3.5 — Introduction to Political Economy"
+    content: "3.5-content"
+    slides: "3.5-slides"
 
-  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 5**'
+  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 5** due Mon Nov 22'
+    assignment: "05-problem-set"
 
   - title: '<span class="fake-header-table">IV. Imperfect Competition</span>'
     header: True
