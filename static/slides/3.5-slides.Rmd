@@ -742,7 +742,7 @@ ggplot(data.frame(x=c(0,10)), aes(x=x))+
 
 .pull-left[
 .smallest[
-- Official price is $\overbar{P_1}$, sellers gain .green[monetary revenues]
+- Official price is $\over{P_1}$, sellers gain .green[monetary revenues]
 
 ]
 ]
