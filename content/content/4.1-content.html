@@ -1,0 +1,118 @@
+---
+title: "4.1 — Modeling Firms with Market Power — Class Content"
+draft: false
+linktitle: "4.1 — Modeling Firms with Market Power"
+date: "2020-06-08"
+menu:
+  content:
+    parent: Course content
+    weight: 16
+type: docs
+output:
+  blogdown::html_page:
+    toc: true
+slides: "4.1-slides"
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+<div id="TOC">
+<ul>
+<li><a href="#overview"><i class="fas fa-info-circle fa-lg"></i> Overview</a></li>
+<li><a href="#readings"><i class="fas fa-book-reader fa-lg"></i> Readings</a></li>
+<li><a href="#practice"><i class="fas fa-dumbbell"></i> Practice</a></li>
+<li><a href="#slides"><i class="fas fa-chalkboard-teacher"></i> Slides</a></li>
+<li><a href="#assignments"><i class="fas fa-laptop-code"></i> Assignments</a></li>
+<li><a href="#problem-set-5-due-mon-nov-22">Problem Set 5 Due Mon Nov 22</a></li>
+<li><a href="#appendix"><i class="far fa-sigma"></i> Appendix</a>
+<ul>
+<li><a href="#monopolists-only-produce-where-demand-is-elastic-proof">Monopolists Only Produce Where Demand is Elastic: Proof</a></li>
+<li><a href="#derivation-of-the-lerner-index">Derivation of the Lerner Index</a></li>
+</ul></li>
+</ul>
+</div>
+
+<p>{{% alert note %}}
+<em>Wednesday November 17, 2021</em>
+{{% /alert %}}</p>
+<div id="overview" class="section level2">
+<h2><i class="fas fa-info-circle fa-lg"></i> Overview</h2>
+<p>Today we begin our look at “imperfect competition,” where firms have market power, meaning they can charge <span class="math inline">\(p&gt;MC\)</span> and search for the profit-maximizing quantity <em>and</em> price. Today is merely about how do change the model to understand how a firm with market power behaves. To assist us, we begin with an extreme case of a single seller, i.e. a <strong>monopoly.</strong> For now we only <em>assume</em> that there is a single firm, and see how it behaves differently than if it were in a competitive market. Next class we will begin to explore what could <em>cause</em> a market to have only a single seller, and what are some of the social consequences of market power.</p>
+</div>
+<div id="readings" class="section level2">
+<h2><i class="fas fa-book-reader fa-lg"></i> Readings</h2>
+<ul>
+<li><i class="fas fas fa-book"></i> Ch. 9-2-9.5 in <span class="citation">@textbook</span></li>
+</ul>
+</div>
+<div id="practice" class="section level2">
+<h2><i class="fas fa-dumbbell"></i> Practice</h2>
+<p>Today we will be working on <a href="/practice/4.1-practice">practice problems</a>. Answers will be posted later on that page.</p>
+</div>
+<div id="slides" class="section level2">
+<h2><i class="fas fa-chalkboard-teacher"></i> Slides</h2>
+<p>Below, you can find the slides in two formats. Clicking the image will bring you to the html version of the slides in a new tab. Note while in going through the slides, you can type <kbd>h</kbd> to see a special list of viewing options, and type <kbd>o</kbd> for an outline view of all the slides.</p>
+<p>The lower button will allow you to download a PDF version of the slides. I suggest printing the slides beforehand and using them to take additional notes in class (<em>not everything</em> is in the slides)!</p>
+<p>{{% slide-links %}}</p>
+</div>
+<div id="assignments" class="section level2">
+<h2><i class="fas fa-laptop-code"></i> Assignments</h2>
+</div>
+<div id="problem-set-5-due-mon-nov-22" class="section level2">
+<h2>Problem Set 5 Due Mon Nov 22</h2>
+<p><a href="/assignments/05-problem-set">Problem set 5</a> (on classes 3.1-3.5) is due by Monday, November 22 by PDF upload to Blackboard Assignments. This will be your <strong>final</strong> graded homework!</p>
+</div>
+<div id="appendix" class="section level1">
+<h1><i class="far fa-sigma"></i> Appendix</h1>
+<div id="monopolists-only-produce-where-demand-is-elastic-proof" class="section level2">
+<h2>Monopolists Only Produce Where Demand is Elastic: Proof</h2>
+<p>Let’s first show the relationship between <span class="math inline">\(MR(q)\)</span> and price elasticity of demand, <span class="math inline">\(\epsilon_D\)</span>.</p>
+<p><span class="math display">\[\begin{align*}
+MR(q) &amp;= p+\bigg(\frac{\Delta p}{\Delta q}\bigg)q &amp;&amp; \text{Definition of } MR(q)\\
+\frac{MR(q)}{p} &amp;= \frac{p}{p}+\bigg(\frac{\Delta p}{\Delta q}\bigg) \frac{q}{p} &amp;&amp; \text{Dividing both sides by } p\\
+\frac{MR(q)}{p} &amp;= 1+\underbrace{\bigg(\frac{\Delta p}{\Delta q}\times \frac{q}{p} \bigg)}_{\frac{1}{\epsilon}}  &amp;&amp; \text{Simplifying}\\
+\frac{MR(q)}{p} &amp;= 1+\frac{1}{\epsilon_D} &amp;&amp; \text{Recognize price elasticity } \epsilon_D=\frac{\Delta q}{\Delta p} \times \frac{p}{q}\\
+MR(q) &amp;= p\bigg(1+\frac{1}{\epsilon_D}\bigg) &amp;&amp; \text{Multiplying both sides by }p\\
+\end{align*}\]</span></p>
+<p>Remember, we’ve simplified <span class="math inline">\(\epsilon_D = \frac{1}{slope} \times \frac{p}{q}\)</span>, where <span class="math inline">\(\frac{1}{slope} = \frac{\Delta q}{\Delta p}\)</span> because on a demand curve, <span class="math inline">\(slope = \frac{\Delta p}{\Delta q}\)</span>.</p>
+<p>Now that we have this alternate expression for <span class="math inline">\(MR(q)\)</span>, lets assume <span class="math inline">\(MC(q) \geq 0\)</span> and set them equal to one another to maximize profits:</p>
+<p><span class="math display">\[\begin{align*}
+MR(q) &amp;= MC(q)\\
+p(1+\frac{1}{\epsilon_D}) &amp; = MC(q)\\
+p(1-\frac{1}{|\epsilon_D|}) &amp; = MC(q)\\
+\end{align*}\]</span></p>
+<p>I rearrange the last line only to remind us that <span class="math inline">\(\epsilon_D\)</span> is always negative!</p>
+<p>Now note the following:</p>
+<ul>
+<li>If <span class="math inline">\(|\epsilon_D| &lt; 1\)</span>, then <span class="math inline">\(MR(q)\)</span> is <em>negative</em>. Since <span class="math inline">\(MC(q)\)</span> is assumed to be positive, it cannot equal a negative <span class="math inline">\(MR(q)\)</span>, hence this is not profit-maximizing.</li>
+<li>If <span class="math inline">\(|\epsilon_D| = 1\)</span>, then <span class="math inline">\(MR(q)\)</span> is 0. Only if <span class="math inline">\(MC(q)\)</span> is also 0 is this profit-maximizing.</li>
+<li>If <span class="math inline">\(|\epsilon_D| &gt; 1\)</span>, then <span class="math inline">\(MR(q)\)</span> is <em>positive</em>. It can equal a positive <span class="math inline">\(MC(q)\)</span> to be profit-maximizing.</li>
+</ul>
+<p>Hence, a monopolist will <em>never</em> produce in the inelastic region of the demand curve (where <span class="math inline">\(MR(q)&lt;0)\)</span>, and will <em>only</em> produce at the unit elastic part of the demand curve (where <span class="math inline">\(MR(q)=0)\)</span> if <span class="math inline">\(MC(q)=0\)</span>. Thus, it generally produces in the elastic region where <span class="math inline">\(MR(q)&gt;0\)</span>.</p>
+<p>See the graphs on <a href="/slides/4.1-slides.html#31">slide 31</a>.</p>
+</div>
+<div id="derivation-of-the-lerner-index" class="section level2">
+<h2>Derivation of the Lerner Index</h2>
+<p>Marginal revenue is strongly related to the <strong>price elasticity of demand</strong>, which is <span class="math inline">\(E_{D}=\frac{\Delta q}{\Delta p} \times \frac{p}{q}\)</span><a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p>
+<p>We derived marginal revenue (in the slides) as:
+<span class="math display">\[MR(q)=p+\frac{\Delta p}{\Delta q}q\]</span></p>
+<p>Firms will always maximize profits where:</p>
+<p><span class="math display">\[\begin{align*}
+MR(q)&amp;=MC(q) &amp;&amp; \text{Profit-max output}\\
+p+\bigg(\frac{\Delta p}{\Delta q}\bigg)q&amp;=MC(q) &amp;&amp; \text{Definition of } MR(q)\\
+p+\bigg(\frac{\Delta p}{\Delta q}\bigg) q \times \frac{p}{p}&amp;=MC(q) &amp;&amp; \text{Multiplying the left by } \frac{p}{p} \text{ (i.e. 1)}\\
+p+\underbrace{\bigg(\frac{\Delta p}{\Delta q}\times \frac{q}{p} \bigg)}_{\frac{1}{\epsilon}} \times p &amp;=MC(q) &amp;&amp; \text{Rearranging the left}\\
+p+\frac{1}{\epsilon} \times p &amp;=MC(q) &amp;&amp; \text{Recognize price elasticity } \epsilon=\frac{\Delta q}{\Delta p} \times \frac{p}{q}\\
+p &amp;=MC(q) - \frac{1}{\epsilon} p &amp;&amp; \text{Subtract  }\frac{1}{\epsilon}p \text{ from both sides}\\
+p-MC(q) &amp;= -\frac{1}{\epsilon} p &amp;&amp; \text{Subtract  }MC(q) \text{ from both sides}\\
+\frac{p-MC(q)}{p} &amp;= -\frac{1}{\epsilon} &amp;&amp; \text{Divide both sides by  }p\\
+        \end{align*}\]</span></p>
+<p>The left side gives us the fraction of price that is markup <span class="math inline">\(\left(\frac{p-MC(q)}{p}\right)\)</span>, and the right side shows this is inversely related to price elasticity of demand.</p>
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>I sometimes simplify it as <span class="math inline">\(E_{D}=\frac{1}{slope} \times \frac{p}{q}\)</span>, where “slope” is the slope of the inverse demand curve (graph), since the slope is <span class="math inline">\(\frac{\Delta p}{\Delta q} = \frac{rise}{run}\)</span>.<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
