@@ -90,7 +90,7 @@ Now note the following:
 
 Hence, a monopolist will *never* produce in the inelastic region of the demand curve (where $MR(q)<0)$, and will *only* produce at the unit elastic part of the demand curve (where $MR(q)=0)$ if $MC(q)=0$. Thus, it generally produces in the elastic region where $MR(q)>0$. 
 
-See the graphs on [slide 31](/slides/4.1-slides.html#31).
+See the graphs on [slide 32](/slides/4.1-slides.html#32).
 
 ## Derivation of the Lerner Index
 
