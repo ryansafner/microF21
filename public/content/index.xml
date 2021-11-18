@@ -2075,5 +2075,351 @@ rent &amp;amp;= p^\star q^\star - VC(q^\star)\\
 </description>
     </item>
     
+    <item>
+      <title>3.3 — The *Static* Benefits of Markets: Welfare Economics &amp; Market Failure — Class Content</title>
+      <link>https://microf21.classes.ryansafner.com/content/3.3-content/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://microf21.classes.ryansafner.com/content/3.3-content/</guid>
+      <description>
+&lt;script src=&#34;https://microf21.classes.ryansafner.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#overview&#34;&gt;&lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt; Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#readings&#34;&gt;&lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt; Readings&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#on-efficiency-welfare&#34;&gt;On Efficiency &amp;amp; Welfare:&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#on-market-failures-and-their-solutions&#34;&gt;On Market Failures (and their Solutions):&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#slides&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Slides&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;em&gt;Monday, November 8, 2021&lt;/em&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;div id=&#34;overview&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt; Overview&lt;/h2&gt;
+&lt;p&gt;Today we consider how markets work and why (and when) they are so efficient at allocating resources and solving social problems. We take a crack at defining efficiency in a few ways: &lt;a href=&#34;https://en.wikipedia.org/wiki/Allocative_efficiency&#34;&gt;allocative&lt;/a&gt;, &lt;a href=&#34;https://en.wikipedia.org/wiki/Productive_efficiency&#34;&gt;productive&lt;/a&gt;, &lt;a href=&#34;https://en.wikipedia.org/wiki/Pareto_efficiency&#34;&gt;Pareto&lt;/a&gt;, and &lt;a href=&#34;https://en.wikipedia.org/wiki/Kaldor%E2%80%93Hicks_efficiency&#34;&gt;Kaldor-Hicks&lt;/a&gt; efficiency. We then discuss &lt;a href=&#34;https://en.wikipedia.org/wiki/Welfare_economics&#34;&gt;Welfare Economics&lt;/a&gt; and I summarize three conditions about when markets are good &amp;amp; efficient:
+1. Markets are competitive
+2. Markets reach equilibrium
+3. Markets do not have externalities&lt;/p&gt;
+&lt;p&gt;This leads us into a discussion of &lt;a href=&#34;https://en.wikipedia.org/wiki/Market_failure&#34;&gt;market failure&lt;/a&gt;, when markets &lt;em&gt;aren’t&lt;/em&gt; efficient because something prevents the price system from working properly. We talk about several types of market failures: collective action problems, public goods, and externalities.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;readings&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt; Readings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fas fa-book&#34;&gt;&lt;/i&gt; Ch. 14.2-14.7, Ch. 16 in &lt;span class=&#34;citation&#34;&gt;@textbook&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Your textbook does cover efficiency and welfare economics in Chapter 14, in the context of general equilibrium theory, which is a bit too advanced for us to spend sufficient time to cover. Thus, I would not recommend reading that chapter unless you are prepared to dive into new tools (Edgeworth diagrams, production possibilities frontiers) that I will not cover in this course.&lt;/p&gt;
+&lt;p&gt;Chapter 16, however, is a pretty accessible discussion of externalities and public goods.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://ryansafner.com/publication/public-good-or-good-for-the-public/&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Safner, 2020, “‘Public Good,’ or ‘Good for the Public?’ Political Entrepreneurship and the Public Funding of Scientific Research”&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://ryansafner.com/publication/institutional-entrepreneurship-wikipedia-and-the-opportunity-of-the-commons/&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Safner, 2016, “Institutional Entrepreneurship, Wikipedia, and the Opportunity of the Commons”&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://freakonomics.com/podcast/parking-is-hell-a-new-freakonomics-radio-podcast/&#34;&gt;&lt;i class=&#34;fas fa-podcast&#34;&gt;&lt;/i&gt; &lt;em&gt;Freakonomics Radio&lt;/em&gt; ep. 115: “Parking is Hell”&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=9tUb3MDrgEc&#34;&gt;&lt;i class=&#34;fab fa-youtube&#34;&gt;&lt;/i&gt; MR University: “Trading Pollution: How Pollution Permits Paradoxically Reduce Emissions”&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=2EFG6dvtQ6M&#34;&gt;&lt;i class=&#34;fab fa-youtube&#34;&gt;&lt;/i&gt; MR University: “Externalities and Incentives: The Economics of COVID (Vaccines)”&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=W_HUdf89hI8&#34;&gt;&lt;i class=&#34;fab fa-youtube&#34;&gt;&lt;/i&gt; &lt;em&gt;The Lorax&lt;/em&gt; (Dr. Seuss: “How Bad Can I Be?”&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.npr.org/sections/money/2013/09/10/218526472/the-nobel-prizewinner-who-figured-out-how-to-deal-with-annoying-people&#34;&gt;&lt;i class=&#34;fas fa-podcast&#34;&gt;&lt;/i&gt; &lt;em&gt;NPR&lt;/em&gt;: “The Nobel Laureate Who Figured Out How To Deal With Annoying People”&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://learn.mru.org/women-economics-series-elinor-ostrom/&#34;&gt;&lt;i class=&#34;fab fa-youtube&#34;&gt;&lt;/i&gt; MR University: “Women in Economics: Elinor Ostrom”&lt;/a&gt; (solving tragedy of the commons)&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://microf21.classes.ryansafner.com/readings/Iannaconne-1992.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Iannaconne, 1992, “Sacrifice and Stigma: Reducing Free-riding in Cults, Communes, and Other Collectives”&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.econtalk.org/the-economics-of-religion/&#34;&gt;&lt;i class=&#34;fas fa-podcast&#34;&gt;&lt;/i&gt; &lt;em&gt;Econtalk&lt;/em&gt;: Iannaconne on the Economics of Religion&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following Wikipedia entries can also provide more background on today’s concepts (which are well known and standard among economists):&lt;/p&gt;
+&lt;div id=&#34;on-efficiency-welfare&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;On Efficiency &amp;amp; Welfare:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Allocative_efficiency&#34;&gt;&lt;i class=&#34;fab fa-wikipedia-w&#34;&gt;&lt;/i&gt; Allocative efficiency&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Productive_efficiency&#34;&gt;&lt;i class=&#34;fab fa-wikipedia-w&#34;&gt;&lt;/i&gt; Productive efficiency&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Pareto_efficiency&#34;&gt;&lt;i class=&#34;fab fa-wikipedia-w&#34;&gt;&lt;/i&gt; Pareto efficiency&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Kaldor-Hicks_efficiency&#34;&gt;&lt;i class=&#34;fab fa-wikipedia-w&#34;&gt;&lt;/i&gt; Kaldor-Hicks efficiency&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Eminent_domain&#34;&gt;&lt;i class=&#34;fab fa-wikipedia-w&#34;&gt;&lt;/i&gt; Eminent domain&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Welfare_economics&#34;&gt;&lt;i class=&#34;fab fa-wikipedia-w&#34;&gt;&lt;/i&gt; Welfare economics&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;on-market-failures-and-their-solutions&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;On Market Failures (and their Solutions):&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Market_failure&#34;&gt;&lt;i class=&#34;fab fa-wikipedia-w&#34;&gt;&lt;/i&gt; Market Failure&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Public_good_(economics)&#34;&gt;&lt;i class=&#34;fab fa-wikipedia-w&#34;&gt;&lt;/i&gt; Public good&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Externality&#34;&gt;&lt;i class=&#34;fab fa-wikipedia-w&#34;&gt;&lt;/i&gt; Externality&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Tragedy_of_the_Commons&#34;&gt;&lt;i class=&#34;fab fa-wikipedia-w&#34;&gt;&lt;/i&gt; Tragedy of the Commons&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/The_Logic_of_Collective_Action&#34;&gt;&lt;i class=&#34;fab fa-wikipedia-w&#34;&gt;&lt;/i&gt; &lt;em&gt;The Logic of Collective Action&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Coase_theorem&#34;&gt;&lt;i class=&#34;fab fa-wikipedia-w&#34;&gt;&lt;/i&gt; Coase Theorem&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Slides&lt;/h2&gt;
+&lt;p&gt;Below, you can find the slides in two formats. Clicking the image will bring you to the html version of the slides in a new tab. Note while in going through the slides, you can type &lt;kbd&gt;h&lt;/kbd&gt; to see a special list of viewing options, and type &lt;kbd&gt;o&lt;/kbd&gt; for an outline view of all the slides.&lt;/p&gt;
+&lt;p&gt;The lower button will allow you to download a PDF version of the slides. I suggest printing the slides beforehand and using them to take additional notes in class (&lt;em&gt;not everything&lt;/em&gt; is in the slides)!&lt;/p&gt;
+&lt;p&gt;
+&lt;p style=&#34;text-align:center;&#34;&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://microf21.classes.ryansafner.com/slides/3.3-slides.html&#34;&gt;&lt;img src =&#34;/slides/3.3-slides.png&#34; alt = &#34;3.3-slides&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&#34;text-align:center;&#34;&gt;&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://microf21.classes.ryansafner.com/slides/3.3-slides.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download as PDF&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Elinor Ostrom was the first woman to win an Economics Nobel prize. She was famous for her work in studying how good rules can prevent a tragedy of the commons for all sorts of common resources such as fisheries, forests, water, and other environmental resources.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>3.4 — The *Dynamic* Benefits of Markets: Entrepreneurship, Profits, &amp; Prices — Class Content</title>
+      <link>https://microf21.classes.ryansafner.com/content/3.4-content/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://microf21.classes.ryansafner.com/content/3.4-content/</guid>
+      <description>
+&lt;script src=&#34;https://microf21.classes.ryansafner.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#overview&#34;&gt;&lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt; Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#readings&#34;&gt;&lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt; Readings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#slides&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Slides&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;em&gt;Wednesday, November 10&lt;/em&gt; and &lt;em&gt;Monday November 15, 2021&lt;/em&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;div id=&#34;overview&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt; Overview&lt;/h2&gt;
+&lt;p&gt;Today we discuss how markets work in real life, and what prices actually &lt;em&gt;do&lt;/em&gt;, and why we need them to coordinate economic activity.&lt;/p&gt;
+&lt;p&gt;This is hands down my favorite lecture to give every semester, and arguably the most important one, since we focus on reading “between the lines” of the fictional models we construct (supply and demand, perfect competition, etc.) and what happens in real world markets. All too often, people learn the models of basic economics and make one of the following mistakes:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;They see the real world looking nothing like the model, and conclude the model is useless.&lt;/li&gt;
+&lt;li&gt;They see the real world looking nothing like the model, and conclude the real world is wrong and must be fixed to work like the model works.&lt;/li&gt;
+&lt;li&gt;They believe the model to be a 100% accurate description of the real world.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I will argue, over the remainder of the semester, that despite the flaws in these models, &lt;em&gt;they are still useful&lt;/em&gt; for understanding and explaining how the real world works.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;readings&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt; Readings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.npr.org/sections/money/2015/11/25/457408717/episode-665-the-pickle-problem&#34;&gt;&lt;i class=&#34;fas fa-podcast&#34;&gt;&lt;/i&gt; &lt;em&gt;NPR Planet Money&lt;/em&gt; 665: “The Pickle Problem”&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.npr.org/sections/money/2017/05/31/530935855/episode-599-the-invisible-wall&#34;&gt;&lt;i class=&#34;fas fa-podcast&#34;&gt;&lt;/i&gt; &lt;em&gt;NPR Planet Money&lt;/em&gt; 599: “The Invisible Wall”&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://microf21.classes.ryansafner.com/readings/Hayek-1945.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Hayek (1945), “The Use of Knowledge in Society”&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://microf21.classes.ryansafner.com/readings/Alchian-1950.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Alchian (1950), “Uncertainty, Evolution, and Economic Theory”&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fab fa-youtube&#34;&gt;&lt;/i&gt; Gigerenzer, Gerd, 2012, &lt;a href=&#34;https://www.youtube.com/watch?v=DdEEwoKkfMA&#34;&gt;“What Can Economists Know?”&lt;/a&gt;, Institute for New Economic Thinking’s (INET) Paradigm Lost Conference, Berlin&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fas fas fa-book&#34;&gt;&lt;/i&gt; Knight, Frank H, 1921, &lt;a href=&#34;https://oll.libertyfund.org/titles/knight-risk-uncertainty-and-profit&#34;&gt;&lt;em&gt;Risk, Uncertainty, and Profit&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;i class=&#34;fab fa-youtube&#34;&gt;&lt;/i&gt; Smith, Vernon, L, 2003, &lt;a href=&#34;https://www.nobelprize.org/prizes/economic-sciences/2002/smith/lecture/&#34;&gt;&#34;Constructivist and Ecological Rationality in Economics (Nobel Prize Lecture)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=zkPGfTEZ_r4&#34;&gt;&lt;i class=&#34;fab fa-youtube&#34;&gt;&lt;/i&gt; “What if There Were No Prices?”&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://misesvsmarx.aier.org&#34;&gt;&lt;i class=&#34;fab fa-youtube&#34;&gt;&lt;/i&gt; “Mises vs. Marx: The March of History Rap Battle”&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://devf19.classes.ryansafner.com/schedule/&#34;&gt;&lt;i class=&#34;fas fa-external-link-square-alt&#34;&gt;&lt;/i&gt; ECON 317: Economics of Development (Class 12: Russia and the Post-Communist Transition)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://thoughtf20.classes.ryansafner.com/schedule/&#34;&gt;&lt;i class=&#34;fas fa-external-link-square-alt&#34;&gt;&lt;/i&gt; ECON 452: History of Economic Thought (Class 4.3: The Socialist Calculation Debate)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The essence of this lecture is very subtle, but very important. Hence, I have tried to give you some well-known readings&lt;/p&gt;
+&lt;p&gt;Knight’s (1920) book is the most famous discussion of the perfect competition model, and how real world competition differs from the model because of &lt;em&gt;uncertainty&lt;/em&gt;, which gives rise to the possibility of positive &lt;em&gt;profit&lt;/em&gt; in the real world.&lt;/p&gt;
+&lt;p&gt;Hayek (1945) is one of the most famous papers in economics, arguing how the economy is not a constrained optimization problem, and that central planning faces an enormous knowledge problem, as prices are needed to tap into the fragmented, tacit knowledge dispersed across individuals (that no single person or entity can know) to coordinate the behavior of millions of people.&lt;/p&gt;
+&lt;p&gt;Alchian (1950) argues that the behavioral assumption of firms maximizing profits is incorrect, because there is no way anything can be &lt;em&gt;maximized&lt;/em&gt; in a world of uncertainty (see Knight). It is better to view market competition in evolutionary terms, firms survive simply by earning positive profits (rather than &lt;em&gt;maximum&lt;/em&gt; profits) by best adapting to the competitive environment — whether by intention and skill, or by sheer luck: “Even in a world of stupid men there would be profits.”&lt;/p&gt;
+&lt;p&gt;The video lecture by Gerd Gigerenzer provides a more modern approach to understanding how to model the world under uncertainty: that it is impossible to optimize, but instead to use heuristics. This stands as a strong criticism of behavioral economics (which focuses on the supposed irrationality of decision-making).&lt;/p&gt;
+&lt;p&gt;Similarly, Smith’s (2003) Nobel Prize article discusses this.&lt;/p&gt;
+&lt;p&gt;Finally, the two videos “What if There Were No Prices” and “Mises vs. Marx” are the best way to understand what was known as the &lt;a href=&#34;https://en.wikipedia.org/wiki/Socialist_calculation_debate&#34;&gt;“Socialist Calculation Debate”&lt;/a&gt; in the 1920s-1940s: can we centrally plan an economy? I cover this debate more extensively in two of my other classes (see links to ECON 317 and ECON 452).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Slides&lt;/h2&gt;
+&lt;p&gt;Below, you can find the slides in two formats. Clicking the image will bring you to the html version of the slides in a new tab. Note while in going through the slides, you can type &lt;kbd&gt;h&lt;/kbd&gt; to see a special list of viewing options, and type &lt;kbd&gt;o&lt;/kbd&gt; for an outline view of all the slides.&lt;/p&gt;
+&lt;p&gt;The lower button will allow you to download a PDF version of the slides. I suggest printing the slides beforehand and using them to take additional notes in class (&lt;em&gt;not everything&lt;/em&gt; is in the slides)!&lt;/p&gt;
+&lt;p&gt;
+&lt;p style=&#34;text-align:center;&#34;&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://microf21.classes.ryansafner.com/slides/3.4-slides.html&#34;&gt;&lt;img src =&#34;/slides/3.4-slides.png&#34; alt = &#34;3.4-slides&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&#34;text-align:center;&#34;&gt;&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://microf21.classes.ryansafner.com/slides/3.4-slides.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download as PDF&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>3.5 — Introduction to Political Economy — Class Content</title>
+      <link>https://microf21.classes.ryansafner.com/content/3.5-content/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://microf21.classes.ryansafner.com/content/3.5-content/</guid>
+      <description>
+&lt;script src=&#34;https://microf21.classes.ryansafner.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#overview&#34;&gt;&lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt; Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#readings&#34;&gt;&lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt; Readings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#slides&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Slides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#assignments&#34;&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; Assignments&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#problem-set-5-due-mon-nov-22&#34;&gt;Problem Set 5 Due Mon Nov 22&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;em&gt;Monday November 15, 2021&lt;/em&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;div id=&#34;overview&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt; Overview&lt;/h2&gt;
+&lt;p&gt;We have seen that markets can fail under a variety of circumstances, and have suggested that government intervention can improve upon the sub-optimal outcome for society. However, just because markets may fail does not mean that government cannot also fail!&lt;/p&gt;
+&lt;p&gt;We explore some examples of how governments contribute to disequilibrium and harmful outcomes by trying to intervene in markets and creating inefficiencies (through means such as price controls, taxes, and various regulations). For brevity and relevance, we focus on one set of examples: price-gouging laws and supply restrictions &amp;amp; regulations in the era of COVID.&lt;/p&gt;
+&lt;p&gt;We extend this to a broader discussion of the role of social, political, and economic institutions in determining outcomes. In order to fairly assess outcomes, we must examine the institutions and incentives that people face, leading to various consequences (rather than necessarily blaming the people or some behavioral motivation). We also need to avoid commiting the &lt;a href=&#34;https://en.wikipedia.org/wiki/Nirvana_fallacy&#34;&gt;“nirvana fallacy”&lt;/a&gt; of comparing an imperfect system we see in reality with a hypothetical perfect system we can envision. This becomes an empirical question of comparing &lt;em&gt;which systems fail the least&lt;/em&gt; (or are most &lt;em&gt;robust&lt;/em&gt;) in practice.&lt;/p&gt;
+&lt;p&gt;Lastly, depending on time, we may briefly explore the field of economics known as &lt;a href=&#34;https://en.wikipedia.org/wiki/Public_choice&#34;&gt;“public choice”&lt;/a&gt; — applying economic tools to understand politics by modeling it as equilibria determined by the interactions between various optimizing agents. For a full course on this, see my &lt;a href=&#34;https://publics20.classes.ryansafner.com&#34;&gt;ECON 470 — Public Economics&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;readings&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt; Readings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://microf21.classes.ryansafner.com/readings/Buchanan-1984.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Buchanan, 1984, “Politics Without Romance”&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://microf21.classes.ryansafner.com/readings/Baumol-1990.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Baumol, 1990, “Entrepreneurship: Productive, Unproductive, and Destructive”&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.econtalk.org/john-cochrane-on-the-pandemic/&#34;&gt;&lt;i class=&#34;fas fa-podcast&#34;&gt;&lt;/i&gt; &lt;em&gt;Econtalk&lt;/em&gt; podcast: John Cochrane on the Pandemic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.econtalk.org/tyler-cowen-on-the-pandemic-revisited/&#34;&gt;&lt;i class=&#34;fas fa-podcast&#34;&gt;&lt;/i&gt; &lt;em&gt;Econtalk&lt;/em&gt; podcast: Tyler Cowen on the Pandemic, Revisited&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We did not get to cover public choice theory, but Buchanan was the 1986 winner of the Nobel Prize in Economics for his pioneering work in public choice theory. This work by him is a good summary of the economic analysis of politics using basic principles we use to study markets: equilibrium resulting from exchanges and interactions between optimizing individuals pursuing their own interests.&lt;/p&gt;
+&lt;p&gt;The second paper by William Baumol (who, if he lived longer, might have won the Nobel prize — he definitely earned one) is one of my favorite papers that I love to teach in classes that cover political economy. Everyone tries to better themselves, and entrepreneurship is a fundamental force in human society, the differences in outcome come from the &lt;em&gt;institutions&lt;/em&gt; that channel entrepreneurship into productive, unproductive, or destructive outcomes.&lt;/p&gt;
+&lt;p&gt;The last two podcasts are helpful for discussing the failures, largely of government policy, regarding the COVID-19 pandemic.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Slides&lt;/h2&gt;
+&lt;p&gt;Below, you can find the slides in two formats. Clicking the image will bring you to the html version of the slides in a new tab. Note while in going through the slides, you can type &lt;kbd&gt;h&lt;/kbd&gt; to see a special list of viewing options, and type &lt;kbd&gt;o&lt;/kbd&gt; for an outline view of all the slides.&lt;/p&gt;
+&lt;p&gt;The lower button will allow you to download a PDF version of the slides. I suggest printing the slides beforehand and using them to take additional notes in class (&lt;em&gt;not everything&lt;/em&gt; is in the slides)!&lt;/p&gt;
+&lt;p&gt;
+&lt;p style=&#34;text-align:center;&#34;&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://microf21.classes.ryansafner.com/slides/3.5-slides.html&#34;&gt;&lt;img src =&#34;/slides/3.5-slides.png&#34; alt = &#34;3.5-slides&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&#34;text-align:center;&#34;&gt;&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://microf21.classes.ryansafner.com/slides/3.5-slides.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download as PDF&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;assignments&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; Assignments&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;problem-set-5-due-mon-nov-22&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Problem Set 5 Due Mon Nov 22&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://microf21.classes.ryansafner.com/assignments/05-problem-set&#34;&gt;Problem set 5&lt;/a&gt; (on classes 3.1-3.5) is due by Monday, November 22 by PDF upload to Blackboard Assignments. This will be your &lt;strong&gt;final&lt;/strong&gt; graded homework!&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>4.1 — Modeling Firms with Market Power — Class Content</title>
+      <link>https://microf21.classes.ryansafner.com/content/4.1-content/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://microf21.classes.ryansafner.com/content/4.1-content/</guid>
+      <description>
+&lt;script src=&#34;https://microf21.classes.ryansafner.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#overview&#34;&gt;&lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt; Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#readings&#34;&gt;&lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt; Readings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#practice&#34;&gt;&lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt; Practice&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#slides&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Slides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#assignments&#34;&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; Assignments&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#problem-set-5-due-mon-nov-22&#34;&gt;Problem Set 5 Due Mon Nov 22&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#appendix&#34;&gt;&lt;i class=&#34;far fa-sigma&#34;&gt;&lt;/i&gt; Appendix&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#monopolists-only-produce-where-demand-is-elastic-proof&#34;&gt;Monopolists Only Produce Where Demand is Elastic: Proof&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#derivation-of-the-lerner-index&#34;&gt;Derivation of the Lerner Index&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;em&gt;Wednesday November 17, 2021&lt;/em&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;div id=&#34;overview&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt; Overview&lt;/h2&gt;
+&lt;p&gt;Today we begin our look at “imperfect competition,” where firms have market power, meaning they can charge &lt;span class=&#34;math inline&#34;&gt;\(p&amp;gt;MC\)&lt;/span&gt; and search for the profit-maximizing quantity &lt;em&gt;and&lt;/em&gt; price. Today is merely about how do change the model to understand how a firm with market power behaves. To assist us, we begin with an extreme case of a single seller, i.e. a &lt;strong&gt;monopoly.&lt;/strong&gt; For now we only &lt;em&gt;assume&lt;/em&gt; that there is a single firm, and see how it behaves differently than if it were in a competitive market. Next class we will begin to explore what could &lt;em&gt;cause&lt;/em&gt; a market to have only a single seller, and what are some of the social consequences of market power.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;readings&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt; Readings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fas fa-book&#34;&gt;&lt;/i&gt; Ch. 9-2-9.5 in &lt;span class=&#34;citation&#34;&gt;@textbook&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;practice&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-dumbbell&#34;&gt;&lt;/i&gt; Practice&lt;/h2&gt;
+&lt;p&gt;Today we will be working on &lt;a href=&#34;https://microf21.classes.ryansafner.com/practice/4.1-practice&#34;&gt;practice problems&lt;/a&gt;. Answers will be posted later on that page.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Slides&lt;/h2&gt;
+&lt;p&gt;Below, you can find the slides in two formats. Clicking the image will bring you to the html version of the slides in a new tab. Note while in going through the slides, you can type &lt;kbd&gt;h&lt;/kbd&gt; to see a special list of viewing options, and type &lt;kbd&gt;o&lt;/kbd&gt; for an outline view of all the slides.&lt;/p&gt;
+&lt;p&gt;The lower button will allow you to download a PDF version of the slides. I suggest printing the slides beforehand and using them to take additional notes in class (&lt;em&gt;not everything&lt;/em&gt; is in the slides)!&lt;/p&gt;
+&lt;p&gt;
+&lt;p style=&#34;text-align:center;&#34;&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://microf21.classes.ryansafner.com/slides/4.1-slides.html&#34;&gt;&lt;img src =&#34;/slides/4.1-slides.png&#34; alt = &#34;4.1-slides&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&#34;text-align:center;&#34;&gt;&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://microf21.classes.ryansafner.com/slides/4.1-slides.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download as PDF&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;assignments&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-laptop-code&#34;&gt;&lt;/i&gt; Assignments&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;problem-set-5-due-mon-nov-22&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Problem Set 5 Due Mon Nov 22&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://microf21.classes.ryansafner.com/assignments/05-problem-set&#34;&gt;Problem set 5&lt;/a&gt; (on classes 3.1-3.5) is due by Monday, November 22 by PDF upload to Blackboard Assignments. This will be your &lt;strong&gt;final&lt;/strong&gt; graded homework!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;appendix&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;&lt;i class=&#34;far fa-sigma&#34;&gt;&lt;/i&gt; Appendix&lt;/h1&gt;
+&lt;div id=&#34;monopolists-only-produce-where-demand-is-elastic-proof&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Monopolists Only Produce Where Demand is Elastic: Proof&lt;/h2&gt;
+&lt;p&gt;Let’s first show the relationship between &lt;span class=&#34;math inline&#34;&gt;\(MR(q)\)&lt;/span&gt; and price elasticity of demand, &lt;span class=&#34;math inline&#34;&gt;\(\epsilon_D\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+MR(q) &amp;amp;= p+\bigg(\frac{\Delta p}{\Delta q}\bigg)q &amp;amp;&amp;amp; \text{Definition of } MR(q)\\
+\frac{MR(q)}{p} &amp;amp;= \frac{p}{p}+\bigg(\frac{\Delta p}{\Delta q}\bigg) \frac{q}{p} &amp;amp;&amp;amp; \text{Dividing both sides by } p\\
+\frac{MR(q)}{p} &amp;amp;= 1+\underbrace{\bigg(\frac{\Delta p}{\Delta q}\times \frac{q}{p} \bigg)}_{\frac{1}{\epsilon}}  &amp;amp;&amp;amp; \text{Simplifying}\\
+\frac{MR(q)}{p} &amp;amp;= 1+\frac{1}{\epsilon_D} &amp;amp;&amp;amp; \text{Recognize price elasticity } \epsilon_D=\frac{\Delta q}{\Delta p} \times \frac{p}{q}\\
+MR(q) &amp;amp;= p\bigg(1+\frac{1}{\epsilon_D}\bigg) &amp;amp;&amp;amp; \text{Multiplying both sides by }p\\
+\end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Remember, we’ve simplified &lt;span class=&#34;math inline&#34;&gt;\(\epsilon_D = \frac{1}{slope} \times \frac{p}{q}\)&lt;/span&gt;, where &lt;span class=&#34;math inline&#34;&gt;\(\frac{1}{slope} = \frac{\Delta q}{\Delta p}\)&lt;/span&gt; because on a demand curve, &lt;span class=&#34;math inline&#34;&gt;\(slope = \frac{\Delta p}{\Delta q}\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;Now that we have this alternate expression for &lt;span class=&#34;math inline&#34;&gt;\(MR(q)\)&lt;/span&gt;, lets assume &lt;span class=&#34;math inline&#34;&gt;\(MC(q) \geq 0\)&lt;/span&gt; and set them equal to one another to maximize profits:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+MR(q) &amp;amp;= MC(q)\\
+p(1+\frac{1}{\epsilon_D}) &amp;amp; = MC(q)\\
+p(1-\frac{1}{|\epsilon_D|}) &amp;amp; = MC(q)\\
+\end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I rearrange the last line only to remind us that &lt;span class=&#34;math inline&#34;&gt;\(\epsilon_D\)&lt;/span&gt; is always negative!&lt;/p&gt;
+&lt;p&gt;Now note the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If &lt;span class=&#34;math inline&#34;&gt;\(|\epsilon_D| &amp;lt; 1\)&lt;/span&gt;, then &lt;span class=&#34;math inline&#34;&gt;\(MR(q)\)&lt;/span&gt; is &lt;em&gt;negative&lt;/em&gt;. Since &lt;span class=&#34;math inline&#34;&gt;\(MC(q)\)&lt;/span&gt; is assumed to be positive, it cannot equal a negative &lt;span class=&#34;math inline&#34;&gt;\(MR(q)\)&lt;/span&gt;, hence this is not profit-maximizing.&lt;/li&gt;
+&lt;li&gt;If &lt;span class=&#34;math inline&#34;&gt;\(|\epsilon_D| = 1\)&lt;/span&gt;, then &lt;span class=&#34;math inline&#34;&gt;\(MR(q)\)&lt;/span&gt; is 0. Only if &lt;span class=&#34;math inline&#34;&gt;\(MC(q)\)&lt;/span&gt; is also 0 is this profit-maximizing.&lt;/li&gt;
+&lt;li&gt;If &lt;span class=&#34;math inline&#34;&gt;\(|\epsilon_D| &amp;gt; 1\)&lt;/span&gt;, then &lt;span class=&#34;math inline&#34;&gt;\(MR(q)\)&lt;/span&gt; is &lt;em&gt;positive&lt;/em&gt;. It can equal a positive &lt;span class=&#34;math inline&#34;&gt;\(MC(q)\)&lt;/span&gt; to be profit-maximizing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Hence, a monopolist will &lt;em&gt;never&lt;/em&gt; produce in the inelastic region of the demand curve (where &lt;span class=&#34;math inline&#34;&gt;\(MR(q)&amp;lt;0)\)&lt;/span&gt;, and will &lt;em&gt;only&lt;/em&gt; produce at the unit elastic part of the demand curve (where &lt;span class=&#34;math inline&#34;&gt;\(MR(q)=0)\)&lt;/span&gt; if &lt;span class=&#34;math inline&#34;&gt;\(MC(q)=0\)&lt;/span&gt;. Thus, it generally produces in the elastic region where &lt;span class=&#34;math inline&#34;&gt;\(MR(q)&amp;gt;0\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;See the graphs on &lt;a href=&#34;https://microf21.classes.ryansafner.com/slides/4.1-slides.html#32&#34;&gt;slide 32&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;derivation-of-the-lerner-index&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Derivation of the Lerner Index&lt;/h2&gt;
+&lt;p&gt;Marginal revenue is strongly related to the &lt;strong&gt;price elasticity of demand&lt;/strong&gt;, which is &lt;span class=&#34;math inline&#34;&gt;\(E_{D}=\frac{\Delta q}{\Delta p} \times \frac{p}{q}\)&lt;/span&gt;&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We derived marginal revenue (in the slides) as:
+&lt;span class=&#34;math display&#34;&gt;\[MR(q)=p+\frac{\Delta p}{\Delta q}q\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Firms will always maximize profits where:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[\begin{align*}
+MR(q)&amp;amp;=MC(q) &amp;amp;&amp;amp; \text{Profit-max output}\\
+p+\bigg(\frac{\Delta p}{\Delta q}\bigg)q&amp;amp;=MC(q) &amp;amp;&amp;amp; \text{Definition of } MR(q)\\
+p+\bigg(\frac{\Delta p}{\Delta q}\bigg) q \times \frac{p}{p}&amp;amp;=MC(q) &amp;amp;&amp;amp; \text{Multiplying the left by } \frac{p}{p} \text{ (i.e. 1)}\\
+p+\underbrace{\bigg(\frac{\Delta p}{\Delta q}\times \frac{q}{p} \bigg)}_{\frac{1}{\epsilon}} \times p &amp;amp;=MC(q) &amp;amp;&amp;amp; \text{Rearranging the left}\\
+p+\frac{1}{\epsilon} \times p &amp;amp;=MC(q) &amp;amp;&amp;amp; \text{Recognize price elasticity } \epsilon=\frac{\Delta q}{\Delta p} \times \frac{p}{q}\\
+p &amp;amp;=MC(q) - \frac{1}{\epsilon} p &amp;amp;&amp;amp; \text{Subtract  }\frac{1}{\epsilon}p \text{ from both sides}\\
+p-MC(q) &amp;amp;= -\frac{1}{\epsilon} p &amp;amp;&amp;amp; \text{Subtract  }MC(q) \text{ from both sides}\\
+\frac{p-MC(q)}{p} &amp;amp;= -\frac{1}{\epsilon} &amp;amp;&amp;amp; \text{Divide both sides by  }p\\
+        \end{align*}\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The left side gives us the fraction of price that is markup &lt;span class=&#34;math inline&#34;&gt;\(\left(\frac{p-MC(q)}{p}\right)\)&lt;/span&gt;, and the right side shows this is inversely related to price elasticity of demand.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;I sometimes simplify it as &lt;span class=&#34;math inline&#34;&gt;\(E_{D}=\frac{1}{slope} \times \frac{p}{q}\)&lt;/span&gt;, where “slope” is the slope of the inverse demand curve (graph), since the slope is &lt;span class=&#34;math inline&#34;&gt;\(\frac{\Delta p}{\Delta q} = \frac{rise}{run}\)&lt;/span&gt;.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
