@@ -2334,6 +2334,12 @@ rent &amp;amp;= p^\star q^\star - VC(q^\star)\\
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;alert alert-warning&#34;&gt;
+  &lt;div&gt;
+    &lt;a href=&#34;https://microf21.classes.ryansafner.com/assignments/05-problem-set&#34;&gt;Problem Set 5&lt;/a&gt; is due by the end of the day Monday November 22.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
 &lt;div id=&#34;overview&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;&lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt; Overview&lt;/h2&gt;
 &lt;p&gt;Today we begin our look at “imperfect competition,” where firms have market power, meaning they can charge &lt;span class=&#34;math inline&#34;&gt;\(p&amp;gt;MC\)&lt;/span&gt; and search for the profit-maximizing quantity &lt;em&gt;and&lt;/em&gt; price. Today is merely about how do change the model to understand how a firm with market power behaves. To assist us, we begin with an extreme case of a single seller, i.e. a &lt;strong&gt;monopoly.&lt;/strong&gt; For now we only &lt;em&gt;assume&lt;/em&gt; that there is a single firm, and see how it behaves differently than if it were in a competitive market. Next class we will begin to explore what could &lt;em&gt;cause&lt;/em&gt; a market to have only a single seller, and what are some of the social consequences of market power.&lt;/p&gt;
@@ -2416,6 +2422,91 @@ p-MC(q) &amp;amp;= -\frac{1}{\epsilon} p &amp;amp;&amp;amp; \text{Subtract  }MC(
 &lt;hr /&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;I sometimes simplify it as &lt;span class=&#34;math inline&#34;&gt;\(E_{D}=\frac{1}{slope} \times \frac{p}{q}\)&lt;/span&gt;, where “slope” is the slope of the inverse demand curve (graph), since the slope is &lt;span class=&#34;math inline&#34;&gt;\(\frac{\Delta p}{\Delta q} = \frac{rise}{run}\)&lt;/span&gt;.&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>4.2 — Causes and Consequences of Market Power — Class Content</title>
+      <link>https://microf21.classes.ryansafner.com/content/4.2-content/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://microf21.classes.ryansafner.com/content/4.2-content/</guid>
+      <description>
+&lt;script src=&#34;https://microf21.classes.ryansafner.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#overview&#34;&gt;&lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt; Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#readings&#34;&gt;&lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt; Readings&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#on-rents-and-rent-seeking&#34;&gt;On Rents and Rent-seeking&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#on-benefits-of-market-powercreative-destruction&#34;&gt;On Benefits of Market Power/Creative Destruction&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#slides&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Slides&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;em&gt;Monday November 22, 2021&lt;/em&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;div id=&#34;overview&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt; Overview&lt;/h2&gt;
+&lt;p&gt;Today we continue our look at market power, by looking at the social consequences of market power: deadweight loss, allocative inefficiency, x-inefficiency, and rent-seeking; as well as the primary causes: barriers to entry of various sorts.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;readings&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt; Readings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fas fa-book&#34;&gt;&lt;/i&gt; Ch. 9-1 in &lt;span class=&#34;citation&#34;&gt;@textbook&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div id=&#34;on-rents-and-rent-seeking&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;On Rents and Rent-seeking&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.econlib.org/library/Columns/y2006/Mungerrentseeking.html&#34;&gt;&lt;i class=&#34;fas fa-external-link-square-alt&#34;&gt;&lt;/i&gt; Munger, 2006, “Rent Seek and You Will Find”&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.econtalk.org/giving-away-money-an-economists-guide-to-political-life&#34;&gt;&lt;i class=&#34;fas fa-podcast&#34;&gt;&lt;/i&gt; &lt;em&gt;Econtalk&lt;/em&gt; with Mike Munger, 2006, “Giving Away Money: An Economist’s Guide to Political Life”&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://microf21.classes.ryansafner.com/readings/Tullock-1967.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Tullock (1967), “The Welfare Cost of Tariffs, Monopolies, and Theft”&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://microf21.classes.ryansafner.com/readings/Kreuger-1974.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Kreuger (1974), “The Political Economy of the Rent-Seeking Society”&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://microf21.classes.ryansafner.com/readings/Mitchell-2012.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Mitchell (2012), “The Pathology of Privilege”&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.npr.org/sections/money/2012/06/22/155596305/episode-381-why-its-illegal-to-braid-hair-without-a-license&#34;&gt;&lt;i class=&#34;fas fa-podcast&#34;&gt;&lt;/i&gt; &lt;em&gt;NPR Planet Money&lt;/em&gt; 599: “Why its Illegal to Braid Hair without a License”&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://freakonomics.com/2012/08/03/apple-vs-samsung-who-owns-the-rectangle/&#34;&gt;&lt;i class=&#34;fas fa-podcast&#34;&gt;&lt;/i&gt; Freakonomics*: “Apple vs. Samsung: Who Owns the Rectangle?”&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;on-benefits-of-market-powercreative-destruction&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;On Benefits of Market Power/Creative Destruction&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://microf21.classes.ryansafner.com/readings/Theil-2014.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Theil (2014), “Competition is for Losers”&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://truthonthemarket.com/2019/04/01/this-too-shall-pass-unassailable-monopolies-that-were-in-hindsight-eminently-assailable/&#34;&gt;&lt;i class=&#34;fas fa-external-link-square-alt&#34;&gt;&lt;/i&gt; Manne and Stapp, 2019, “This Too Shall Pass: Unassailable Monopolies That Were, in Hindsight, Eminently Assailable”&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Tullock (1967) is the famous paper that first describes the idea of “rent-seeking,” though he did not come up with the term, that comes from Kreuger (1974). Tullock is very readable, and shows the connections between monopoly, tariffs, and theft in terms of the rents and the rent-seeking they create. Kreuger (1974) considers rent-seeking at a national level in terms of how it harms trade and development.&lt;/p&gt;
+&lt;p&gt;Mitchell (2012) is a readable collection of many ways that business and special interests rent-seek and convince governments to erect barriers to entry at the expense of competition and consumers, e.g. monopoly status, favorable regulations, subsidies, bailouts, loan guarantees, targeted tax breaks, protection from foreign competition, and noncompetitive contracts.&lt;/p&gt;
+&lt;p&gt;Theil (2014) is a provocative Op-ed&lt;a href=&#34;#fn1&#34; class=&#34;footnote-ref&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt; in the Wall Street Journal that is actually an excerpt from his excellent book &lt;em&gt;Zero to One: Notes on Startups, or How to Build the Future&lt;/em&gt;&lt;a href=&#34;#fn2&#34; class=&#34;footnote-ref&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt;. Theil argues that it is a poor business idea to compete in a competitive market, and for a business to be successful, it needs to be the &lt;em&gt;last&lt;/em&gt;-mover in a market, such that it acts as a monopoly. If the market is still competitive and dynamic, the quest for monopoly power can have benefits to consumers in terms of creativity and innnovation (think Google, etc), since they do not have to worry as much about competition.&lt;/p&gt;
+&lt;p&gt;Relevant classes from my &lt;a href=&#34;https://ios20.classes.ryansafner.com/&#34;&gt;Spring 2020 Industrial Organization course&lt;/a&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://ios20.classes.ryansafner.com/class/4.1-class.html&#34;&gt;&lt;i class=&#34;fas fa-external-link-square-alt&#34;&gt;&lt;/i&gt; 4.1 Measuring Market Power&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ios20.classes.ryansafner.com/class/4.2-class.html&#34;&gt;&lt;i class=&#34;fas fa-external-link-square-alt&#34;&gt;&lt;/i&gt; 4.2 Antitrust I: The Law&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ios20.classes.ryansafner.com/class/4.3-class.html&#34;&gt;&lt;i class=&#34;fas fa-external-link-square-alt&#34;&gt;&lt;/i&gt; 4.3 Antitrust II: The Paradox&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ios20.classes.ryansafner.com/class/4.4-class.html&#34;&gt;&lt;i class=&#34;fas fa-external-link-square-alt&#34;&gt;&lt;/i&gt; 4.4 Antitrust III: Big Tech &amp;amp; Hipster Antitrust&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Slides&lt;/h2&gt;
+&lt;p&gt;Below, you can find the slides in two formats. Clicking the image will bring you to the html version of the slides in a new tab. Note while in going through the slides, you can type &lt;kbd&gt;h&lt;/kbd&gt; to see a special list of viewing options, and type &lt;kbd&gt;o&lt;/kbd&gt; for an outline view of all the slides.&lt;/p&gt;
+&lt;p&gt;The lower button will allow you to download a PDF version of the slides. I suggest printing the slides beforehand and using them to take additional notes in class (&lt;em&gt;not everything&lt;/em&gt; is in the slides)!&lt;/p&gt;
+&lt;p&gt;
+&lt;p style=&#34;text-align:center;&#34;&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://microf21.classes.ryansafner.com/slides/4.2-slides.html&#34;&gt;&lt;img src =&#34;/slides/4.2-slides.png&#34; alt = &#34;4.2-slides&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&#34;text-align:center;&#34;&gt;&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://microf21.classes.ryansafner.com/slides/4.2-slides.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download as PDF&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Don’t let the title fool you. This was written well before the politics of 2016!&lt;a href=&#34;#fnref1&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;Which I often teach with in in Industrial Organization.&lt;a href=&#34;#fnref2&#34; class=&#34;footnote-back&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>

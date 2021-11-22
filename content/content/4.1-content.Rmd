@@ -30,6 +30,10 @@ update_geom_defaults("text", list(family = "Fira Sans Condensed"))
 *Wednesday November 17, 2021*
 {{% /alert %}}
 
+{{% alert warning %}}
+[Problem Set 5](/assignments/05-problem-set) is due by the end of the day Monday November 22.
+{{% /alert %}}
+
 ## <i class="fas fa-info-circle fa-lg"></i> Overview
 
 Today we begin our look at “imperfect competition,” where firms have market power, meaning they can charge $p>MC$ and search for the profit-maximizing quantity *and* price. Today is merely about how do change the model to understand how a firm with market power behaves. To assist us, we begin with an extreme case of a single seller, i.e. a **monopoly.** For now we only *assume* that there is a single firm, and see how it behaves differently than if it were in a competitive market. Next class we will begin to explore what could *cause* a market to have only a single seller, and what are some of the social consequences of market power.
