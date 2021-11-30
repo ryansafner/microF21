@@ -36,7 +36,7 @@ Today we continue our look at market power, by looking at the social consequence
 
 ## <i class="fas fa-book-reader fa-lg"></i> Readings
 
-- <i class="fas fas fa-book"></i> Ch. 9-1 in @textbook
+- <i class="fas fas fa-book"></i> Ch. 9-1 Goolsbee, Levitt, and Syverson, 2019
 
 ### On Rents and Rent-seeking
 

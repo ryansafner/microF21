@@ -1,0 +1,65 @@
+---
+title: "4.3 — Pricing Strategies — Practice"
+draft: false
+date: "2020-06-08"
+linktitle: "4.3 — Pricing Strategies"
+menu:
+  practice:
+    parent: Practice Problems
+    weight: 9
+type: docs
+output:
+  blogdown::html_page:
+    toc: false
+---
+```{r message=FALSE, warning=FALSE, include=FALSE}
+#library(tidyverse)
+#library(pander)
+```
+
+<p style="text-align:center"><a target="_blank" href="/practice/4.3-practice-pdf.pdf"><span class="btn btn-primary btn-lg"><i class="fas fa-file-pdf"></i> Download PDF</a></span> <a target="_blank" href="/practice/4.3-practice-answers.html"><span class="btn btn-primary btn-lg"><i class="far fa-life-ring"></i> Answer Key</a></span></p>
+
+Promoters of a major college basketball tournament estimate that the demand for tickets for *adults* and by *students* are given by:
+
+$$\begin{aligned}
+q_a&=5,000-10p_a\\
+q_s&=10,000-100p_s\\
+\end{aligned}$$
+
+where $a$ represents adults and $s$ represents students. They estimate that the marginal and average total cost of seating an additional spectator is constant at $10.
+
+## 1.
+
+The promoters wish to segment the market and charge adults and students different prices.
+
+### a.
+
+For each segment of the market, find the inverse demand function and marginal revenue function.
+
+### b.
+
+Find the profit-maximizing quantity and price for each segment.
+
+### c.
+
+How much total profit would the tournament earn if they could price discriminate?
+
+## 2. 
+
+Now suppose they could not price discriminate, and were forced to charge the same price for all attendees.
+
+### a. 
+
+Find the total market demand function.
+
+### b.
+
+Find the inverse demand function for the total market, and then the marginal revenue function. 
+
+### c.
+
+Find the profit-maximizing quantity and price for the whole market. 
+
+### d.
+
+How much total profit would the tournament earn if they could not price discriminate?

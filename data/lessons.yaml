@@ -124,6 +124,9 @@ lessons:
     slides: "4.2-slides"
 
   - title: "4.3 — Pricing Strategies"
+    content: "4.3-content"
+    slides: "4.3-slides"
+    practice: "4.3-practice"
 
   - title: "4.4 — Factor Markets"
 
@@ -136,4 +139,4 @@ lessons:
   - title: '<i class="fas fa-laptop-code"></i> **Op-Ed** due Mon Dec 6'
     assignment: "op-ed"
 
-  - title: '<i class="fas fa-star"></i> **Final Exam**'
+  - title: '<i class="fas fa-star"></i> **Final Exam** Mon Dec 13'
