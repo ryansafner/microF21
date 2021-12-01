@@ -128,11 +128,11 @@ lessons:
     slides: "4.3-slides"
     practice: "4.3-practice"
 
-  - title: "4.4 — Factor Markets"
+  - title: "4.4 — Monopolistic Competition and Oligopoly"
+    content: "4.4-content"
+    slides: "4.4-slides"
 
-  - title: "4.5 — Monopolistic Competition and Oligopoly"
-
-  - title: "4.6 — Contestable Markets and Wrap Up"
+  - title: "4.5 — Contestable Markets and Wrap Up"
 
   - title: '<i class="fas fa-laptop-code"></i> **Problem Set 6**'
 
