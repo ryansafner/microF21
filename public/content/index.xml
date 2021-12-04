@@ -2557,5 +2557,52 @@ p-MC(q) &amp;amp;= -\frac{1}{\epsilon} p &amp;amp;&amp;amp; \text{Subtract  }MC(
 </description>
     </item>
     
+    <item>
+      <title>4.4 — Monopolistic Competition and Oligopoly — Class Content</title>
+      <link>https://microf21.classes.ryansafner.com/content/4.4-content/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://microf21.classes.ryansafner.com/content/4.4-content/</guid>
+      <description>
+&lt;script src=&#34;https://microf21.classes.ryansafner.com/rmarkdown-libs/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#overview&#34;&gt;&lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt; Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#readings&#34;&gt;&lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt; Readings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#slides&#34;&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Slides&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    &lt;em&gt;Monday November 29, 2021&lt;/em&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;div id=&#34;overview&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-info-circle fa-lg&#34;&gt;&lt;/i&gt; Overview&lt;/h2&gt;
+&lt;p&gt;Today we finally return to finish our tour of industrial organization, i.e. the types of markets by competitiveness.&lt;/p&gt;
+&lt;p&gt;We first cover &lt;strong&gt;monopolistic competition&lt;/strong&gt;, a much more realistic model of most firms in the real world, where firms have some market power, but are not the only producer in their industry. To model them, we blend elements of &lt;em&gt;monopoly&lt;/em&gt; with elements of &lt;em&gt;perfect competition&lt;/em&gt;. In the short-run, we model the firm as a monopoly acting like any monopolist would, but in the long run, there is &lt;strong&gt;free entry and exit&lt;/strong&gt;, so other entrants reduce the demand for any one firm’s product (and make it more elastic) so that firms’ economic profits go to zero.&lt;/p&gt;
+&lt;p&gt;We finally cover &lt;strong&gt;oligopoly&lt;/strong&gt;, where there are a small number of firms with market power that &lt;strong&gt;interact strategically&lt;/strong&gt;. While some industries in the real world are indeed dominated by a small number of firms, this type of model is applicable well beyond industries with a small number of firms, as to understand the strategic nature of firm decisions, we introduce &lt;strong&gt;game theory&lt;/strong&gt; into our models.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;readings&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-book-reader fa-lg&#34;&gt;&lt;/i&gt; Readings&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;i class=&#34;fas fas fa-book&#34;&gt;&lt;/i&gt; Ch. 11 in Goolsbee, Levitt, and Syverson, 2019&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;slides&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;&lt;i class=&#34;fas fa-chalkboard-teacher&#34;&gt;&lt;/i&gt; Slides&lt;/h2&gt;
+&lt;p&gt;Below, you can find the slides in two formats. Clicking the image will bring you to the html version of the slides in a new tab. Note while in going through the slides, you can type &lt;kbd&gt;h&lt;/kbd&gt; to see a special list of viewing options, and type &lt;kbd&gt;o&lt;/kbd&gt; for an outline view of all the slides.&lt;/p&gt;
+&lt;p&gt;The lower button will allow you to download a PDF version of the slides. I suggest printing the slides beforehand and using them to take additional notes in class (&lt;em&gt;not everything&lt;/em&gt; is in the slides)!&lt;/p&gt;
+&lt;p&gt;
+&lt;p style=&#34;text-align:center;&#34;&gt;&lt;a target=&#34;_blank&#34; href=&#34;https://microf21.classes.ryansafner.com/slides/4.4-slides.html&#34;&gt;&lt;img src =&#34;/slides/4.4-slides.png&#34; alt = &#34;4.4-slides&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&#34;text-align:center;&#34;&gt;&lt;a class=&#34;btn btn-primary btn-lg&#34; target=&#34;_blank&#34; href=&#34;https://microf21.classes.ryansafner.com/slides/4.4-slides.pdf&#34;&gt;&lt;i class=&#34;fas fa-file-pdf&#34;&gt;&lt;/i&gt; Download as PDF&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
