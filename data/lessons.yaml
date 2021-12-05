@@ -134,7 +134,8 @@ lessons:
 
   - title: "4.5 — Contestable Markets and Wrap Up"
 
-  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 6**'
+  - title: '<i class="fas fa-laptop-code"></i> **Problem Set 6** (Ungraded, Practice Only)'
+    assignment: "06-problem-set"
 
   - title: '<i class="fas fa-laptop-code"></i> **Op-Ed** due Mon Dec 6'
     assignment: "op-ed"
