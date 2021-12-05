@@ -28,10 +28,6 @@ UNGRADED: For final exam practice only!
 
 <p style="text-align:center"><a target="_blank" href="/assignment/06-problem-set-answers.html"><span class="btn btn-primary btn-lg"><i class="far fa-life-ring"></i> Answers</a> <a target="_blank" href="/assignment/06-problem-set-answers-pdf.pdf"><span class="btn btn-primary btn-lg"><i class="fas fa-file-pdf"></i> Answers (PDF)</a> </p>
 
-- [<i class="fas fa-file-pdf"></i> Download as PDF](/assignment/06-problem-set-pdf.pdf)
-- [<i class="far fa-life-ring"></i> Answer Key](https://www.youtube.com/watch/dQw4w9WgXcQ)
-<!-- [<i class="fas fa-file-pdf"></i> Answer Key (PDF)](/assignment/06-problem-set-answers-pdf.pdf)-->
-
 # Concepts and Critical Thinking
 
 Please answer the following questions briefly (1-3 sentences). Use examples as necessary. Be sure to label graphs fully, if appropriate.
