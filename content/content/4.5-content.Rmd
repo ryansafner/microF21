@@ -1,0 +1,47 @@
+---
+title: "4.5 — Game Theory, Contestable Markets & Wrap Up — Class Content"
+draft: false
+linktitle: "4.5 — Game Theory, Contestable Markets & Wrap Up"
+date: "2020-06-08"
+menu:
+  content:
+    parent: Course content
+    weight: 19
+type: docs
+output:
+  blogdown::html_page:
+    toc: true
+slides: "4.5-slides"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=F,
+                      message=F,
+                      warning=F,
+                      fig.retina = 3,
+                      fig.align="center")
+library("tidyverse")
+library("ggrepel")
+update_geom_defaults("label", list(family = "Fira Sans Condensed"))
+update_geom_defaults("text", list(family = "Fira Sans Condensed"))
+```
+
+{{% alert note %}}
+*Monday Dec 6, 2021*
+{{% /alert %}}
+
+## <i class="fas fa-info-circle fa-lg"></i> Overview
+ 
+We wrap up today by discussing some more about game theory (beyond mere prisoners' dilemmas), and apply these insights in general to market competition by considering one final model of a **contestable market**. Then we will wrap up and summarize the semester before reviewing for the final exam. 
+
+## <i class="fas fa-book-reader fa-lg"></i> Readings
+
+- None
+
+## <i class="fas fa-chalkboard-teacher"></i> Slides
+
+Below, you can find the slides in two formats. Clicking the image will bring you to the html version of the slides in a new tab. Note while in going through the slides, you can type <kbd>h</kbd> to see a special list of viewing options, and type <kbd>o</kbd> for an outline view of all the slides.
+
+The lower button will allow you to download a PDF version of the slides. I suggest printing the slides beforehand and using them to take additional notes in class (*not everything* is in the slides)!
+
+`r blogdown::shortcode("slide-links")`
