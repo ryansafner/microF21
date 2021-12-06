@@ -1149,7 +1149,7 @@ class: inverse, center, middle
 
 ---
 
-# 2 Types of Mistakes, Or, Why A Little Knowledge Can Be a Bad Thing
+# Why A Little Knowledge Can Be a Bad Thing
 
 .pull-left[
 .bg-washed-red.b--dark-red.ba.bw2.br3.shadow-5.ph4.mt5[
@@ -1164,6 +1164,7 @@ class: inverse, center, middle
 .center[
 ![](../images/Mountstupid.png)
 ]
+.source[Source: [SMBC](https://www.smbc-comics.com/?id=2475)]
 ]
 
 ---
